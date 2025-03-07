@@ -373,24 +373,58 @@ def main():
         # Apply the selected statistic function
         try:
             result_df = stat_function(st.session_state.df.copy())
-        
-            # Hide the index and use column configuration to auto-fit columns
+            
+            # Create column configuration with alignment
+            column_config = {}
+            for col in result_df.columns:
+                # Set alignment based on user selection
+                if alignment == "Center":
+                    # For center alignment, we use custom CSS
+                    column_config[col] = st.column_config.Column(
+                        width="auto",
+                        # Apply center alignment using CSS
+                        help=f"",  # Empty help text
+                    )
+                else:
+                    # For left alignment (default)
+                    column_config[col] = st.column_config.Column(width="auto")
+            
+            # Apply CSS for center alignment if needed
+            if alignment == "Center":
+                st.markdown("""
+                <style>
+                .stDataFrame td, .stDataFrame th {
+                    text-align: center !important;
+                }
+                </style>
+                """, unsafe_allow_html=True)
+            else:
+                # Reset to default left alignment
+                st.markdown("""
+                <style>
+                .stDataFrame td, .stDataFrame th {
+                    text-align: left !important;
+                }
+                </style>
+                """, unsafe_allow_html=True)
+            
+            # Display the dataframe with configured columns
             st.dataframe(
                 result_df,
                 height=500,
                 use_container_width=True,
                 hide_index=True,
-                column_config={col: st.column_config.Column(width="auto") for col in result_df.columns}
+                column_config=column_config
             )
         
             # Download button
-            # csv = result_df.to_csv(index=False)
-            # st.download_button(
-            #     label="Download current selection as CSV",
-            #     data=csv,
-            #     file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
-            #     mime='text/csv',
-            # )
+            csv = result_df.to_csv(index=False)
+            st.download_button(
+                label="Download current selection as CSV",
+                data=csv,
+                file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
+                mime='text/csv',
+            )
         except Exception as e:
             st.error(f"Error calculating statistics: {str(e)}")
     else:
