@@ -84,7 +84,7 @@ def fetch_team_mapping() -> pd.DataFrame:
             
             # Read Excel from response content
             team_mapping = pd.read_excel(io.BytesIO(response.content))
-            st.success("Team mapping loaded successfully")
+            # st.success("Team mapping loaded successfully")
             return team_mapping
             
     except Exception as e:
@@ -339,7 +339,7 @@ def main():
                     st.error("Team mapping could not be loaded, using teamid instead.")
                 
                 st.session_state.data_loaded = True
-                st.success("Data loaded successfully!")
+                # st.success("Data loaded successfully!")
             else:
                 st.error("Data loading failed. Check your GitHub repository and file paths.")
     
