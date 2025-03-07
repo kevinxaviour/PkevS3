@@ -133,7 +133,7 @@ def GA(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary.sort_values(by=['GA', 'Matches'], ascending=[False, True])
     df_summary['Rank'] = df_summary['GA'].rank(method='dense', ascending=False).astype(int)
     
-    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'GA']].rename(columns={'Player_FN': 'Name', 'team': 'Team'})
+    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'GA']].rename(columns={'Player_FN': 'Name', 'team': 'Team','GA':'Goals + Assists'})
     df_summary['Name'] = df_summary['Name'].str.title()  # Convert names to title case
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
