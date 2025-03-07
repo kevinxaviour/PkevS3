@@ -13,7 +13,7 @@ st.set_page_config(
 
 # GitHub repository information
 GITHUB_REPO = "PkevS3"
-GITHUB_USER = "kevinxaviour"  
+GITHUB_USER = "kevinxaviour"
 CSV_DIR = "csvfiles"
 EXCEL_DIR = "impfiles"
 TEAM_MAPPING_FILE = "Team IDs.xlsx"
@@ -23,33 +23,33 @@ def fetch_csv_files_from_github() -> pd.DataFrame:
     """Fetch and merge all CSV files from the GitHub repository's csvfiles directory."""
     # API URL to get directory contents
     api_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{CSV_DIR}"
-    
+
     try:
         # Get directory listing
         response = requests.get(api_url)
         response.raise_for_status()
-        
+
         # Extract file information
         files_info = response.json()
-        
+
         # Filter for CSV files
         csv_files = [file_info for file_info in files_info if file_info['name'].lower().endswith('.csv')]
-        
+
         if not csv_files:
             st.error(f"No CSV files found in {CSV_DIR} directory.")
             return pd.DataFrame()
-        
+
         # Fetch and merge all CSV files
         all_dfs = []
         for file_info in csv_files:
             with st.spinner(f"Loading {file_info['name']}..."):
                 # Get raw content URL
                 download_url = file_info['download_url']
-                
+
                 # Fetch file content
                 file_response = requests.get(download_url)
                 file_response.raise_for_status()
-                
+
                 # Read CSV from response content
                 try:
                     df = pd.read_csv(io.StringIO(file_response.content.decode('ISO-8859-1')))
@@ -57,7 +57,7 @@ def fetch_csv_files_from_github() -> pd.DataFrame:
                     st.success(f"Loaded {file_info['name']}")
                 except Exception as e:
                     st.warning(f"Error reading {file_info['name']}: {str(e)}")
-        
+
         if all_dfs:
             # Concatenate all DataFrames
             merged_df = pd.concat(all_dfs, ignore_index=True)
@@ -65,7 +65,7 @@ def fetch_csv_files_from_github() -> pd.DataFrame:
         else:
             st.error("Failed to load any CSV files.")
             return pd.DataFrame()
-            
+
     except Exception as e:
         st.error(f"Error accessing GitHub repository: {str(e)}")
         return pd.DataFrame()
@@ -75,18 +75,18 @@ def fetch_team_mapping() -> pd.DataFrame:
     """Fetch team mapping Excel file from GitHub repository."""
     # Raw content URL for the Excel file
     excel_url = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/{EXCEL_DIR}/{TEAM_MAPPING_FILE}"
-    
+
     try:
         with st.spinner(f"Loading team mapping file..."):
             # Fetch file content
             response = requests.get(excel_url)
             response.raise_for_status()
-            
+
             # Read Excel from response content
             team_mapping = pd.read_excel(io.BytesIO(response.content))
             st.success("Team mapping loaded successfully")
             return team_mapping
-            
+
     except Exception as e:
         st.error(f"Error fetching team mapping file: {str(e)}")
         return pd.DataFrame()
@@ -107,8 +107,8 @@ def Goals_stats(df: pd.DataFrame) -> pd.DataFrame:
 
 def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Matches=('matchid', 'nunique'), 
-        Assists=('Assists', 'sum') 
+        Matches=('matchid', 'nunique'),
+        Assists=('Assists', 'sum')
     ).reset_index()
     df_summary = df_summary.sort_values(by=['Assists', 'Matches'], ascending=[False, True])
     df_summary['Rank'] = df_summary['Assists'].rank(method='dense', ascending=False).astype(int)
@@ -120,8 +120,8 @@ def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
 
 def cc(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Matches=('matchid', 'nunique'),  
-        Chances=('chances_created', 'sum') 
+        Matches=('matchid', 'nunique'),
+        Chances=('chances_created', 'sum')
     ).reset_index()
     df_summary = df_summary.sort_values(by=['Chances', 'Matches'], ascending=[False, True])
     df_summary['Rank'] = df_summary['Chances'].rank(method='dense', ascending=False).astype(int)
@@ -134,9 +134,9 @@ def cc(df: pd.DataFrame) -> pd.DataFrame:
 
 def shot_accuracy(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Matches=('matchid', 'nunique'), 
-        Shots_On_Target=('shots_on_target', 'sum'),  
-        Shots=('shots', 'sum')  
+        Matches=('matchid', 'nunique'),
+        Shots_On_Target=('shots_on_target', 'sum'),
+        Shots=('shots', 'sum')
     ).reset_index()
 
     df_summary['Shot_Accuracy'] = (df_summary['Shots_On_Target'] / df_summary['Shots']) * 100
@@ -150,8 +150,8 @@ def shot_accuracy(df: pd.DataFrame) -> pd.DataFrame:
 
 def fouls_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Matches=('matchid', 'nunique'), 
-        Fouls=('fouls', 'sum') 
+        Matches=('matchid', 'nunique'),
+        Fouls=('fouls', 'sum')
     ).reset_index()
     df_summary = df_summary.sort_values(by='Fouls', ascending=False)
     df_summary['Rank'] = df_summary['Fouls'].rank(method='dense', ascending=False).astype(int)
@@ -163,7 +163,7 @@ def fouls_stats(df: pd.DataFrame) -> pd.DataFrame:
 
 def yc_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Yellow=('yellow_cards', 'sum') 
+        Yellow=('yellow_cards', 'sum')
     ).reset_index()
     df_summary = df_summary.sort_values(by='Yellow', ascending=False)
     df_summary = df_summary[['Player_FN', 'team', 'Yellow']].rename(
@@ -174,8 +174,8 @@ def yc_stats(df: pd.DataFrame) -> pd.DataFrame:
     return df_summary
 
 def rc_stats(df: pd.DataFrame) -> pd.DataFrame:
-    df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg( 
-        Red=('red_cards', 'sum') 
+    df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
+        Red=('red_cards', 'sum')
     ).reset_index()
     df_summary = df_summary.sort_values(by='Red', ascending=False)
     df_summary = df_summary[['Player_FN', 'team', 'Red']].rename(
@@ -187,7 +187,7 @@ def rc_stats(df: pd.DataFrame) -> pd.DataFrame:
 
 def offsides_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Offside=('offsides', 'sum') 
+        Offside=('offsides', 'sum')
     ).reset_index()
     df_summary = df_summary.sort_values(by='Offside', ascending=False)
     df_summary = df_summary[['Player_FN', 'team', 'Offside']].rename(columns={'Player_FN': 'Name'})
@@ -198,8 +198,8 @@ def offsides_stats(df: pd.DataFrame) -> pd.DataFrame:
 
 def tackles_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Matches=('matchid', 'nunique'),  
-        Tackles=('tackles', 'sum') 
+        Matches=('matchid', 'nunique'),
+        Tackles=('tackles', 'sum')
     ).reset_index()
     df_summary['Tackles_per90'] = df_summary['Tackles'] / df_summary['Matches']
     df_summary['Tackles_per90'] = df_summary['Tackles_per90'].round(1)
@@ -213,8 +213,8 @@ def tackles_90(df: pd.DataFrame) -> pd.DataFrame:
 
 def inter_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Matches=('matchid', 'nunique'),  
-        Tackles=('interceptions', 'sum') 
+        Matches=('matchid', 'nunique'),
+        Tackles=('interceptions', 'sum')
     ).reset_index()
     df_summary['Tackles_per90'] = df_summary['Tackles'] / df_summary['Matches']
     df_summary['Tackles_per90'] = df_summary['Tackles_per90'].round(1)
@@ -228,8 +228,8 @@ def inter_90(df: pd.DataFrame) -> pd.DataFrame:
 
 def blocks_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Matches=('matchid', 'nunique'),  
-        Tackles=('blocks', 'sum') 
+        Matches=('matchid', 'nunique'),
+        Tackles=('blocks', 'sum')
     ).reset_index()
     df_summary['Tackles_per90'] = df_summary['Tackles'] / df_summary['Matches']
     df_summary['Tackles_per90'] = df_summary['Tackles_per90'].round(1)
@@ -243,8 +243,8 @@ def blocks_90(df: pd.DataFrame) -> pd.DataFrame:
 
 def GK_Saves(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
-        Matches=('matchid', 'nunique'),  
-        Tackles=('saves', 'sum') 
+        Matches=('matchid', 'nunique'),
+        Tackles=('saves', 'sum')
     ).reset_index()
     df_summary = df_summary.sort_values(by='Tackles', ascending=False)
     df_summary = df_summary[df_summary['Tackles'] != 0]
@@ -256,8 +256,8 @@ def GK_Saves(df: pd.DataFrame) -> pd.DataFrame:
 
 def GK_cs(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df[df['position'] == 'GK'].groupby(['playerid', 'Player_FN', 'team']).agg(
-        Matches=('matchid', 'nunique'),  
-        Tackles=('clean_sheets', 'sum')  
+        Matches=('matchid', 'nunique'),
+        Tackles=('clean_sheets', 'sum')
     ).reset_index()
     df_summary = df_summary.sort_values(by='Tackles', ascending=False)
     df_summary = df_summary[df_summary['Tackles'] != 0]
@@ -269,8 +269,8 @@ def GK_cs(df: pd.DataFrame) -> pd.DataFrame:
 
 def savesp(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df[df['position'] == 'GK'].groupby(['playerid', 'Player_FN', 'team']).agg(
-        Saves=('saves', 'sum'),  
-        Shots_faced=('shots_faced', 'sum')   
+        Saves=('saves', 'sum'),
+        Shots_faced=('shots_faced', 'sum')
     ).reset_index()
 
     df_summary['save%'] = (df_summary['Saves'] / df_summary['Shots_faced']) * 100
@@ -304,55 +304,56 @@ STAT_FUNCTIONS = {
 # Main app
 def main():
     st.title("Football Statistics Dashboard")
-    
+
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
         st.session_state.df = None
         st.session_state.data_loaded = False
-    
-    # Load data button
+
+    # Load data automatically on first run
     if not st.session_state.data_loaded:
-        if st.button("Load Data from GitHub"):
-            with st.spinner("Loading data from GitHub repository..."):
-                # Fetch and merge CSV files
-                merged_df = fetch_csv_files_from_github()
-                
-                if not merged_df.empty:
-                    st.session_state.df = merged_df
-                    
-                    # Process data similar to original script
-                    st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
-                    
-                    # Fetch and merge team mapping
-                    team_mapping = fetch_team_mapping()
-                    if not team_mapping.empty:
-                        st.session_state.df = st.session_state.df.merge(
-                            team_mapping,
-                            left_on='teamid',
-                            right_on='ID',
-                            how='left'
-                        )
-                        st.session_state.df['team'] = st.session_state.df['TeamName']
-                        st.session_state.df = st.session_state.df.drop(columns=['ID', 'TeamName'])
-                    
-                    st.session_state.data_loaded = True
+        with st.spinner("Loading data from GitHub repository..."):
+            # Fetch and merge CSV files
+            merged_df = fetch_csv_files_from_github()
+
+            if not merged_df.empty:
+                st.session_state.df = merged_df
+
+                # Process data similar to original script
+                st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
+
+                # Fetch and merge team mapping
+                team_mapping = fetch_team_mapping()
+                if not team_mapping.empty:
+                    st.session_state.df = st.session_state.df.merge(team_mapping, left_on='team', right_on='Team Id', how='left')
+                    st.session_state.df['team'] = st.session_state.df['Team Name'].fillna(st.session_state.df['team'])
+                    st.session_state.df.drop(columns=['Team Id', 'Team Name'], inplace=True)
+                    st.success("Team mapping applied successfully")
                 else:
-                    st.error("Failed to load data.")
+                    st.warning("Team mapping could not be loaded.")
 
-    # Statistic selection
-    if st.session_state.data_loaded:
-        stat_names = list(STAT_FUNCTIONS.keys())
-        selected_stat = st.selectbox("Select a statistic to display", stat_names)
+                st.session_state.data_loaded = True
+                st.success("Data loaded successfully!")
+            else:
+                st.error("Failed to load data from GitHub.")
 
-        # Display statistics
-        if selected_stat:
-            with st.spinner(f"Calculating {selected_stat} statistics..."):
-                stat_function = STAT_FUNCTIONS[selected_stat]["func"]
-                try:
-                    stat_df = stat_function(st.session_state.df.copy()) # Pass a copy to avoid modifying the original DataFrame
-                    st.dataframe(stat_df.set_index(stat_df.columns[0]), hide_index=True)
-                except Exception as e:
-                    st.error(f"Error calculating {selected_stat}: {str(e)}")
+    # Data is loaded, proceed with the rest of the app
+    if st.session_state.data_loaded and st.session_state.df is not None:
+        # Sidebar for statistics selection
+        st.sidebar.header("Statistic Selection")
+        selected_stats = st.sidebar.selectbox("Choose statistic", list(STAT_FUNCTIONS.keys()), index=0)
+
+        # Run the selected statistic function
+        stat_function = STAT_FUNCTIONS[selected_stats]["func"]
+        with st.spinner(f"Calculating {selected_stats}..."):
+            stat_df = stat_function(st.session_state.df.copy())  # Pass a copy to avoid modifying the original DataFrame
+
+        # Display the results
+        st.header(f"{selected_stats} Statistics")
+        st.dataframe(stat_df, width=None) # Show all columns
+
+    elif not st.session_state.data_loaded:
+        st.info("Loading data from GitHub...")
 
 if __name__ == "__main__":
     main()
