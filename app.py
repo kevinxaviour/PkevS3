@@ -135,7 +135,6 @@ def GA(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Name'] = df_summary['Name'].str.title()  # Convert names to title case
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
-
 def cc(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
         Matches=('matchid', 'nunique'),  
@@ -321,105 +320,82 @@ STAT_FUNCTIONS = {
     "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save percentage by goalkeepers"}
 }
 
-# Initialize session state
-if 'data_loaded' not in st.session_state:
-    st.session_state.data_loaded = False
-if 'df' not in st.session_state:
-    st.session_state.df = pd.DataFrame()
-if 'team_mapping' not in st.session_state:
-    st.session_state.team_mapping = pd.DataFrame()
-
 # Main app
 def main():
-    #st.title("Porkallam Season 3")
+    st.title("Player Statistics")
     
-    # Load data and team mapping
+    # Initialize session state for dataframe if not exists
+    if 'df' not in st.session_state:
+        st.session_state.df = None
+        st.session_state.data_loaded = False
+    
+    # Load data 
     if not st.session_state.data_loaded:
-        st.session_state.df = fetch_csv_files_from_github()
-        st.session_state.team_mapping = fetch_team_mapping()
-        
-        if not st.session_state.df.empty and not st.session_state.team_mapping.empty:
-            st.session_state.data_loaded = True
-            st.success("Data and team mapping loaded successfully!")
-    
-    # Merge team IDs into main dataframe
-    if st.session_state.data_loaded:
-        # Ensure 'team' column exists in both dataframes
-        if 'team' in st.session_state.df.columns and 'Team Id' in st.session_state.team_mapping.columns:
-            # Perform the merge
-            st.session_state.df = pd.merge(st.session_state.df, st.session_state.team_mapping, left_on='team', right_on='Team Id', how='left')
-            # Optionally drop the redundant 'Team Id' column
-            st.session_state.df.drop('Team Id', axis=1, inplace=True)
-        else:
-            st.error("Required 'team' or 'Team Id' column missing in dataframes.")
-        
-        # Statistics selection
-        st.sidebar.header("Statistics Options")
-        selected_stat = st.sidebar.selectbox("Select statistic", options=list(STAT_FUNCTIONS.keys()))
-        
-        # Alignment selection
-        alignment = st.sidebar.radio("Text Alignment:", ["Left", "Center"])
-        
-        if st.session_state.data_loaded:
-            stat_function = STAT_FUNCTIONS[selected_stat]["func"]
-            description = STAT_FUNCTIONS[selected_stat]["desc"]
+        with st.spinner("Loading data from GitHub repository..."):
+            # Fetch and merge CSV files
+            merged_df = fetch_csv_files_from_github()
             
-            st.subheader(f"{selected_stat} Statistics")
-            st.write(description)
-            
-            # Apply the selected statistic function
-            try:
-                result_df = stat_function(st.session_state.df.copy())
+            if not merged_df.empty:
+                st.session_state.df = merged_df
                 
-                # Create column configuration with alignment
-                column_config = {}
-                for col in result_df.columns:
-                    # Set alignment based on user selection
-                    if alignment == "Center":
-                        # For center alignment, we use custom CSS
-                        column_config[col] = st.column_config.Column(
-                            width="auto",
-                            help=f"",  # Empty help text
-                        )
-                    else:
-                        # For left alignment (default)
-                        column_config[col] = st.column_config.Column(width="auto")
+                # Process data similar to original script
+                st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
                 
-                # Apply CSS for center alignment if needed
-                if alignment == "Center":
-                    st.markdown("""
-                    <style>
-                    .stDataFrame td, .stDataFrame th {
-                        text-align: center !important;
-                    }
-                    </style>
-                    """, unsafe_allow_html=True)
-                else:
-                    # Reset to default left alignment
-                    st.markdown("""
-                    <style>
-                    .stDataFrame td, .stDataFrame th {
-                        text-align: left !important;
-                    }
-                    </style>
-                    """, unsafe_allow_html=True)
+                # Fetch team mapping
+                team_mapping = fetch_team_mapping()
                 
-                # Display the dataframe with configured columns
-                st.dataframe(
-                    result_df,
-                    height=500,
-                    use_container_width=True,
-                    hide_index=True,
-                    column_config=column_config
-                )
-            
-                # Download button
-                csv = result_df.to_csv(index=False)
-            except Exception as e:
-                st.error(f"Error calculating statistics: {str(e)}")
-        else:
-            st.info("Please load data first.")
+                if not team_mapping.empty:
+                    # Perform the merge
+                    st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
+                    st.session_state.df['team'] = st.session_state.df['TeamName']
+                    st.session_state.df = st.session_state.df.drop(columns=['ID', 'TeamName'])
 
-# Run the app
+                else:
+                    st.error("Team mapping could not be loaded, using teamid instead.")
+                
+                st.session_state.data_loaded = True
+                # st.success("Data loaded successfully!")
+            else:
+                st.error("Data loading failed. Check your GitHub repository and file paths.")
+    
+    # Sidebar for statistic selection
+    st.sidebar.header("Statistic Selection")
+    selected_stat = st.sidebar.selectbox("Choose a statistic:", options=list(STAT_FUNCTIONS.keys()))
+    
+    # Display selected statistic
+    if st.session_state.data_loaded:
+        stat_function = STAT_FUNCTIONS[selected_stat]["func"]
+        description = STAT_FUNCTIONS[selected_stat]["desc"]
+        
+        st.subheader(f"{selected_stat} Statistics")
+        st.write(description)
+        
+        # Apply the selected statistic function
+        try:
+            result_df = stat_function(st.session_state.df.copy())
+        
+            # Hide the index and use column configuration to auto-fit columns
+            st.dataframe(
+                result_df,
+                height=500,
+                use_container_width=True,
+                hide_index=True,
+                column_config={col: st.column_config.Column(width="auto") for col in result_df.columns}
+            )
+        
+            # Download button
+            # csv = result_df.to_csv(index=False)
+            # st.download_button(
+            #     label="Download current selection as CSV",
+            #     data=csv,
+            #     file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
+            #     mime='text/csv',
+            # )
+        except Exception as e:
+            st.error(f"Error calculating statistics: {str(e)}")
+    else:
+        st.info("Please load data first.")
+
+# Run the main function
 if __name__ == "__main__":
     main()
