@@ -350,8 +350,8 @@ def main():
             st.session_state.df = pd.merge(st.session_state.df, st.session_state.team_mapping, left_on='team', right_on='Team Id', how='left')
             # Optionally drop the redundant 'Team Id' column
             st.session_state.df.drop('Team Id', axis=1, inplace=True)
-        # else:
-            #st.error("Required 'team' or 'Team Id' column missing in dataframes.")
+        else:
+            st.error("Required 'team' or 'Team Id' column missing in dataframes.")
         
         # Statistics selection
         st.sidebar.header("Statistics Options")
@@ -364,24 +364,6 @@ def main():
             stat_function = STAT_FUNCTIONS[selected_stat]["func"]
             description = STAT_FUNCTIONS[selected_stat]["desc"]
             
-            # Center the title and description
-            st.markdown(
-                f"""
-                <style>
-                .reportview-container .main .block-container{{
-                    max-width: 95%;
-                    padding-top: 5rem;
-                    padding-right: 5rem;
-                    padding-left: 5rem;
-                    padding-bottom: 5rem;
-                }}
-                .stApp {{
-                    text-align: center;
-                }}
-                </style>
-                """,
-                unsafe_allow_html=True,
-            )
             st.subheader(f"{selected_stat} Statistics")
             st.write(description)
             
@@ -433,12 +415,6 @@ def main():
             
                 # Download button
                 csv = result_df.to_csv(index=False)
-                st.download_button(
-                    label="Download current selection as CSV",
-                    data=csv,
-                    file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
-                    mime='text/csv',
-                )
             except Exception as e:
                 st.error(f"Error calculating statistics: {str(e)}")
         else:
