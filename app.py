@@ -120,6 +120,22 @@ def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary.drop(columns=['Rank'])
     return df_summary
 
+def GA(df: pd.DataFrame) -> pd.DataFrame:
+    df_summary = df.groupby(['playerid', 'Player_FN', 'team'], as_index=False).agg(
+        Matches=('matchid', 'nunique'),
+        Goals=('Goals', 'sum'),
+        Assists=('Assists', 'sum')
+    )
+    
+    df_summary['GA'] = df_summary['Goals'] + df_summary['Assists']
+    df_summary = df_summary[df_summary['GA'] != 0]  # Remove players with 0 GA
+    
+    df_summary = df_summary.sort_values(by=['GA', 'Matches'], ascending=[False, True])
+    df_summary['Rank'] = df_summary['GA'].rank(method='dense', ascending=False).astype(int)
+    
+    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'GA']].rename(columns={'Player_FN': 'Name', 'team': 'Team'})
+    df_summary['Name'] = df_summary['Name'].str.title()  # Convert names to title case
+    df_summary = df_summary.reset_index(drop=True)
 def cc(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
         Matches=('matchid', 'nunique'),  
@@ -291,6 +307,7 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
 STAT_FUNCTIONS = {
     "Goals": {"func": Goals_stats, "desc": "Player goal statistics"},
     "Assists": {"func": Assists_stats, "desc": "Player assist statistics"},
+    "Goals + Assists": {"func": GA, "desc": "Player Goals+Assists statistics"},
     "Chances Created": {"func": cc, "desc": "Chances created by players"},
     "Shot Accuracy": {"func": shot_accuracy, "desc": "Player shot accuracy statistics"},
     "Fouls": {"func": fouls_stats, "desc": "Fouls committed by players"},
