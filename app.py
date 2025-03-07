@@ -326,14 +326,19 @@ def main():
 
                 # Process data similar to original script
                 st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
-
+                st.session_state.df.rename(columns={'teamid': 'team'}, inplace=True)
                 # Fetch and merge team mapping
                 team_mapping = fetch_team_mapping()
                 if not team_mapping.empty:
+                    # Convert columns to compatible types
+                    st.session_state.df['team'] = st.session_state.df['team'].astype(str)
+                    team_mapping['ID'] = team_mapping['ID'].astype(str)
+
+                    # Perform the merge
                     st.session_state.df = st.session_state.df.merge(
                         team_mapping,
-                        left_on='team',         # Original column in main DF with team IDs
-                        right_on=TEAM_ID_COL,   # Column from mapping file
+                        left_on='team',
+                        right_on='ID',
                         how='left'
                     )
                     
@@ -345,7 +350,7 @@ def main():
                     )
                     
                     # Cleanup merged columns
-                    st.session_state.df.drop(columns=[TEAM_ID_COL, TEAM_NAME_COL], inplace=True)
+                    st.session_state.df.drop(columns=['ID', TEAM_NAME_COL], inplace=True)
                 else:
                     st.warning("Team mapping file could not be loaded or is missing required columns.")
 
