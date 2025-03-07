@@ -325,9 +325,9 @@ def main():
                 # Fetch and merge team mapping
                 team_mapping = fetch_team_mapping()
                 if not team_mapping.empty:
-                    st.session_state.df = st.session_state.df.merge(team_mapping, left_on='team', right_on='Team Id', how='left')
+                    st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
                     st.session_state.df['team'] = st.session_state.df['Team Name'].fillna(st.session_state.df['team'])
-                    st.session_state.df.drop(columns=['Team Id', 'Team Name'], inplace=True)
+                    st.session_state.df.drop(columns=['ID', 'TeamName'], inplace=True)
                 else:
                     st.warning("Team mapping could not be loaded.")
 
