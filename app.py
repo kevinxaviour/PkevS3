@@ -3,7 +3,6 @@ import pandas as pd
 import io
 import requests
 from typing import List, Dict, Callable, Any
-import os
 
 # Set page title and configuration
 st.set_page_config(
@@ -12,110 +11,84 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Function to fetch CSV files from GitHub csvfiles directory
-def fetch_csv_from_github(repo_url: str) -> pd.DataFrame:
-    """Fetch and merge all CSV files from GitHub repository's csvfiles directory."""
-    all_dfs = []
+# GitHub repository information
+GITHUB_REPO = "PkevS3"
+GITHUB_USER = "kevinxaviour"  
+CSV_DIR = "csvfiles"
+EXCEL_DIR = "impfile"
+TEAM_MAPPING_FILE = "Team IDs.xlsx"
+
+# Function to fetch all CSV files from GitHub repository directory
+def fetch_csv_files_from_github() -> pd.DataFrame:
+    """Fetch and merge all CSV files from the GitHub repository's csvfiles directory."""
+    # API URL to get directory contents
+    api_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{CSV_DIR}"
     
-    # Convert GitHub repo URL to API URL to get contents
-    if repo_url.endswith('/'):
-        repo_url = repo_url[:-1]
-    
-    # Extract owner and repo name from URL
-    parts = repo_url.split('/')
-    if 'github.com' in repo_url and len(parts) >= 5:
-        owner = parts[-2]
-        repo = parts[-1]
+    try:
+        # Get directory listing
+        response = requests.get(api_url)
+        response.raise_for_status()
         
-        # Get contents of csvfiles directory using GitHub API
-        api_url = f"https://api.github.com/repos/{owner}/{repo}/contents/csvfiles"
+        # Extract file information
+        files_info = response.json()
         
-        try:
-            response = requests.get(api_url)
-            response.raise_for_status()
+        # Filter for CSV files
+        csv_files = [file_info for file_info in files_info if file_info['name'].lower().endswith('.csv')]
+        
+        if not csv_files:
+            st.error(f"No CSV files found in {CSV_DIR} directory.")
+            return pd.DataFrame()
+        
+        # Fetch and merge all CSV files
+        all_dfs = []
+        for file_info in csv_files:
+            with st.spinner(f"Loading {file_info['name']}..."):
+                # Get raw content URL
+                download_url = file_info['download_url']
+                
+                # Fetch file content
+                file_response = requests.get(download_url)
+                file_response.raise_for_status()
+                
+                # Read CSV from response content
+                try:
+                    df = pd.read_csv(io.StringIO(file_response.content.decode('ISO-8859-1')))
+                    all_dfs.append(df)
+                    st.success(f"Loaded {file_info['name']}")
+                except Exception as e:
+                    st.warning(f"Error reading {file_info['name']}: {str(e)}")
+        
+        if all_dfs:
+            # Concatenate all DataFrames
+            merged_df = pd.concat(all_dfs, ignore_index=True)
+            return merged_df
+        else:
+            st.error("Failed to load any CSV files.")
+            return pd.DataFrame()
             
-            # Get list of files in the directory
-            files = response.json()
-            
-            # Process each CSV file
-            for file in files:
-                if file['name'].endswith('.csv'):
-                    # Get raw content URL
-                    download_url = file['download_url']
-                    
-                    try:
-                        file_response = requests.get(download_url)
-                        file_response.raise_for_status()
-                        
-                        # Read CSV from response content
-                        df = pd.read_csv(io.StringIO(file_response.content.decode('ISO-8859-1')))
-                        all_dfs.append(df)
-                        st.sidebar.success(f"Loaded: {file['name']}")
-                        
-                    except Exception as e:
-                        st.sidebar.error(f"Error loading {file['name']}: {str(e)}")
-            
-        except Exception as e:
-            st.error(f"Error accessing repository: {str(e)}")
-    else:
-        st.error("Invalid GitHub repository URL. Please provide a URL in the format: https://github.com/username/repository")
-    
-    if all_dfs:
-        # Concatenate all DataFrames
-        merged_df = pd.concat(all_dfs, ignore_index=True)
-        return merged_df
-    else:
+    except Exception as e:
+        st.error(f"Error accessing GitHub repository: {str(e)}")
         return pd.DataFrame()
 
-# Function to fetch team mapping from GitHub impfiles directory
-def fetch_team_mapping(repo_url: str) -> pd.DataFrame:
-    """Fetch team mapping Excel file from GitHub repository's impfiles directory."""
-    # Convert GitHub repo URL to API URL to get contents
-    if repo_url.endswith('/'):
-        repo_url = repo_url[:-1]
+# Function to fetch team mapping from GitHub
+def fetch_team_mapping() -> pd.DataFrame:
+    """Fetch team mapping Excel file from GitHub repository."""
+    # Raw content URL for the Excel file
+    excel_url = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/{EXCEL_DIR}/{TEAM_MAPPING_FILE}"
     
-    # Extract owner and repo name from URL
-    parts = repo_url.split('/')
-    if 'github.com' in repo_url and len(parts) >= 5:
-        owner = parts[-2]
-        repo = parts[-1]
-        
-        # Get contents of impfiles directory using GitHub API
-        api_url = f"https://api.github.com/repos/{owner}/{repo}/contents/impfiles"
-        
-        try:
-            response = requests.get(api_url)
+    try:
+        with st.spinner(f"Loading team mapping file..."):
+            # Fetch file content
+            response = requests.get(excel_url)
             response.raise_for_status()
             
-            # Get list of files in the directory
-            files = response.json()
+            # Read Excel from response content
+            team_mapping = pd.read_excel(io.BytesIO(response.content))
+            st.success("Team mapping loaded successfully")
+            return team_mapping
             
-            # Find the Team IDs Excel file
-            for file in files:
-                if file['name'].lower().endswith('.xlsx') and 'team' in file['name'].lower():
-                    # Get raw content URL
-                    download_url = file['download_url']
-                    
-                    try:
-                        file_response = requests.get(download_url)
-                        file_response.raise_for_status()
-                        
-                        # Read Excel from response content
-                        team_mapping = pd.read_excel(io.BytesIO(file_response.content))
-                        st.sidebar.success(f"Loaded team mapping: {file['name']}")
-                        return team_mapping
-                        
-                    except Exception as e:
-                        st.sidebar.error(f"Error loading {file['name']}: {str(e)}")
-            
-            st.sidebar.warning("No team mapping Excel file found in impfiles directory.")
-            return pd.DataFrame()
-            
-        except Exception as e:
-            st.error(f"Error accessing repository: {str(e)}")
-            return pd.DataFrame()
-    else:
-        st.error("Invalid GitHub repository URL")
+    except Exception as e:
+        st.error(f"Error fetching team mapping file: {str(e)}")
         return pd.DataFrame()
 
 # Statistics functions
@@ -332,60 +305,49 @@ STAT_FUNCTIONS = {
 def main():
     st.title("Football Statistics Dashboard")
     
-    # Sidebar for inputs
-    st.sidebar.header("Data Source Configuration")
-    
-    # GitHub repository URL input
-    github_repo = st.sidebar.text_input(
-        "GitHub Repository URL",
-        placeholder="https://github.com/username/repo"
-    )
-    
-    # Load data button
-    load_data = st.sidebar.button("Load Data")
-    
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
         st.session_state.df = None
+        st.session_state.data_loaded = False
     
-    # Process data when load button is clicked
-    if load_data and github_repo:
-        with st.spinner("Loading data from GitHub..."):
-            # Fetch and merge CSV files from csvfiles directory
-            merged_df = fetch_csv_from_github(github_repo)
-            
-            if not merged_df.empty:
-                st.session_state.df = merged_df
+    # Load data button
+    if not st.session_state.data_loaded:
+        if st.button("Load Data from GitHub"):
+            with st.spinner("Loading data from GitHub repository..."):
+                # Fetch and merge CSV files
+                merged_df = fetch_csv_files_from_github()
                 
-                # Process data similar to original script
-                st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
-                
-                # Drop 'team' column if it exists
-                if 'team' in st.session_state.df.columns:
-                    st.session_state.df = st.session_state.df.drop(columns=['team'])
-                
-                # Fetch and merge team mapping
-                team_mapping = fetch_team_mapping(github_repo)
-                if not team_mapping.empty:
-                    st.session_state.df = st.session_state.df.merge(
-                        team_mapping, left_on='teamid', right_on='ID', how='left'
-                    )
-                    st.session_state.df['team'] = st.session_state.df['TeamName']
+                if not merged_df.empty:
+                    st.session_state.df = merged_df
                     
-                    # Drop unnecessary columns
-                    columns_to_drop = ['ID', 'TeamName']
-                    st.session_state.df = st.session_state.df.drop(
-                        columns=[col for col in columns_to_drop if col in st.session_state.df.columns]
-                    )
-                
-                st.success(f"Successfully loaded {len(merged_df)} rows of data!")
-            else:
-                st.error("Failed to load data. Please check the repository structure and try again.")
-    elif load_data and not github_repo:
-        st.error("Please provide a GitHub repository URL.")
+                    # Process data similar to original script
+                    st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
+                    
+                    # Drop 'team' column if it exists
+                    if 'team' in st.session_state.df.columns:
+                        st.session_state.df = st.session_state.df.drop(columns=['team'])
+                    
+                    # Fetch and merge team mapping
+                    team_mapping = fetch_team_mapping()
+                    if not team_mapping.empty:
+                        st.session_state.df = st.session_state.df.merge(
+                            team_mapping, left_on='teamid', right_on='ID', how='left'
+                        )
+                        st.session_state.df['team'] = st.session_state.df['TeamName']
+                        
+                        # Drop unnecessary columns
+                        columns_to_drop = ['ID', 'TeamName']
+                        st.session_state.df = st.session_state.df.drop(
+                            columns=[col for col in columns_to_drop if col in st.session_state.df.columns]
+                        )
+                    
+                    st.session_state.data_loaded = True
+                    st.success(f"Successfully loaded {len(merged_df)} rows of data!")
+                else:
+                    st.error("Failed to load data. Please check the repository structure and try again.")
     
     # Main content area
-    if st.session_state.df is not None:
+    if st.session_state.data_loaded and st.session_state.df is not None:
         # Display data overview
         st.header("Data Overview")
         st.write(f"Total records: {len(st.session_state.df)}")
@@ -429,33 +391,17 @@ def main():
                     st.error(f"Error calculating {selected_stat}: {str(e)}")
     else:
         # Display instructions when no data is loaded
-        st.info("Please enter your GitHub repository URL and click 'Load Data' to begin.")
+        st.info("Click 'Load Data from GitHub' to begin.")
         
-        # Example instructions
-        with st.expander("How to use this app"):
-            st.markdown("""
-            ### Instructions:
-            
-            1. **Provide GitHub Repository URL**: Enter the URL to your GitHub repository.
-               - Example: `https://github.com/username/repository`
-            
-            2. **Repository Structure**: Your repository should have:
-               - A `csvfiles` directory containing all your CSV data files
-               - An `impfiles` directory containing your Team IDs Excel file
-            
-            3. **Click 'Load Data'**: The app will fetch and process the data.
-            
-            4. **Select Statistics**: Choose which football statistics you want to view from the dropdown menu.
-            
-            5. **Download Results**: You can download any displayed statistics as CSV files.
-            
-            ### Deploying to Streamlit Cloud:
-            
-            1. Push this app to your GitHub repository
-            2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
-            3. Connect your GitHub account
-            4. Deploy the app by selecting your repository and this file
-            """)
+        # Repository information
+        st.markdown(f"""
+        ### Repository Information
+        
+        This app will load data from:
+        - GitHub Repository: **{GITHUB_USER}/{GITHUB_REPO}**
+        - CSV Files Directory: **{CSV_DIR}/**
+        - Team Mapping File: **{EXCEL_DIR}/{TEAM_MAPPING_FILE}**
+        """)
 
 if __name__ == "__main__":
     main()
