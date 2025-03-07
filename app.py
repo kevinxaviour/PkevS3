@@ -330,32 +330,45 @@ def main():
                     st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
                     st.session_state.df['team'] = st.session_state.df['TeamName']
                     st.session_state.df = st.session_state.df.drop(columns=['ID', 'TeamName'])
-                    st.session_state.data_loaded = True
-                    st.success("Data loading complete!")
+
                 else:
-                    st.error("Failed to load team mapping.")
+                    st.error("Team mapping could not be loaded, using teamid instead.")
+                
+                st.session_state.data_loaded = True
+                st.success("Data loaded successfully!")
             else:
-                st.error("Failed to load data from GitHub.")
+                st.error("Data loading failed. Check your GitHub repository and file paths.")
     
-    # Once the data is loaded
-    if st.session_state.data_loaded and st.session_state.df is not None:
-        # Sidebar for statistics selection
-        st.sidebar.header("Statistics Selection")
-        stat_name = st.sidebar.selectbox("Choose a statistic:", options=list(STAT_FUNCTIONS.keys()), 
-                                          format_func=lambda x: f"{x} - {STAT_FUNCTIONS[x]['desc']}")
+    # Sidebar for statistic selection
+    st.sidebar.header("Statistic Selection")
+    selected_stat = st.sidebar.selectbox("Choose a statistic:", options=list(STAT_FUNCTIONS.keys()))
+    
+    # Display selected statistic
+    if st.session_state.data_loaded:
+        stat_function = STAT_FUNCTIONS[selected_stat]["func"]
+        description = STAT_FUNCTIONS[selected_stat]["desc"]
         
-        # Display selected statistics
-        if stat_name:
-            stat_function = STAT_FUNCTIONS[stat_name]["func"]
+        st.subheader(f"{selected_stat} Statistics")
+        st.write(description)
+        
+        # Apply the selected statistic function
+        try:
+            result_df = stat_function(st.session_state.df.copy())
+            st.dataframe(result_df, height=500)
             
-            with st.spinner(f"Calculating {stat_name} statistics..."):
-                stat_df = stat_function(st.session_state.df.copy())  # Pass a copy to avoid modifying the original DataFrame
-            
-            st.header(f"{stat_name} Statistics")
-            st.dataframe(stat_df, use_container_width=True)
-    
-    elif st.session_state.df is None:
+            # Download button
+            csv = result_df.to_csv(index=False)
+            st.download_button(
+                label="Download current selection as CSV",
+                data=csv,
+                file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
+                mime='text/csv',
+            )
+        except Exception as e:
+            st.error(f"Error calculating statistics: {str(e)}")
+    else:
         st.info("Please load data first.")
 
+# Run the main function
 if __name__ == "__main__":
     main()
