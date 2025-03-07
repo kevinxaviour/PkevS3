@@ -307,7 +307,7 @@ STAT_FUNCTIONS = {
 
 # Main app
 def main():
-    st.title("Player Statistics Dashboard")
+    st.title("Player Statistics")
     
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
