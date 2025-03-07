@@ -350,7 +350,7 @@ def main():
             st.session_state.df = pd.merge(st.session_state.df, st.session_state.team_mapping, left_on='team', right_on='Team Id', how='left')
             # Optionally drop the redundant 'Team Id' column
             st.session_state.df.drop('Team Id', axis=1, inplace=True)
-        else:
+        # else:
             #st.error("Required 'team' or 'Team Id' column missing in dataframes.")
         
         # Statistics selection
