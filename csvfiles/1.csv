@@ -1,0 +1,27 @@
+team,teamid,playerid,player,jersey_no,Goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Falcons,12,POR2025024,Kamalesh,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,6,1,Kamaleshwaran S
+Falcons,12,POR2025025,Jerson,10,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Forward,0,6,1,Jerson Soosai 
+Falcons,12,POR2025027,Deepak,8,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,3,0,0,0,Midfield,0,6,1,Deepak M
+Falcons,12,POR2025028,Harish,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,Defense,0,6,1,Harish R
+Falcons,12,POR2025029,Ashwin,7,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,Forward,0,6,1,Ashwin K
+Falcons,12,POR2025032,Sherif,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,GK,0,6,1,Sherif Mohammed I
+Falcons,12,POR2025033,Parvez,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,3,2,0,Defense,0,6,1,Mohammed Parvez
+Falcons,12,POR2025034,Naresh,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,6,1,Naresh E
+Falcons,12,POR2025035,Lal,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,6,3,0,0,Defense,0,6,1,Mothilal N
+Falcons,12,POR2025036,Yuvaraj,18,0,0,1,1,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,Midfield,0,6,1,Yuvaraj Kumar. R
+Falcons,12,POR2025037,Venkatesh,15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Forward,0,6,1,Venkatesh
+Falcons,12,POR2025038,Kabilan,11,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,Midfield,0,6,1,Kabilan J
+Falcons,12,POR2025041,Sam,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,6,1,Sam T
+Falcons,12,POR2025042,Jaga,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,Defense,0,6,1,Jagadeesh A
+Loyola,1,POR2025003,Sanjay,16,0,0,2,2,1,1,1,2,0,0,7,0,0,0,1,3,1,0,0,Midfield,1,0,1,L.sanjay
+Loyola,1,POR2025006,Mohanarasu,25,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,1,0,0,Defense,1,0,1,Mohanarasu 
+Loyola,1,POR2025007,Sunil,19,1,0,1,1,0,2,2,4,0,0,0,0,0,0,1,1,1,0,0,Midfield,1,0,1,Sunil v 
+Loyola,1,POR2025008,Kumaran,3,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,1,0,0,0,Defense,1,0,1,M.kumaran
+Loyola,1,POR2025009,MARIA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,1,0,1,Mariya Immanuel.A
+Loyola,1,POR2025011,Kishore R,12,0,1,2,3,0,1,0,2,0,1,1,0,0,0,0,0,0,0,0,Forward,1,0,1,Kishore Kumar R 
+Loyola,1,POR2025012,JOBIN,10,1,1,3,4,0,1,1,4,0,2,1,0,0,0,0,0,2,0,0,Midfield,1,0,1,JOBIN J
+Loyola,1,POR2025013,Vishal,5,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,3,1,0,0,Defense,1,0,1,Vishal
+Loyola,1,POR2025014,Lakshay,18,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,GK,1,0,1,Lakshay.M
+Loyola,1,POR2025018,Vimal kumar ,11,0,0,1,1,0,0,3,3,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,0,1,S.Vimal kumar 
+Loyola,1,POR2025021,Rifan,30,0,0,2,2,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,Midfield,1,0,1,Muhammed Rifan
+Loyola,1,POR2025022,Melvin ,13,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,1,0,0,0,Midfield,1,0,1,Melvin Thomas

@@ -1,0 +1,30 @@
+team,teamid,playerid,player,jersey_no,Goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FC Marina,14,POR2025127,PAUL,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,GK,0,5,18, PAUL ABRAHAM.A
+FC Marina,14,POR2025130,DHILIP,12,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,4,0,0,0,Defense,0,5,18,DHILIP KUMAR.E
+FC Marina,14,POR2025132,THEMSO,23,0,0,0,0,1,0,1,2,0,1,1,0,0,0,0,2,3,0,0,Midfield,0,5,18,THEMSO JAJO
+FC Marina,14,POR2025133,RAVI,8,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,1,2,0,0,Midfield,0,5,18,RAVI TEJA Y.R
+FC Marina,14,POR2025134,R10,10,0,0,0,0,0,1,0,2,0,1,1,0,0,0,3,0,0,0,0,Forward,0,5,18,REGAN ALBERNAS
+FC Marina,14,POR2025135,SOSO LAYAM,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,5,18,SHANGAM LAYAM
+FC Marina,14,POR2025142,Singboy,14,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,3,0,0,Defense,0,5,18,Leishising Tallanao
+FC Marina,14,POR2025143,PRADHEEP ,88,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,6,0,0,0,Midfield,0,5,18,PRADEEP A.S
+FC Marina,14,POR2025144,SANTHOSH ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,5,18,SANTHOSH.S
+FC Marina,14,POR2025145,PRAMODH,17,0,0,0,0,0,1,1,2,0,0,2,0,0,0,0,0,1,0,0,Midfield,0,5,18,PRAMODH AK
+FC Marina,14,POR2025147,TAMIL,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,5,18,TAMIL SELVAN.D
+FC Marina,14,POR2025148,Kali,4,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,Defense,0,5,18,KALI ALAUDEEN
+FC Marina,14,POR2025149,BRIJITH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Defense,0,5,18,BRIJITH VARGEES
+FC Marina,14,POR2025150,AK,30,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,1,0,0,Defense,0,5,18,Aditya Kalyananthy 
+Puzhal FCA,4,POR2025395,Eswar ,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,1,3,18,R.Eswar 
+Puzhal FCA,4,POR2025396,Vinoba,26,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Defense,1,3,18,S.vinoba gandhi
+Puzhal FCA,4,POR2025399,Rajkumar,10,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Forward,1,3,18,A. Rajkumar 
+Puzhal FCA,4,POR2025400,Ranjith,24,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Midfield,1,3,18,Ranjith 
+Puzhal FCA,4,POR2025401,Kamesh ,11,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Forward,1,3,18,Kameshwaran M 
+Puzhal FCA,4,POR2025406,Anson ,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,1,3,18,Anson rapheal
+Puzhal FCA,4,POR2025411,Asif AK,6,0,0,0,0,0,1,0,1,0,0,1,0,0,0,2,1,2,0,0,Midfield,1,3,18,Asif khan
+Puzhal FCA,4,POR2025412,MADHAVAN ,8,0,0,0,0,0,1,1,2,0,0,1,0,0,0,0,2,1,0,0,Defense,1,3,18,MADHAVAN 
+Puzhal FCA,4,POR2025413,Sri,9,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,3,2,0,0,Midfield,1,3,18,Sri arabindh 
+Puzhal FCA,4,POR2025414,Britto ,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Midfield,1,3,18,Leoncius Britto 
+Puzhal FCA,4,POR2025415,Jonathan B,15,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,2,2,0,0,Defense,1,3,18,  B Jonathan 
+Puzhal FCA,4,POR2025416,Babu,17,1,1,0,1,0,1,1,2,0,0,1,0,0,0,2,0,1,0,0,Midfield,1,3,18,R.Ramakrishnan
+Puzhal FCA,4,POR2025417,JAI ,16,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,2,2,0,0,Midfield,1,3,18,JAI GANESH E
+Puzhal FCA,4,POR2025418,PRAVEEN,20,0,0,1,1,1,1,0,3,0,2,0,0,0,0,0,1,1,0,0,Midfield,1,3,18,G.Praveendran 
+Puzhal FCA,4,POR2025420,Vishwa ,23,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,0,0,Midfield,1,3,18,Vishwa kl

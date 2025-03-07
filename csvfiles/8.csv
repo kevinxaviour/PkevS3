@@ -1,0 +1,27 @@
+team,teamid,playerid,player,jersey_no,Goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Loyola College,1,POR2025001,Srini,39,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,Midfield,1,1,8,S. SRINIVASAN
+Loyola College,1,POR2025003,Sanjay,16,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,1,0,0,Midfield,1,1,8,L.sanjay
+Loyola College,1,POR2025006,Mohanarasu,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,3,0,0,Defense,1,1,8,Mohanarasu 
+Loyola College,1,POR2025007,Sunil,19,0,0,0,0,0,2,1,3,0,0,0,0,0,0,0,0,1,0,0,Midfield,1,1,8,Sunil v 
+Loyola College,1,POR2025008,Kumaran,3,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,4,1,0,0,Defense,1,1,8,M.kumaran
+Loyola College,1,POR2025010,Kishore,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,1,1,8,Kishore agilan
+Loyola College,1,POR2025011,Kishore R,12,0,0,2,2,0,1,0,2,0,1,1,0,0,0,2,1,0,0,0,Forward,1,1,8,Kishore Kumar R 
+Loyola College,1,POR2025012,JOBIN,10,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,Midfield,1,1,8,JOBIN J
+Loyola College,1,POR2025014,Lakshay,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,1,1,8,Lakshay.M
+Loyola College,1,POR2025015,Anold,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,Defense,1,1,8,Anold. A
+Loyola College,1,POR2025017,Siva,7,1,0,0,0,0,1,1,3,0,1,0,0,0,0,0,1,3,0,0,Midfield,1,1,8,N.sivasubramaniyan
+Loyola College,1,POR2025018,Vimal kumar ,11,0,1,1,2,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,1,8,S.Vimal kumar 
+Loyola College,1,POR2025021,Rifan,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,1,8,Muhammed Rifan
+Loyola College,1,POR2025022,Melvin ,13,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,Midfield,1,1,8,Melvin Thomas
+Noble FC,17,POR2025421,Raj,17,0,0,0,0,0,1,0,3,0,2,1,0,0,0,0,1,0,0,0,Midfield,0,5,8,Shudarshan Raj N
+Noble FC,17,POR2025424,Stephin,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,5,8,Stephin balan.y
+Noble FC,17,POR2025425,Rahul ,15,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,2,3,0,0,Midfield,0,5,8,Rahul.g
+Noble FC,17,POR2025426,Ok,7,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,Forward,0,5,8,Ashwin.S
+Noble FC,17,POR2025427,Karthikeyan,5,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,4,4,1,0,Defense,0,5,8,Karthikeyan. M
+Noble FC,17,POR2025428,SHAJI,80,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,3,0,0,0,Midfield,0,5,8,Shaji S
+Noble FC,17,POR2025430,Shijo Mathew,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,GK,0,5,8,Shijo Mathew
+Noble FC,17,POR2025431,Achu,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,0,Defense,0,5,8,Adharsh Mathew
+Noble FC,17,POR2025434,Sudhan,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Forward,0,5,8,Sudhan
+Noble FC,17,POR2025440,Gnana Prasad,18,0,0,0,0,0,0,1,2,0,1,1,0,0,0,1,0,0,0,0,Forward,0,5,8,Gnanaprasad
+Noble FC,17,POR2025441,Vijayakumar,45,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,1,0,0,Defense,0,5,8,Vijayakumar
+Noble FC,17,POR2025442,Kaviyarasan,24,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,3,1,1,0,Defense,0,5,8,Kaviyarasan

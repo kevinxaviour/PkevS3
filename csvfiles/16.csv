@@ -1,0 +1,26 @@
+team,teamid,playerid,player,jersey_no,Goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Noble FC,17,POR2025421,Raj,17,2,0,2,2,0,7,3,11,0,1,0,0,0,0,1,0,1,0,0,Midfield,0,6,16,Shudarshan Raj N
+Noble FC,17,POR2025424,Stephin,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,6,16,Stephin balan.y
+Noble FC,17,POR2025425,Rahul ,15,0,1,2,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,6,16,Rahul.g
+Noble FC,17,POR2025426,Ok,7,0,0,2,2,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,Forward,0,6,16,Ashwin.S
+Noble FC,17,POR2025428,SHAJI,80,0,0,0,0,0,0,0,1,0,1,5,1,0,0,0,3,0,0,0,Midfield,0,6,16,Shaji S
+Noble FC,17,POR2025429,Karthi,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,6,16,Karthikeyan. R
+Noble FC,17,POR2025430,Shijo Mathew,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,GK,0,6,16,Shijo Mathew
+Noble FC,17,POR2025431,Achu,4,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,Defense,0,6,16,Adharsh Mathew
+Noble FC,17,POR2025432,Jobin,90,0,0,1,1,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,Midfield,0,6,16,Jobin Jose
+Noble FC,17,POR2025435,Adam,10,0,0,2,2,0,0,2,3,0,1,1,0,0,0,0,0,0,0,0,Forward,0,6,16,Adam jl david
+Noble FC,17,POR2025440,Gnana Prasad,18,0,0,1,1,0,1,0,2,0,1,1,0,0,0,0,0,1,0,0,Forward,0,6,16,Gnanaprasad
+Noble FC,17,POR2025441,Vijayakumar,45,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,Defense,0,6,16,Vijayakumar
+Noble FC,17,POR2025442,Kaviyarasan,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,Defense,0,6,16,Kaviyarasan
+SGFC,13,POR2025259,KIRTHIK ,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,Defense,0,8,16,KIRTHIK
+SGFC,13,POR2025261,RAKEY,17,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,Forward,0,8,16,Rakesh 
+SGFC,13,POR2025262,John Marshal ,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,Defense,0,8,16,W. John Marshal
+SGFC,13,POR2025263,Sai,10,0,1,1,2,0,2,0,2,0,0,2,1,0,0,0,2,1,0,0,Midfield,0,8,16,H. Sai Krishnan 
+SGFC,13,POR2025267,Iyya ,19,0,0,0,0,1,1,0,1,0,0,2,0,0,0,1,0,0,0,0,Forward,0,8,16,Dineshkaran k
+SGFC,13,POR2025268,Hari ms ,11,2,0,0,0,0,2,1,3,0,0,1,0,0,0,1,2,0,1,0,Forward,0,8,16,Sri Saravana ganesh 
+SGFC,13,POR2025270,BALA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,8,16,Balasubramanyam kv
+SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,GK,0,8,16,VIGNESH
+SGFC,13,POR2025273,FRANKLIN MESSI,28,0,0,2,2,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Defense,0,8,16,FRANKLIN.A
+SGFC,13,POR2025274,Rishi,79,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,Midfield,0,8,16,RISHIKESH 
+SGFC,13,POR2025275,Immanuel ,50,0,0,1,1,0,0,0,0,0,0,2,1,0,0,0,0,2,0,0,Defense,0,8,16,Immanuel 
+SGFC,13,POR2025276,Vadakkan,18,0,1,0,1,1,0,1,1,0,0,1,0,0,0,0,2,0,0,0,Midfield,0,8,16,Avinash v

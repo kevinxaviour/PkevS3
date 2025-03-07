@@ -1,0 +1,28 @@
+team,teamid,playerid,player,jersey_no,Goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Apollo Tyres FC,5,POR2025277,Siva,6,0,0,0,0,0,1,1,2,0,0,2,0,0,0,0,3,0,0,0,Midfield,0,5,11,J SIVAMARAN 
+Apollo Tyres FC,5,POR2025278,JACOB  ,12,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,3,0,0,0,Midfield,0,5,11,Jacob Ruban
+Apollo Tyres FC,5,POR2025281,Safeek,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,5,11,P Mohamed safeek 
+Apollo Tyres FC,5,POR2025282,Clinton ,23,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,Defense,0,5,11,Clinton 
+Apollo Tyres FC,5,POR2025283,Vasarth,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Forward,0,5,11,Vasanth 
+Apollo Tyres FC,5,POR2025285,Marshal,17,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,4,2,0,0,Defense,0,5,11,Jerome Marshal
+Apollo Tyres FC,5,POR2025286,Jeffy ,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,0,5,11,Jeffy J
+Apollo Tyres FC,5,POR2025287,MAHES,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,0,5,11,MAHESWARAN M 
+Apollo Tyres FC,5,POR2025288,DEEPAK,7,0,0,0,0,0,0,1,4,0,3,0,0,0,0,3,0,1,0,0,Forward,0,5,11,DEEPAK C
+Apollo Tyres FC,5,POR2025289,SANJAY ,48,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,3,1,0,0,Defense,0,5,11,M.SANJAY KUMAR
+Apollo Tyres FC,5,POR2025290,Nishan,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,5,11,N.shagul nishan
+Apollo Tyres FC,5,POR2025293,Tamil,5,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,Midfield,0,5,11,Tamilarasu.p
+Apollo Tyres FC,5,POR2025294,KISHORE,18,0,0,2,2,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,Midfield,0,5,11,Kishore
+Santhome SAI,9,POR2025043,Pragadeesh dhanapal,18,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,2,4,1,0,Defense,1,1,11,Pragadeesh dhanapal
+Santhome SAI,9,POR2025044,Ranjith,14,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,4,0,0,Defense,1,1,11,Ranjith.V
+Santhome SAI,9,POR2025045,THARUN ,43,2,0,0,0,1,2,2,4,0,0,0,0,0,0,1,0,0,0,0,Forward,1,1,11,THARUN M
+Santhome SAI,9,POR2025046,Bharath,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,2,0,Defense,1,1,11,P. Bharath kumar
+Santhome SAI,9,POR2025048,Anto louis,09,1,0,0,0,0,1,1,2,0,0,0,0,0,0,1,3,0,0,0,Midfield,1,1,11,Anto louis d silva
+Santhome SAI,9,POR2025049,HARISH,27,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,Forward,1,1,11,HARISH.S
+Santhome SAI,9,POR2025050,WALSH,10,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,Forward,1,1,11,V.S.VISHNU WALSH
+Santhome SAI,9,POR2025051,SHAHID,13,0,0,2,2,0,0,2,2,0,0,0,0,0,0,0,3,1,0,0,Midfield,1,1,11,MOHAMED SHAHID . N
+Santhome SAI,9,POR2025054,MOHAN,11,0,2,1,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,1,1,11,MOHAN RAJA.P
+Santhome SAI,9,POR2025060,LEO THOMAS,7,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,0,0,0,Midfield,1,1,11,LEO THOMAS
+Santhome SAI,9,POR2025062,ABI ,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,1,1,11,ABISHEK A
+Santhome SAI,9,POR2025064,HEMA,2,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,1,1,0,0,Defense,1,1,11,Hemachandran
+Santhome SAI,9,POR2025068,Usman,08,0,0,1,1,0,1,2,3,0,0,2,0,0,0,0,4,1,0,0,Midfield,1,1,11,Afnas usman
+Santhome SAI,9,POR2025072,Thivakar,25,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Defense,1,1,11,Thivakar.P
