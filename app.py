@@ -136,6 +136,7 @@ def GA(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary[['Rank', 'Player_FN', 'team', 'GA']].rename(columns={'Player_FN': 'Name', 'team': 'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()  # Convert names to title case
     df_summary = df_summary.reset_index(drop=True)
+    return df_summary
 def cc(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
         Matches=('matchid', 'nunique'),  
