@@ -135,6 +135,7 @@ def GA(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Name'] = df_summary['Name'].str.title()  # Convert names to title case
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
+
 def cc(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
         Matches=('matchid', 'nunique'),  
@@ -317,84 +318,41 @@ STAT_FUNCTIONS = {
     "Blocks Per Match": {"func": blocks_90, "desc": "Average blocks per match by players"},
     "Goalkeeper Saves": {"func": GK_Saves, "desc": "Total saves by goalkeepers"},
     "Goalkeeper Clean Sheets": {"func": GK_cs, "desc": "Clean sheets by goalkeepers"},
-    "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save percentage by goalkeepers"}
+    "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save percentage of goalkeepers"}
 }
 
-# Main app
+# Main function to run the Streamlit app
 def main():
-    st.title("Player Statistics")
+    # Fetch data
+    main_data = fetch_csv_files_from_github()
+    team_data = fetch_team_mapping()
     
-    # Initialize session state for dataframe if not exists
-    if 'df' not in st.session_state:
-        st.session_state.df = None
-        st.session_state.data_loaded = False
+    if main_data.empty or team_data.empty:
+        st.stop()
     
-    # Load data 
-    if not st.session_state.data_loaded:
-        with st.spinner("Loading data from GitHub repository..."):
-            # Fetch and merge CSV files
-            merged_df = fetch_csv_files_from_github()
-            
-            if not merged_df.empty:
-                st.session_state.df = merged_df
-                
-                # Process data similar to original script
-                st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
-                
-                # Fetch team mapping
-                team_mapping = fetch_team_mapping()
-                
-                if not team_mapping.empty:
-                    # Perform the merge
-                    st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
-                    st.session_state.df['team'] = st.session_state.df['TeamName']
-                    st.session_state.df = st.session_state.df.drop(columns=['ID', 'TeamName'])
-
-                else:
-                    st.error("Team mapping could not be loaded, using teamid instead.")
-                
-                st.session_state.data_loaded = True
-                # st.success("Data loaded successfully!")
-            else:
-                st.error("Data loading failed. Check your GitHub repository and file paths.")
+    # Merge data
+    merged_df = pd.merge(main_data, team_data, on='team', how='left')
+    merged_df['team'] = merged_df['Team_Name'].fillna(merged_df['team'])
     
-    # Sidebar for statistic selection
-    st.sidebar.header("Statistic Selection")
-    selected_stat = st.sidebar.selectbox("Choose a statistic:", options=list(STAT_FUNCTIONS.keys()))
+    # Sidebar for statistics selection
+    st.sidebar.header("Statistics Options")
+    stat_name = st.sidebar.selectbox("Choose a statistic:", options=list(STAT_FUNCTIONS.keys()), index=0)
+    stat_function = STAT_FUNCTIONS[stat_name]["func"]
+    stat_description = STAT_FUNCTIONS[stat_name]["desc"]
     
-    # Display selected statistic
-    if st.session_state.data_loaded:
-        stat_function = STAT_FUNCTIONS[selected_stat]["func"]
-        description = STAT_FUNCTIONS[selected_stat]["desc"]
+    st.sidebar.write(stat_description)
+    
+    # Process data based on selected statistic
+    df_to_display = stat_function(merged_df.copy())
         
-        st.subheader(f"{selected_stat} Statistics")
-        st.write(description)
-        
-        # Apply the selected statistic function
-        try:
-            result_df = stat_function(st.session_state.df.copy())
-        
-            # Hide the index and use column configuration to auto-fit columns
-            st.dataframe(
-                result_df,
-                height=500,
-                use_container_width=True,
-                hide_index=True,
-                column_config={col: st.column_config.Column(width="auto") for col in result_df.columns}
-            )
-        
-            # Download button
-            # csv = result_df.to_csv(index=False)
-            # st.download_button(
-            #     label="Download current selection as CSV",
-            #     data=csv,
-            #     file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
-            #     mime='text/csv',
-            # )
-        except Exception as e:
-            st.error(f"Error calculating statistics: {str(e)}")
-    else:
-        st.info("Please load data first.")
+    # Display the processed DataFrame
+    st.header(f"{stat_name} Statistics")
+    
+    # Center align the data in the table
+    centered_df = df_to_display.style.set_properties(**{'text-align': 'center'})
+    
+    # Render the DataFrame as a Streamlit table without the CSV download option
+    st.table(centered_df)
 
 # Run the main function
 if __name__ == "__main__":
