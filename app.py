@@ -54,7 +54,7 @@ def fetch_csv_files_from_github() -> pd.DataFrame:
                 try:
                     df = pd.read_csv(io.StringIO(file_response.content.decode('ISO-8859-1')))
                     all_dfs.append(df)
-                    st.success(f"Loaded {file_info['name']}")
+                    #st.success(f"Loaded {file_info['name']}")
                 except Exception as e:
                     st.warning(f"Error reading {file_info['name']}: {str(e)}")
 
@@ -303,7 +303,7 @@ STAT_FUNCTIONS = {
 
 # Main app
 def main():
-    st.title("Player Statistics Dashboar")
+    st.title("Player Statistics Dashboard")
 
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
@@ -328,7 +328,6 @@ def main():
                     st.session_state.df = st.session_state.df.merge(team_mapping, left_on='team', right_on='Team Id', how='left')
                     st.session_state.df['team'] = st.session_state.df['Team Name'].fillna(st.session_state.df['team'])
                     st.session_state.df.drop(columns=['Team Id', 'Team Name'], inplace=True)
-                    st.success("Team mapping applied successfully")
                 else:
                     st.warning("Team mapping could not be loaded.")
 
