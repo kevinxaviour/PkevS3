@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+alignment == "Center"
 # GitHub repository information
 GITHUB_REPO = "PkevS3"
 GITHUB_USER = "kevinxaviour"  
