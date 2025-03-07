@@ -363,13 +363,13 @@ def main():
             st.dataframe(result_df.set_index(result_df.columns[0]), height=500)
             
             # Download button
-            csv = result_df.to_csv(index=False)
-            st.download_button(
-                label="Download current selection as CSV",
-                data=csv,
-                file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
-                mime='text/csv',
-            )
+            # csv = result_df.to_csv(index=False)
+            # st.download_button(
+            #     label="Download current selection as CSV",
+            #     data=csv,
+            #     file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
+            #     mime='text/csv',
+            # )
         except Exception as e:
             st.error(f"Error calculating statistics: {str(e)}")
     else:
