@@ -310,26 +310,25 @@ def main():
         st.session_state.df = None
         st.session_state.data_loaded = False
     
-    # Load data button
+    # Load data 
     if not st.session_state.data_loaded:
-        if st.button("Load Data from GitHub"):
-            with st.spinner("Loading data from GitHub repository..."):
-                # Fetch and merge CSV files
-                merged_df = fetch_csv_files_from_github()
+        with st.spinner("Loading data from GitHub repository..."):
+            # Fetch and merge CSV files
+            merged_df = fetch_csv_files_from_github()
+            
+            if not merged_df.empty:
+                st.session_state.df = merged_df
                 
-                if not merged_df.empty:
-                    st.session_state.df = merged_df
-                    
-                    # Process data similar to original script
-                    st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
-                    
-                    # Drop 'team' column if it exists
-                    if 'team' in st.session_state.df.columns:
-                        st.session_state.df.drop(columns=['team'], inplace=True)
-                    
-                    st.session_state.data_loaded = True
-                else:
-                    st.error("Failed to load data.")
+                # Process data similar to original script
+                st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
+                
+                # Drop 'team' column if it exists
+                if 'team' in st.session_state.df.columns:
+                    st.session_state.df.drop(columns=['team'], inplace=True)
+                
+                st.session_state.data_loaded = True
+            else:
+                st.error("Failed to load data.")
 
     # Statistic selection
     if st.session_state.data_loaded:
@@ -340,11 +339,8 @@ def main():
         if selected_stat:
             with st.spinner(f"Calculating {selected_stat} statistics..."):
                 stat_function = STAT_FUNCTIONS[selected_stat]["func"]
-                try:
-                    stat_df = stat_function(st.session_state.df.copy()) # Pass a copy to avoid modifying the original DataFrame
-                    st.write(stat_df)
-                except Exception as e:
-                    st.error(f"Error calculating {selected_stat}: {str(e)}")
+                stat_df = stat_function(st.session_state.df.copy())  # Pass a copy to avoid modifying the original dataframe
+                st.dataframe(stat_df.set_index(stat_df.columns[0])) # Display dataframe without index
 
 if __name__ == "__main__":
     main()
