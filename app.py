@@ -351,7 +351,7 @@ def main():
             # Optionally drop the redundant 'Team Id' column
             st.session_state.df.drop('Team Id', axis=1, inplace=True)
         else:
-            st.error("Required 'team' or 'Team Id' column missing in dataframes.")
+            #st.error("Required 'team' or 'Team Id' column missing in dataframes.")
         
         # Statistics selection
         st.sidebar.header("Statistics Options")
