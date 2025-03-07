@@ -324,38 +324,38 @@ def main():
                 
                 # Fetch team mapping
                 team_mapping = fetch_team_mapping()
-
+                
                 if not team_mapping.empty:
                     # Perform the merge
                     st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
                     st.session_state.df['team'] = st.session_state.df['TeamName']
                     st.session_state.df = st.session_state.df.drop(columns=['ID', 'TeamName'])
+                    st.session_state.data_loaded = True
+                    st.success("Data loading complete!")
                 else:
                     st.error("Failed to load team mapping.")
-                
-                # Drop 'team' column if it exists
-                #if 'team' in st.session_state.df.columns:
-                    #st.session_state.df.drop(columns=['team'], inplace=True)
-                
-                st.session_state.data_loaded = True
             else:
-                st.error("Failed to load data.")
+                st.error("Failed to load data from GitHub.")
+    
+    # Once the data is loaded
+    if st.session_state.data_loaded and st.session_state.df is not None:
+        # Sidebar for statistics selection
+        st.sidebar.header("Statistics Selection")
+        stat_name = st.sidebar.selectbox("Choose a statistic:", options=list(STAT_FUNCTIONS.keys()), 
+                                          format_func=lambda x: f"{x} - {STAT_FUNCTIONS[x]['desc']}")
+        
+        # Display selected statistics
+        if stat_name:
+            stat_function = STAT_FUNCTIONS[stat_name]["func"]
+            
+            with st.spinner(f"Calculating {stat_name} statistics..."):
+                stat_df = stat_function(st.session_state.df.copy())  # Pass a copy to avoid modifying the original DataFrame
+            
+            st.header(f"{stat_name} Statistics")
+            st.dataframe(stat_df, use_container_width=True)
+    
+    elif st.session_state.df is None:
+        st.info("Please load data first.")
 
-    # Statistic selection
-    if st.session_state.data_loaded:
-        stat_names = list(STAT_FUNCTIONS.keys())
-        selected_stat = st.selectbox("Select a statistic to display", stat_names)
-
-        # Display statistics
-        if selected_stat:
-            with st.spinner(f"Calculating {selected_stat} statistics..."):
-                stat_function = STAT_FUNCTIONS[selected_stat]["func"]
-                stat_df = stat_function(st.session_state.df.copy())  # Pass a copy to avoid modifying the original
-
-                st.write(stat_df)
-        else:
-            st.info("Select a statistic to view.")
-    else:
-        st.info("Data is still loading or failed to load.")
 if __name__ == "__main__":
     main()
