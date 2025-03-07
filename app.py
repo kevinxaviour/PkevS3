@@ -99,7 +99,7 @@ def Goals_stats(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by=['Goals', 'Matches'], ascending=[False, True])
     df_summary['Rank'] = df_summary['Goals'].rank(method='dense', ascending=False).astype(int)
-    df_summary = df_summary[['Rank', 'Player_FN', 'Matches', 'Goals', 'team']].rename(columns={'Player_FN': 'Name'})
+    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'Goals']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Goals'] != 0]
@@ -112,7 +112,7 @@ def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by=['Assists', 'Matches'], ascending=[False, True])
     df_summary['Rank'] = df_summary['Assists'].rank(method='dense', ascending=False).astype(int)
-    df_summary = df_summary[['Rank', 'Player_FN', 'Matches', 'Assists', 'team']].rename(columns={'Player_FN': 'Name'})
+    df_summary = df_summary[['Rank', 'Player_FN','team', 'Assists',]].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Assists'] != 0]
@@ -126,8 +126,8 @@ def cc(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary.sort_values(by=['Chances', 'Matches'], ascending=[False, True])
     df_summary['Rank'] = df_summary['Chances'].rank(method='dense', ascending=False).astype(int)
     df_summary = df_summary[df_summary['Chances'] != 0]
-    df_summary = df_summary[['Rank', 'Player_FN', 'Matches', 'Chances', 'team']].rename(
-        columns={'Player_FN': 'Name', 'Chances': 'Chances Created'})
+    df_summary = df_summary[['Rank', 'Player_FN','team', 'Chances']].rename(
+        columns={'Player_FN': 'Name', 'Chances': 'Chances Created','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
@@ -142,7 +142,7 @@ def shot_accuracy(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Shot_Accuracy'] = (df_summary['Shots_On_Target'] / df_summary['Shots']) * 100
     df_summary['Shot_Accuracy'] = df_summary['Shot_Accuracy'].fillna(0).round(1)
     df_summary = df_summary.sort_values(by='Shot_Accuracy', ascending=False)
-    df_summary = df_summary[['Player_FN', 'Matches', 'Shots', 'Shot_Accuracy', 'team']].rename(columns={'Player_FN': 'Name'})
+    df_summary = df_summary[['Player_FN','team','Shots', 'Shot_Accuracy']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary[(df_summary['Shots'] >= df_summary['Shots'].mean()) & (df_summary['Shot_Accuracy'] != 0)]
     df_summary = df_summary.reset_index(drop=True)
@@ -155,7 +155,7 @@ def fouls_stats(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by='Fouls', ascending=False)
     df_summary['Rank'] = df_summary['Fouls'].rank(method='dense', ascending=False).astype(int)
-    df_summary = df_summary[['Rank', 'Player_FN', 'Matches', 'Fouls', 'team']].rename(columns={'Player_FN': 'Name'})
+    df_summary = df_summary[['Rank', 'Player_FN','team', 'Fouls']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Fouls'] != 0]
@@ -166,8 +166,8 @@ def yc_stats(df: pd.DataFrame) -> pd.DataFrame:
         Yellow=('yellow_cards', 'sum') 
     ).reset_index()
     df_summary = df_summary.sort_values(by='Yellow', ascending=False)
-    df_summary = df_summary[['Player_FN', 'Yellow', 'team']].rename(
-        columns={'Player_FN': 'Name', 'Yellow': 'Yellow Cards'})
+    df_summary = df_summary[['Player_FN','team', 'Yellow']].rename(
+        columns={'Player_FN': 'Name', 'Yellow': 'Yellow Cards','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Yellow Cards'] != 0]
@@ -178,8 +178,8 @@ def rc_stats(df: pd.DataFrame) -> pd.DataFrame:
         Red=('red_cards', 'sum') 
     ).reset_index()
     df_summary = df_summary.sort_values(by='Red', ascending=False)
-    df_summary = df_summary[['Player_FN', 'Red', 'team']].rename(
-        columns={'Player_FN': 'Name', 'Red': 'Red Cards'})
+    df_summary = df_summary[['Player_FN','team', 'Red']].rename(
+        columns={'Player_FN': 'Name', 'Red': 'Red Cards','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Red Cards'] != 0]
@@ -190,7 +190,7 @@ def offsides_stats(df: pd.DataFrame) -> pd.DataFrame:
         Offside=('offsides', 'sum') 
     ).reset_index()
     df_summary = df_summary.sort_values(by='Offside', ascending=False)
-    df_summary = df_summary[['Player_FN', 'Offside', 'team']].rename(columns={'Player_FN': 'Name'})
+    df_summary = df_summary[['Player_FN','team', 'Offside']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Offside'] != 0]
@@ -205,8 +205,8 @@ def tackles_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Tackles_per90'] = df_summary['Tackles_per90'].round(1)
     df_summary = df_summary.sort_values(by='Tackles_per90', ascending=False)
     df_summary = df_summary[df_summary['Tackles_per90'] != 0]
-    df_summary = df_summary[['Player_FN', 'Tackles_per90', 'team']].rename(
-        columns={'Player_FN': 'Name', 'Tackles_per90': 'Tackles Per Match'})
+    df_summary = df_summary[['Player_FN','team', 'Tackles_per90']].rename(
+        columns={'Player_FN': 'Name', 'Tackles_per90': 'Tackles Per Match','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
@@ -220,8 +220,8 @@ def inter_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Tackles_per90'] = df_summary['Tackles_per90'].round(1)
     df_summary = df_summary.sort_values(by='Tackles_per90', ascending=False)
     df_summary = df_summary[df_summary['Tackles_per90'] != 0]
-    df_summary = df_summary[['Player_FN', 'Tackles_per90', 'team']].rename(
-        columns={'Player_FN': 'Name', 'Tackles_per90': 'Interceptions Per Match'})
+    df_summary = df_summary[['Player_FN','team', 'Tackles_per90']].rename(
+        columns={'Player_FN': 'Name', 'Tackles_per90': 'Interceptions Per Match','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
@@ -235,8 +235,8 @@ def blocks_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Tackles_per90'] = df_summary['Tackles_per90'].round(1)
     df_summary = df_summary.sort_values(by='Tackles_per90', ascending=False)
     df_summary = df_summary[df_summary['Tackles_per90'] != 0]
-    df_summary = df_summary[['Player_FN', 'Tackles_per90', 'team']].rename(
-        columns={'Player_FN': 'Name', 'Tackles_per90': 'Blocks Per Match'})
+    df_summary = df_summary[['Player_FN','team', 'Tackles_per90']].rename(
+        columns={'Player_FN': 'Name', 'Tackles_per90': 'Blocks Per Match','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
@@ -248,8 +248,8 @@ def GK_Saves(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by='Tackles', ascending=False)
     df_summary = df_summary[df_summary['Tackles'] != 0]
-    df_summary = df_summary[['Player_FN', 'Tackles', 'team']].rename(
-        columns={'Player_FN': 'Name', 'Tackles': 'Saves'})
+    df_summary = df_summary[['Player_FN','team', 'Tackles']].rename(
+        columns={'Player_FN': 'Name', 'Tackles': 'Saves','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
@@ -261,8 +261,8 @@ def GK_cs(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by='Tackles', ascending=False)
     df_summary = df_summary[df_summary['Tackles'] != 0]
-    df_summary = df_summary[['Player_FN', 'Tackles', 'team']].rename(
-        columns={'Player_FN': 'Name', 'Tackles': 'Clean Sheets'})
+    df_summary = df_summary[['Player_FN','team', 'Tackles']].rename(
+        columns={'Player_FN': 'Name', 'Tackles': 'Clean Sheets','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
@@ -277,8 +277,8 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['save%'] = df_summary['save%'].fillna(0).round(1)
     df_summary = df_summary.sort_values(by='save%', ascending=False)
     df_summary = df_summary[df_summary['Saves'] > df_summary['Saves'].mean()]
-    df_summary = df_summary[['Player_FN', 'Saves', 'save%', 'team']].rename(
-        columns={'Player_FN': 'Name', 'save%': 'Save Percentage'})
+    df_summary = df_summary[['Player_FN','team', 'Saves', 'save%']].rename(
+        columns={'Player_FN': 'Name', 'save%': 'Save Percentage','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
