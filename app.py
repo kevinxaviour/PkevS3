@@ -350,7 +350,7 @@ def main():
 
         # Display the results
         st.header(f"{selected_stats} Statistics")
-        st.dataframe(stat_df, width=None) # Show all columns
+        st.dataframe(stat_df, width=None, index=False) # Show all columns, hide index
 
     elif not st.session_state.data_loaded:
         st.info("Loading data from GitHub...")
