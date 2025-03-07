@@ -10,7 +10,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-alignment == "Center"
 # GitHub repository information
 GITHUB_REPO = "PkevS3"
 GITHUB_USER = "kevinxaviour"  
@@ -364,71 +363,46 @@ def main():
     
     # Display selected statistic
     if st.session_state.data_loaded:
-        stat_function = STAT_FUNCTIONS[selected_stat]["func"]
-        description = STAT_FUNCTIONS[selected_stat]["desc"]
+    stat_function = STAT_FUNCTIONS[selected_stat]["func"]
+    description = STAT_FUNCTIONS[selected_stat]["desc"]
+    
+    st.subheader(f"{selected_stat} Statistics")
+    st.write(description)
+    
+    # Apply the selected statistic function
+    try:
+        result_df = stat_function(st.session_state.df.copy())
         
-        st.subheader(f"{selected_stat} Statistics")
-        st.write(description)
+        # Apply CSS for center alignment
+        st.markdown("""
+        <style>
+        .stDataFrame td, .stDataFrame th {
+            text-align: center !important;
+        }
+        </style>
+        """, unsafe_allow_html=True)
         
-        # Apply the selected statistic function
-        try:
-            result_df = stat_function(st.session_state.df.copy())
-            
-            # Create column configuration with alignment
-            column_config = {}
-            for col in result_df.columns:
-                # Set alignment based on user selection
-                if alignment == "Center":
-                    # For center alignment, we use custom CSS
-                    column_config[col] = st.column_config.Column(
-                        width="auto",
-                        # Apply center alignment using CSS
-                        help=f"",  # Empty help text
-                    )
-                else:
-                    # For left alignment (default)
-                    column_config[col] = st.column_config.Column(width="auto")
-            
-            # Apply CSS for center alignment if needed
-            if alignment == "Center":
-                st.markdown("""
-                <style>
-                .stDataFrame td, .stDataFrame th {
-                    text-align: center !important;
-                }
-                </style>
-                """, unsafe_allow_html=True)
-            else:
-                # Reset to default left alignment
-                st.markdown("""
-                <style>
-                .stDataFrame td, .stDataFrame th {
-                    text-align: left !important;
-                }
-                </style>
-                """, unsafe_allow_html=True)
-            
-            # Display the dataframe with configured columns
-            st.dataframe(
-                result_df,
-                height=500,
-                use_container_width=True,
-                hide_index=True,
-                column_config=column_config
-            )
+        # Display the dataframe
+        st.dataframe(
+            result_df,
+            height=500,
+            use_container_width=True,
+            hide_index=True
+        )
         
-            # Download button
-            csv = result_df.to_csv(index=False)
-            st.download_button(
-                label="Download current selection as CSV",
-                data=csv,
-                file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
-                mime='text/csv',
-            )
-        except Exception as e:
-            st.error(f"Error calculating statistics: {str(e)}")
-    else:
-        st.info("Please load data first.")
+        # Download button
+        csv = result_df.to_csv(index=False)
+        # st.download_button(
+        #     label="Download current selection as CSV",
+        #     data=csv,
+        #     file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
+        #     mime='text/csv',
+        # )
+    except Exception as e:
+        st.error(f"Error calculating statistics: {str(e)}")
+else:
+    st.info("Please load data first.")
+
 
 # Run the main function
 if __name__ == "__main__":
