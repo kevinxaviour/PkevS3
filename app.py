@@ -359,8 +359,8 @@ def main():
         try:
             result_df = stat_function(st.session_state.df.copy())
             
-            # Hide the first column
-            st.dataframe(result_df.style.set_properties(**{'text-align': 'left'}).hide_index(), height=500)
+            # Hide the index
+            st.dataframe(result_df.set_index(result_df.columns[0]), height=500)
             
             # Download button
             csv = result_df.to_csv(index=False)
