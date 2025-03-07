@@ -103,6 +103,7 @@ def Goals_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Goals'] != 0]
+    df_summary = df_summary.drop(columns=['Rank'])
     return df_summary
 
 def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
@@ -116,6 +117,7 @@ def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Assists'] != 0]
+    df_summary = df_summary.drop(columns=['Rank'])
     return df_summary
 
 def cc(df: pd.DataFrame) -> pd.DataFrame:
@@ -130,6 +132,7 @@ def cc(df: pd.DataFrame) -> pd.DataFrame:
         columns={'Player_FN': 'Name', 'Chances': 'Chances Created','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
+    df_summary = df_summary.drop(columns=['Rank'])
     return df_summary
 
 def shot_accuracy(df: pd.DataFrame) -> pd.DataFrame:
@@ -155,10 +158,11 @@ def fouls_stats(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by='Fouls', ascending=False)
     df_summary['Rank'] = df_summary['Fouls'].rank(method='dense', ascending=False).astype(int)
-    df_summary = df_summary[['Player_FN','team', 'Fouls']].rename(columns={'Player_FN': 'Name','team':'Team'})
+    df_summary = df_summary[['Rank', 'Player_FN','team', 'Fouls']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Fouls'] != 0]
+    df_summary = df_summary.drop(columns=['Rank'])
     return df_summary
 
 def yc_stats(df: pd.DataFrame) -> pd.DataFrame:
@@ -354,7 +358,9 @@ def main():
         # Apply the selected statistic function
         try:
             result_df = stat_function(st.session_state.df.copy())
-            st.dataframe(result_df, height=500)
+            
+            # Hide the first column
+            st.dataframe(result_df.style.set_properties(**{'text-align': 'left'}).hide_index(), height=500)
             
             # Download button
             csv = result_df.to_csv(index=False)
