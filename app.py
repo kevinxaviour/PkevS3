@@ -379,10 +379,11 @@ def main():
         
             # Hide the index and use column configuration to auto-fit columns
             st.dataframe(
-                result_df.set_index(result_df.columns[0]), 
+                result_df,
                 height=500,
                 use_container_width=True,
-                column_config={col: st.column_config.Column(width="auto") for col in result_df.columns[1:]}
+                hide_index=True,
+                column_config={col: st.column_config.Column(width="auto") for col in result_df.columns}
             )
         
             # Download button
