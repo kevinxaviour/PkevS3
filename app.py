@@ -6,7 +6,7 @@ from typing import List, Dict, Callable, Any
 
 # Set page title and configuration
 st.set_page_config(
-    page_title="Football Statistics Dashboard",
+    page_title="Porkallam Season 3",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -155,7 +155,7 @@ def fouls_stats(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by='Fouls', ascending=False)
     df_summary['Rank'] = df_summary['Fouls'].rank(method='dense', ascending=False).astype(int)
-    df_summary = df_summary[['Rank', 'Player_FN','team', 'Fouls']].rename(columns={'Player_FN': 'Name','team':'Team'})
+    df_summary = df_summary[['Player_FN','team', 'Fouls']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Fouls'] != 0]
@@ -303,7 +303,7 @@ STAT_FUNCTIONS = {
 
 # Main app
 def main():
-    st.title("Football Statistics Dashboard")
+    st.title("Player Statistics Dashboard")
     
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
