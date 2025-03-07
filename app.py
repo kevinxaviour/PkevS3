@@ -15,7 +15,7 @@ st.set_page_config(
 GITHUB_REPO = "PkevS3"
 GITHUB_USER = "kevinxaviour"  
 CSV_DIR = "csvfiles"
-EXCEL_DIR = "impfile"
+EXCEL_DIR = "impfiles"
 TEAM_MAPPING_FILE = "Team IDs.xlsx"
 
 # Function to fetch all CSV files from GitHub repository directory
