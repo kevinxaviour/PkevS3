@@ -6,7 +6,7 @@ from typing import List, Dict, Callable, Any
 
 # Set page title and configuration
 st.set_page_config(
-    page_title="Football Statistics Dashboard",
+    page_title="Porkallam Season 3 Player Stats",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -342,7 +342,7 @@ def main():
                 stat_function = STAT_FUNCTIONS[selected_stat]["func"]
                 try:
                     stat_df = stat_function(st.session_state.df.copy()) # Pass a copy to avoid modifying the original DataFrame
-                    st.write(stat_df)
+                    st.dataframe(stat_df.set_index(stat_df.columns[0]), hide_index=True)
                 except Exception as e:
                     st.error(f"Error calculating {selected_stat}: {str(e)}")
 
