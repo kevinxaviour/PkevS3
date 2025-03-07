@@ -6,7 +6,7 @@ from typing import List, Dict, Callable, Any
 
 # Set page title and configuration
 st.set_page_config(
-    page_title="Football Statistics Dashboard",
+    page_title="Porkallam Season 3 Player Stats",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -99,7 +99,7 @@ def Goals_stats(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by=['Goals', 'Matches'], ascending=[False, True])
     df_summary['Rank'] = df_summary['Goals'].rank(method='dense', ascending=False).astype(int)
-    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'Matches', 'Goals']].rename(columns={'Player_FN': 'Name'})
+    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'Goals']].rename(columns={'Player_FN': 'Name'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Goals'] != 0]
@@ -112,7 +112,7 @@ def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by=['Assists', 'Matches'], ascending=[False, True])
     df_summary['Rank'] = df_summary['Assists'].rank(method='dense', ascending=False).astype(int)
-    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'Matches', 'Assists']].rename(columns={'Player_FN': 'Name'})
+    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'Assists']].rename(columns={'Player_FN': 'Name'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Assists'] != 0]
@@ -126,7 +126,7 @@ def cc(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary.sort_values(by=['Chances', 'Matches'], ascending=[False, True])
     df_summary['Rank'] = df_summary['Chances'].rank(method='dense', ascending=False).astype(int)
     df_summary = df_summary[df_summary['Chances'] != 0]
-    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'Matches', 'Chances']].rename(
+    df_summary = df_summary[['Rank', 'Player_FN', 'team','Chances']].rename(
         columns={'Player_FN': 'Name', 'Chances': 'Chances Created'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
@@ -142,7 +142,7 @@ def shot_accuracy(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Shot_Accuracy'] = (df_summary['Shots_On_Target'] / df_summary['Shots']) * 100
     df_summary['Shot_Accuracy'] = df_summary['Shot_Accuracy'].fillna(0).round(1)
     df_summary = df_summary.sort_values(by='Shot_Accuracy', ascending=False)
-    df_summary = df_summary[['Player_FN', 'team', 'Matches', 'Shots', 'Shot_Accuracy']].rename(columns={'Player_FN': 'Name'})
+    df_summary = df_summary[['Player_FN', 'team', 'Shot_Accuracy']].rename(columns={'Player_FN': 'Name'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary[(df_summary['Shots'] >= df_summary['Shots'].mean()) & (df_summary['Shot_Accuracy'] != 0)]
     df_summary = df_summary.reset_index(drop=True)
@@ -155,7 +155,7 @@ def fouls_stats(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by='Fouls', ascending=False)
     df_summary['Rank'] = df_summary['Fouls'].rank(method='dense', ascending=False).astype(int)
-    df_summary = df_summary[['Rank', 'Player_FN', 'team', 'Matches', 'Fouls']].rename(columns={'Player_FN': 'Name'})
+    df_summary = df_summary[['Rank', 'Player_FN', 'team','Fouls']].rename(columns={'Player_FN': 'Name'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Fouls'] != 0]
