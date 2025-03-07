@@ -103,7 +103,6 @@ def Goals_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Goals'] != 0]
-    df_summary = df_summary.drop(columns=['Rank'])
     return df_summary
 
 def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
@@ -117,7 +116,6 @@ def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Assists'] != 0]
-    df_summary = df_summary.drop(columns=['Rank'])
     return df_summary
 
 def GA(df: pd.DataFrame) -> pd.DataFrame:
@@ -179,7 +177,6 @@ def fouls_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     df_summary = df_summary[df_summary['Fouls'] != 0]
-    df_summary = df_summary.drop(columns=['Rank'])
     return df_summary
 
 def yc_stats(df: pd.DataFrame) -> pd.DataFrame:
