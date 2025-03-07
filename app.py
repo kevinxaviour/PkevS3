@@ -3,11 +3,10 @@ import pandas as pd
 import io
 import requests
 from typing import List, Dict, Callable, Any
-import numpy as np
 
 # Set page title and configuration
 st.set_page_config(
-    page_title="Porkallam Season 3",
+    page_title="Porkallam Season 3 Player Stats",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -18,8 +17,6 @@ GITHUB_USER = "kevinxaviour"
 CSV_DIR = "csvfiles"
 EXCEL_DIR = "impfiles"
 TEAM_MAPPING_FILE = "Team IDs.xlsx"
-TEAM_ID_COL = "ID"             # From your Excel column
-TEAM_NAME_COL = "TeamName"     # From your Excel column
 
 # Function to fetch all CSV files from GitHub repository directory
 def fetch_csv_files_from_github() -> pd.DataFrame:
@@ -57,7 +54,7 @@ def fetch_csv_files_from_github() -> pd.DataFrame:
                 try:
                     df = pd.read_csv(io.StringIO(file_response.content.decode('ISO-8859-1')))
                     all_dfs.append(df)
-                    #st.success(f"Loaded {file_info['name']}")
+                    st.success(f"Loaded {file_info['name']}")
                 except Exception as e:
                     st.warning(f"Error reading {file_info['name']}: {str(e)}")
 
@@ -76,22 +73,20 @@ def fetch_csv_files_from_github() -> pd.DataFrame:
 # Function to fetch team mapping from GitHub
 def fetch_team_mapping() -> pd.DataFrame:
     """Fetch team mapping Excel file from GitHub repository."""
+    # Raw content URL for the Excel file
     excel_url = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/{EXCEL_DIR}/{TEAM_MAPPING_FILE}"
-    
+
     try:
-        with st.spinner("Loading team mapping file..."):
+        with st.spinner(f"Loading team mapping file..."):
+            # Fetch file content
             response = requests.get(excel_url)
             response.raise_for_status()
+
+            # Read Excel from response content
             team_mapping = pd.read_excel(io.BytesIO(response.content))
-            
-            # Validate columns exist
-            required_columns = [TEAM_ID_COL, TEAM_NAME_COL]
-            if not all(col in team_mapping.columns for col in required_columns):
-                st.error(f"Team mapping file missing required columns: {required_columns}")
-                return pd.DataFrame()
-                
-            return team_mapping[[TEAM_ID_COL, TEAM_NAME_COL]]  # Return only needed columns
-            
+            st.success("Team mapping loaded successfully")
+            return team_mapping
+
     except Exception as e:
         st.error(f"Error fetching team mapping file: {str(e)}")
         return pd.DataFrame()
@@ -308,7 +303,7 @@ STAT_FUNCTIONS = {
 
 # Main app
 def main():
-    st.title("Player Statistics Dashboard")
+    st.title("Football Statistics Dashboard")
 
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
@@ -326,63 +321,39 @@ def main():
 
                 # Process data similar to original script
                 st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
-                st.session_state.df.rename(columns={'teamid': 'team'}, inplace=True)
+
                 # Fetch and merge team mapping
                 team_mapping = fetch_team_mapping()
                 if not team_mapping.empty:
-                    # Convert columns to compatible types
-                    st.session_state.df['team'] = st.session_state.df['team'].astype(str)
-                    team_mapping['ID'] = team_mapping['ID'].astype(str)
-
-                    # Perform the merge
-                    st.session_state.df = st.session_state.df.merge(
-                        team_mapping,
-                        left_on='team',
-                        right_on='ID',
-                        how='left'
-                    )
-                    
-                    # Replace team IDs with names where available
-                    st.session_state.df['team'] = np.where(
-                        st.session_state.df[TEAM_NAME_COL].notna(),
-                        st.session_state.df[TEAM_NAME_COL],
-                        st.session_state.df['team']
-                    )
-                    
-                    # Cleanup merged columns
-                    st.session_state.df.drop(columns=['ID', TEAM_NAME_COL], inplace=True)
+                    st.session_state.df = st.session_state.df.merge(team_mapping, left_on='team', right_on='Team Id', how='left')
+                    st.session_state.df['team'] = st.session_state.df['Team Name'].fillna(st.session_state.df['team'])
+                    st.session_state.df.drop(columns=['Team Id', 'Team Name'], inplace=True)
+                    st.success("Team mapping applied successfully")
                 else:
-                    st.warning("Team mapping file could not be loaded or is missing required columns.")
-
+                    st.warning("Team mapping could not be loaded.")
 
                 st.session_state.data_loaded = True
+                st.success("Data loaded successfully!")
             else:
-                st.error("Failed to load data from GitHub repository.")
-                return
+                st.error("Failed to load data from GitHub.")
 
-    # Ensure dataframe is loaded before proceeding
-    if st.session_state.df is None or st.session_state.df.empty:
-        st.warning("No data loaded. Please check the data source and try again.")
-        return
+    # Data is loaded, proceed with the rest of the app
+    if st.session_state.data_loaded and st.session_state.df is not None:
+        # Sidebar for statistics selection
+        st.sidebar.header("Statistic Selection")
+        selected_stats = st.sidebar.selectbox("Choose statistic", list(STAT_FUNCTIONS.keys()), index=0)
 
-    # Sidebar for statistics selection
-    st.sidebar.header("Statistics Selection")
-    selected_stat = st.sidebar.selectbox("Choose a statistic:", list(STAT_FUNCTIONS.keys()))
-
-    # Display selected statistic
-    if selected_stat:
-        stat_function = STAT_FUNCTIONS[selected_stat]["func"]
-        stat_description = STAT_FUNCTIONS[selected_stat]["desc"]
-
-        st.subheader(f"{selected_stat} Statistics")
-        st.write(stat_description)
-
-        # Apply selected statistic function
-        try:
+        # Run the selected statistic function
+        stat_function = STAT_FUNCTIONS[selected_stats]["func"]
+        with st.spinner(f"Calculating {selected_stats}..."):
             stat_df = stat_function(st.session_state.df.copy())  # Pass a copy to avoid modifying the original DataFrame
-            st.dataframe(stat_df, use_container_width=True)
-        except Exception as e:
-            st.error(f"Error calculating {selected_stat} statistics: {str(e)}")
+
+        # Display the results
+        st.header(f"{selected_stats} Statistics")
+        st.dataframe(stat_df, width=None, index=False) # Show all columns, hide index
+
+    elif not st.session_state.data_loaded:
+        st.info("Loading data from GitHub...")
 
 if __name__ == "__main__":
     main()
