@@ -54,7 +54,7 @@ def fetch_csv_files_from_github() -> pd.DataFrame:
                 try:
                     df = pd.read_csv(io.StringIO(file_response.content.decode('ISO-8859-1')))
                     all_dfs.append(df)
-                    st.success(f"Loaded {file_info['name']}")
+                   # st.success(f"Loaded {file_info['name']}")
                 except Exception as e:
                     st.warning(f"Error reading {file_info['name']}: {str(e)}")
         
