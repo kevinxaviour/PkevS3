@@ -176,6 +176,7 @@ def shot_accuracy(df: pd.DataFrame) -> pd.DataFrame:
 
     df_summary['Shot_Accuracy'] = (df_summary['Shots_On_Target'] / df_summary['Shots']) * 100
     df_summary['Shot_Accuracy'] = df_summary['Shot_Accuracy'].fillna(0).round(1)
+    df_summary=df_summary[df_summary['Shots']>=df_summary['Shots'].median()]
     df_summary = df_summary.sort_values(by='Shot_Accuracy', ascending=False)
     df_summary = df_summary[['Player_FN','team','Shots', 'Shot_Accuracy']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
