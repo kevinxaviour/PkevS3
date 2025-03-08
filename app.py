@@ -311,7 +311,7 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['save%'] = (df_summary['Saves'] / df_summary['Shots_faced']) * 100
     df_summary['save%'] = df_summary['save%'].fillna(0).round(1)
     df_summary = df_summary.sort_values(by='save%', ascending=False)
-    df_summary = df_summary[df_summary['Saves'] > df_summary['Saves'].mean()]
+    df_summary = df_summary[df_summary['Saves'] > df_summary['Saves'].median()]
     df_summary = df_summary[['Player_FN','team', 'Saves', 'save%']].rename(
         columns={'Player_FN': 'Name', 'save%': 'Save Percentage','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
