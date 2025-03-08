@@ -377,15 +377,15 @@ def main():
                 st.error("Data loading failed. Check your GitHub repository and file paths.")
     
     # Sidebar for statistic selection
-    st.sidebar.header("Statistic Selection")
-    selected_stat = st.sidebar.selectbox("Choose a statistic:", options=list(STAT_FUNCTIONS.keys()))
+    st.sidebar.header("Select Stat")
+    selected_stat = st.sidebar.selectbox("", options=list(STAT_FUNCTIONS.keys()))
     
     # Display selected statistic
     if st.session_state.data_loaded:
         stat_function = STAT_FUNCTIONS[selected_stat]["func"]
         description = STAT_FUNCTIONS[selected_stat]["desc"]
         
-        st.subheader(f"{selected_stat} Statistics")
+        st.subheader(f"{selected_stat} Stats")
         st.write(description)
         
         # Apply the selected statistic function
