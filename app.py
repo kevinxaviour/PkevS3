@@ -320,12 +320,12 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
 
 # Dictionary mapping function names to functions and their descriptions
 STAT_FUNCTIONS = {
-    "Goals": {"func": Goals_stats, "desc": "Player Goal Statistics"},
-    "Detailed Goals": {"func": Goalsd_stats, "desc": "Player Detailed Goal Statistics"},
-    "Assists": {"func": Assists_stats, "desc": "Player Assist Statistics"},
-    "Goals + Assists": {"func": GA, "desc": "Player Goals + Assists Statistics"},
+    "Goals": {"func": Goals_stats, "desc": "Goal Scored By Players"},
+    "Detailed Goals": {"func": Goalsd_stats, "desc": "Detailed Goal Statistics For Players"},
+    "Assists": {"func": Assists_stats, "desc": "Assists By Players"},
+    "Goals + Assists": {"func": GA, "desc": "Goals + Assists By Players"},
     "Chances Created": {"func": cc, "desc": "Chances Created By Players"},
-    "Shot Accuracy": {"func": shot_accuracy, "desc": "Player Shot Accuracy Statistics"},
+    "Shot Accuracy": {"func": shot_accuracy, "desc": "Shot Accuracy By Players"},
     "Fouls": {"func": fouls_stats, "desc": "Fouls Committed By Players"},
     "Yellow Cards": {"func": yc_stats, "desc": "Yellow Cards Received By Players"},
     "Red Cards": {"func": rc_stats, "desc": "Red Cards Received By Players"},
@@ -340,7 +340,7 @@ STAT_FUNCTIONS = {
 
 # Main app
 def main():
-    st.title("Player Statistics")
+    st.title("Porkallam Season 3 Player Statistics")
     
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
