@@ -105,6 +105,23 @@ def Goals_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary[df_summary['Goals'] != 0]
     return df_summary
 
+def Goalsd_stats(df: pd.DataFrame) -> pd.DataFrame:
+    df_summary = df.groupby(['team', 'playerid', 'Player_FN']).agg(
+        Matches=('matchid', 'nunique'),
+        Goals=('Goals', 'sum'),
+        Left=('left_goals', 'sum'),
+        Right=('right_goals', 'sum'),
+        Head=('head_goals', 'sum'),
+        Penalty=('penalty_goals', 'sum')
+    ).reset_index()
+    df_summary = df_summary.sort_values(by=['Goals', 'Matches'], ascending=[False, True])
+    df_summary['Rank'] = df_summary['Goals'].rank(method='dense', ascending=False).astype(int)
+    df_summary = df_summary[['Rank', 'Player_FN', 'team','Left','Right','Head','Penalty', 'Goals']].rename(columns={'Player_FN': 'Name','team':'Team'})
+    df_summary['Name'] = df_summary['Name'].str.title()
+    df_summary = df_summary.reset_index(drop=True)
+    df_summary = df_summary[df_summary['Goals'] != 0]
+    return df_summary
+
 def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
         Matches=('matchid', 'nunique'), 
@@ -303,21 +320,22 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
 
 # Dictionary mapping function names to functions and their descriptions
 STAT_FUNCTIONS = {
-    "Goals": {"func": Goals_stats, "desc": "Player goal statistics"},
-    "Assists": {"func": Assists_stats, "desc": "Player assist statistics"},
-    "Goals + Assists": {"func": GA, "desc": "Player Goals+Assists statistics"},
-    "Chances Created": {"func": cc, "desc": "Chances created by players"},
-    "Shot Accuracy": {"func": shot_accuracy, "desc": "Player shot accuracy statistics"},
-    "Fouls": {"func": fouls_stats, "desc": "Fouls committed by players"},
-    "Yellow Cards": {"func": yc_stats, "desc": "Yellow cards received by players"},
-    "Red Cards": {"func": rc_stats, "desc": "Red cards received by players"},
-    "Offsides": {"func": offsides_stats, "desc": "Offside statistics by players"},
-    "Tackles Per Match": {"func": tackles_90, "desc": "Average tackles per match by players"},
-    "Interceptions Per Match": {"func": inter_90, "desc": "Average interceptions per match by players"},
-    "Blocks Per Match": {"func": blocks_90, "desc": "Average blocks per match by players"},
-    "Goalkeeper Saves": {"func": GK_Saves, "desc": "Total saves by goalkeepers"},
-    "Goalkeeper Clean Sheets": {"func": GK_cs, "desc": "Clean sheets by goalkeepers"},
-    "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save percentage by goalkeepers"}
+    "Goals": {"func": Goals_stats, "desc": "Player Goal Statistics"},
+    "Detailed Goals": {"func": Goalsd_stats, "desc": "Player Detailed Goal Statistics"},
+    "Assists": {"func": Assists_stats, "desc": "Player Assist Statistics"},
+    "Goals + Assists": {"func": GA, "desc": "Player Goals + Assists Statistics"},
+    "Chances Created": {"func": cc, "desc": "Chances Created By Players"},
+    "Shot Accuracy": {"func": shot_accuracy, "desc": "Player Shot Accuracy Statistics"},
+    "Fouls": {"func": fouls_stats, "desc": "Fouls Committed By Players"},
+    "Yellow Cards": {"func": yc_stats, "desc": "Yellow Cards Received By Players"},
+    "Red Cards": {"func": rc_stats, "desc": "Red Cards Received By Players"},
+    "Offsides": {"func": offsides_stats, "desc": "Offside Statistics By Players"},
+    "Tackles Per Match": {"func": tackles_90, "desc": "Average Tackles Per Match By Players"},
+    "Interceptions Per Match": {"func": inter_90, "desc": "Average Interceptions Per Match By Players"},
+    "Blocks Per Match": {"func": blocks_90, "desc": "Average Blocks Per Match By Players"},
+    "Goalkeeper Saves": {"func": GK_Saves, "desc": "Total Saves By Goalkeepers"},
+    "Goalkeeper Clean Sheets": {"func": GK_cs, "desc": "Clean Sheets By Goalkeepers"},
+    "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save Percentage By Goalkeepers"}
 }
 
 # Main app
