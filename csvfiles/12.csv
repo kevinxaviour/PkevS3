@@ -1,23 +1,23 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid
-Poovai United,3,POR2025231,HARISH ,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Forward,0,4,12
-Poovai United,3,POR2025232,GERALD,8,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0,0,0,Midfield,0,4,12
-Poovai United,3,POR2025233,RAGU,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Defense,0,4,12
-Poovai United,3,POR2025237,ANTO ,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,2,0,0,Defense,0,4,12
-Poovai United,3,POR2025239,EZHIL,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,4,12
-Poovai United,3,POR2025246,DEEPAK ,2,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,Defense,0,4,12
-Poovai United,3,POR2025247,MANI,11,0,0,0,0,0,0,0,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,Forward,0,4,12
-Poovai United,3,POR2025248,IRFAN,15,0,0,0,0,0,0,1,1,0,0,2,2,0,0,1,0,0,0,1,1,0,0,0,Midfield,0,4,12
-Poovai United,3,POR2025249,TAMIL,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Forward,0,4,12
-Poovai United,3,POR2025253,GOWTHAM,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Forward,0,4,12
-Poovai United,3,POR2025255,SANJAY,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,0,4,12
-Sethu FC,7,POR2025152,siva,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Defense,1,1,12
-Sethu FC,7,POR2025153,VIJI.N,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,Midfield,1,1,12
-Sethu FC,7,POR2025154,SOLAI,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,1,1,12
-Sethu FC,7,POR2025159,MADDY,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,1,0,Midfield,1,1,12
-Sethu FC,7,POR2025160,GUHAN,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,1,0,Midfield,1,1,12
-Sethu FC,7,POR2025164,SANDY,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Midfield,1,1,12
-Sethu FC,7,POR2025165,PADAYAN,17,1,1,0,0,0,0,0,0,0,2,1,3,1,0,0,0,0,0,0,1,1,0,0,Forward,1,1,12
-Sethu FC,7,POR2025168,SEKAR,19,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,Midfield,1,1,12
-Sethu FC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,1,1,12
-Sethu FC,7,POR2025174,NANDHA,9,1,0,1,0,0,0,2,2,1,1,0,1,0,0,1,0,0,0,1,0,0,0,0,Forward,1,1,12
-Sethu FC,7,POR2025175,VASANTH JR,14,0,0,0,0,0,1,0,1,0,1,1,2,0,0,2,0,0,0,1,1,0,0,0,Forward,1,1,12
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Poovai United,3,POR2025231,HARISH ,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Forward,0,4,12,HARISH KUMAR.S
+Poovai United,3,POR2025232,GERALD,8,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0,0,0,Midfield,0,4,12,GERALD MATTHEW A
+Poovai United,3,POR2025233,RAGU,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Defense,0,4,12,RAGU R
+Poovai United,3,POR2025237,ANTO ,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,2,0,0,Defense,0,4,12,ANTO JEROME G
+Poovai United,3,POR2025239,EZHIL,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,4,12,EZHILARASAN A
+Poovai United,3,POR2025246,DEEPAK ,2,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,Defense,0,4,12,DEEPAK ANAND 
+Poovai United,3,POR2025247,MANI,11,0,0,0,0,0,0,0,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,Forward,0,4,12,MANI S 
+Poovai United,3,POR2025248,IRFAN,15,0,0,0,0,0,0,1,1,0,0,2,2,0,0,1,0,0,0,1,1,0,0,0,Midfield,0,4,12,MOHAMED IRFAN SK
+Poovai United,3,POR2025249,TAMIL,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Forward,0,4,12,TAMIZARSAN R
+Poovai United,3,POR2025253,GOWTHAM,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Forward,0,4,12,GOWTHAM RAJ R
+Poovai United,3,POR2025255,SANJAY,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,0,4,12,SANJAY N 
+Sethu FC,7,POR2025152,siva,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Defense,1,1,12,sivabalan
+Sethu FC,7,POR2025153,VIJI.N,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,Midfield,1,1,12,vijay
+Sethu FC,7,POR2025154,SOLAI,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,1,1,12,SOLAI RAJ
+Sethu FC,7,POR2025159,MADDY,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,1,0,Midfield,1,1,12,madhavan
+Sethu FC,7,POR2025160,GUHAN,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,1,0,Midfield,1,1,12,GUHAN RAJ
+Sethu FC,7,POR2025164,SANDY,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Midfield,1,1,12,SANTHOSH KUMAR SELVAM
+Sethu FC,7,POR2025165,PADAYAN,17,1,1,0,0,0,0,0,0,0,2,1,3,1,0,0,0,0,0,0,1,1,0,0,Forward,1,1,12,RAJASEKHAR
+Sethu FC,7,POR2025168,SEKAR,19,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,Midfield,1,1,12,SEKAR
+Sethu FC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,1,1,12,NITHEESH MAHARAJA
+Sethu FC,7,POR2025174,NANDHA,9,1,0,1,0,0,0,2,2,1,1,0,1,0,0,1,0,0,0,1,0,0,0,0,Forward,1,1,12,NANDHAKUMAR
+Sethu FC,7,POR2025175,VASANTH JR,14,0,0,0,0,0,1,0,1,0,1,1,2,0,0,2,0,0,0,1,1,0,0,0,Forward,1,1,12,VASANTH

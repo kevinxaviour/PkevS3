@@ -1,24 +1,24 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid
-Falcons FA,12,POR2025024,Kamalesh,19,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,Forward,0,4,21
-Falcons FA,12,POR2025027,Deepak,8,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,0,0,0,0,2,0,0,0,Midfield,0,4,21
-Falcons FA,12,POR2025028,Harish,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,4,21
-Falcons FA,12,POR2025030,Sharath,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,4,21
-Falcons FA,12,POR2025032,Sherif,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,GK,0,4,21
-Falcons FA,12,POR2025033,Parvez,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,3,0,Defense,0,4,21
-Falcons FA,12,POR2025034,Naresh,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,Defense,0,4,21
-Falcons FA,12,POR2025035,Lal,6,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,Defense,0,4,21
-Falcons FA,12,POR2025036,Yuvaraj,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Midfield,0,4,21
-Falcons FA,12,POR2025038,Kabilan,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,4,21
-Falcons FA,12,POR2025039,Tunga,22,0,0,0,0,0,0,0,0,0,1,0,2,0,1,3,0,0,0,1,2,0,0,0,Forward,0,4,21
-Falcons FA,12,POR2025041,Sam,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,21
-Falcons FA,12,POR2025042,Jaga,27,0,0,0,0,0,0,0,0,0,2,0,2,0,0,1,0,0,0,0,4,2,2,0,Defense,0,4,21
-Noble FC,17,POR2025421,Raj,17,1,0,1,0,0,0,1,1,0,2,1,5,0,2,1,0,0,0,0,1,1,0,0,Midfield,1,4,21
-Noble FC,17,POR2025425,Rahul ,15,0,0,0,0,0,0,1,1,0,0,1,1,0,0,4,0,0,0,0,2,0,0,0,Midfield,1,4,21
-Noble FC,17,POR2025426,Ok,7,0,0,0,0,0,0,0,0,0,0,2,4,0,2,0,0,0,0,0,1,1,0,0,Forward,1,4,21
-Noble FC,17,POR2025427,Karthikeyan,5,0,0,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,1,2,0,0,Defense,1,4,21
-Noble FC,17,POR2025428,SHAJI,80,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,Midfield,1,4,21
-Noble FC,17,POR2025429,Karthi,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,1,1,0,Defense,1,4,21
-Noble FC,17,POR2025430,Shijo Mathew,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,GK,1,4,21
-Noble FC,17,POR2025440,Gnana Prasad,18,0,0,0,0,0,0,1,1,0,2,1,3,0,0,1,0,1,0,0,1,0,0,0,Forward,1,4,21
-Noble FC,17,POR2025441,Vijayakumar,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,1,4,21
-Noble FC,17,POR2025442,Kaviyarasan,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Defense,1,4,21
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Falcons FA,12,POR2025024,Kamalesh,19,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,Forward,0,4,21,Kamaleshwaran S
+Falcons FA,12,POR2025027,Deepak,8,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,0,0,0,0,2,0,0,0,Midfield,0,4,21,Deepak M
+Falcons FA,12,POR2025028,Harish,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,4,21,Harish R
+Falcons FA,12,POR2025030,Sharath,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,4,21,Sharath Kumar JK
+Falcons FA,12,POR2025032,Sherif,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,GK,0,4,21,Sherif Mohammed I
+Falcons FA,12,POR2025033,Parvez,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,3,0,Defense,0,4,21,Mohammed Parvez
+Falcons FA,12,POR2025034,Naresh,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,Defense,0,4,21,Naresh E
+Falcons FA,12,POR2025035,Lal,6,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,Defense,0,4,21,Mothilal N
+Falcons FA,12,POR2025036,Yuvaraj,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Midfield,0,4,21,Yuvaraj Kumar. R
+Falcons FA,12,POR2025038,Kabilan,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,4,21,Kabilan J
+Falcons FA,12,POR2025039,Tunga,22,0,0,0,0,0,0,0,0,0,1,0,2,0,1,3,0,0,0,1,2,0,0,0,Forward,0,4,21,Vijay Tunga
+Falcons FA,12,POR2025041,Sam,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,21,Sam T
+Falcons FA,12,POR2025042,Jaga,27,0,0,0,0,0,0,0,0,0,2,0,2,0,0,1,0,0,0,0,4,2,2,0,Defense,0,4,21,Jagadeesh A
+Noble FC,17,POR2025421,Raj,17,1,0,1,0,0,0,1,1,0,2,1,5,0,2,1,0,0,0,0,1,1,0,0,Midfield,1,4,21,Shudarshan Raj N
+Noble FC,17,POR2025425,Rahul ,15,0,0,0,0,0,0,1,1,0,0,1,1,0,0,4,0,0,0,0,2,0,0,0,Midfield,1,4,21,Rahul.g
+Noble FC,17,POR2025426,Ok,7,0,0,0,0,0,0,0,0,0,0,2,4,0,2,0,0,0,0,0,1,1,0,0,Forward,1,4,21,Ashwin.S
+Noble FC,17,POR2025427,Karthikeyan,5,0,0,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,1,2,0,0,Defense,1,4,21,Karthikeyan. M
+Noble FC,17,POR2025428,SHAJI,80,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,Midfield,1,4,21,Shaji S
+Noble FC,17,POR2025429,Karthi,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,1,1,0,Defense,1,4,21,Karthikeyan. R
+Noble FC,17,POR2025430,Shijo Mathew,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,GK,1,4,21,Shijo Mathew
+Noble FC,17,POR2025440,Gnana Prasad,18,0,0,0,0,0,0,1,1,0,2,1,3,0,0,1,0,1,0,0,1,0,0,0,Forward,1,4,21,Gnanaprasad
+Noble FC,17,POR2025441,Vijayakumar,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,1,4,21,Vijayakumar
+Noble FC,17,POR2025442,Kaviyarasan,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Defense,1,4,21,Kaviyarasan

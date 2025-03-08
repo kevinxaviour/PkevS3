@@ -1,26 +1,26 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid
-FC Revelation,2,POR2025073,SURAJ,12,0,0,0,0,0,0,2,2,0,1,0,1,0,0,3,0,0,0,0,1,0,0,0,Midfield,1,1,15
-FC Revelation,2,POR2025076,Tamil,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,1,1,15
-FC Revelation,2,POR2025077,Solai,27,0,0,0,0,0,0,4,4,0,0,0,0,0,0,3,1,0,0,0,2,1,0,0,Midfield,1,1,15
-FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,1,0,0,0,1,0,1,0,Defense,1,1,15
-FC Revelation,2,POR2025080,Praba,3,0,0,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,Defense,1,1,15
-FC Revelation,2,POR2025082,Ahmed,6,0,0,0,0,0,0,2,2,0,0,1,1,0,0,1,0,0,0,1,1,1,0,0,Midfield,1,1,15
-FC Revelation,2,POR2025086,Akhilesh,21,0,0,0,0,0,0,1,1,1,3,2,5,0,0,1,0,0,0,0,0,0,0,0,Forward,1,1,15
-FC Revelation,2,POR2025087,Praveen,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,Defense,1,1,15
-FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,1,1,15
-FC Revelation,2,POR2025094,Harish Jr,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Forward,1,1,15
-FC Revelation,2,POR2025096,Sharan,20,0,0,0,0,0,0,0,0,0,2,1,3,0,0,0,0,0,0,0,0,1,0,0,Forward,1,1,15
-FC Revelation,2,POR2025098,Alex,13,0,0,0,0,0,0,3,3,0,0,2,2,1,0,0,0,0,0,0,0,1,0,0,Midfield,1,1,15
-Falcons FA,12,POR2025024,Kamalesh,19,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,2,0,0,0,0,Forward,1,6,15
-Falcons FA,12,POR2025027,Deepak,8,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,6,15
-Falcons FA,12,POR2025030,Sharath,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,6,15
-Falcons FA,12,POR2025031,S Srinivasan,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,6,15
-Falcons FA,12,POR2025032,Sherif,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,GK,1,6,15
-Falcons FA,12,POR2025033,Parvez,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,3,0,0,Defense,1,6,15
-Falcons FA,12,POR2025034,Naresh,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,2,2,0,0,0,Defense,1,6,15
-Falcons FA,12,POR2025035,Lal,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,Defense,1,6,15
-Falcons FA,12,POR2025036,Yuvaraj,18,0,0,0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,0,2,2,2,0,0,Midfield,1,6,15
-Falcons FA,12,POR2025038,Kabilan,11,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,2,0,0,0,Midfield,1,6,15
-Falcons FA,12,POR2025039,Tunga,22,0,0,0,0,0,0,1,1,0,0,0,1,0,1,3,0,0,0,0,1,0,0,0,Forward,1,6,15
-Falcons FA,12,POR2025040,Rass,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,Defense,1,6,15
-Falcons FA,12,POR2025041,Sam,9,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Forward,1,6,15
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FC Revelation,2,POR2025073,SURAJ,12,0,0,0,0,0,0,2,2,0,1,0,1,0,0,3,0,0,0,0,1,0,0,0,Midfield,1,1,15,Suraj Kumar
+FC Revelation,2,POR2025076,Tamil,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,1,1,15,Tamilkumaran P
+FC Revelation,2,POR2025077,Solai,27,0,0,0,0,0,0,4,4,0,0,0,0,0,0,3,1,0,0,0,2,1,0,0,Midfield,1,1,15,N Solaimalai
+FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,1,0,0,0,1,0,1,0,Defense,1,1,15,Jana Karthikeyan S
+FC Revelation,2,POR2025080,Praba,3,0,0,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,Defense,1,1,15,Prabakaran J
+FC Revelation,2,POR2025082,Ahmed,6,0,0,0,0,0,0,2,2,0,0,1,1,0,0,1,0,0,0,1,1,1,0,0,Midfield,1,1,15,H A C Ahmed Sahib
+FC Revelation,2,POR2025086,Akhilesh,21,0,0,0,0,0,0,1,1,1,3,2,5,0,0,1,0,0,0,0,0,0,0,0,Forward,1,1,15,Akhilesh S
+FC Revelation,2,POR2025087,Praveen,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,Defense,1,1,15,Praveen Kumar Naidu T
+FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,1,1,15,S Shek Shamshir
+FC Revelation,2,POR2025094,Harish Jr,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Forward,1,1,15,Harish R
+FC Revelation,2,POR2025096,Sharan,20,0,0,0,0,0,0,0,0,0,2,1,3,0,0,0,0,0,0,0,0,1,0,0,Forward,1,1,15,Sharan A
+FC Revelation,2,POR2025098,Alex,13,0,0,0,0,0,0,3,3,0,0,2,2,1,0,0,0,0,0,0,0,1,0,0,Midfield,1,1,15,John Alex V
+Falcons FA,12,POR2025024,Kamalesh,19,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,2,0,0,0,0,Forward,1,6,15,Kamaleshwaran S
+Falcons FA,12,POR2025027,Deepak,8,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,6,15,Deepak M
+Falcons FA,12,POR2025030,Sharath,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,6,15,Sharath Kumar JK
+Falcons FA,12,POR2025031,S Srinivasan,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,6,15,Santhosh
+Falcons FA,12,POR2025032,Sherif,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,GK,1,6,15,Sherif Mohammed I
+Falcons FA,12,POR2025033,Parvez,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,3,0,0,Defense,1,6,15,Mohammed Parvez
+Falcons FA,12,POR2025034,Naresh,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,2,2,0,0,0,Defense,1,6,15,Naresh E
+Falcons FA,12,POR2025035,Lal,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,Defense,1,6,15,Mothilal N
+Falcons FA,12,POR2025036,Yuvaraj,18,0,0,0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,0,2,2,2,0,0,Midfield,1,6,15,Yuvaraj Kumar. R
+Falcons FA,12,POR2025038,Kabilan,11,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,2,0,0,0,Midfield,1,6,15,Kabilan J
+Falcons FA,12,POR2025039,Tunga,22,0,0,0,0,0,0,1,1,0,0,0,1,0,1,3,0,0,0,0,1,0,0,0,Forward,1,6,15,Vijay Tunga
+Falcons FA,12,POR2025040,Rass,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,Defense,1,6,15,Shanmugaraj
+Falcons FA,12,POR2025041,Sam,9,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Forward,1,6,15,Sam T

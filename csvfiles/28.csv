@@ -1,26 +1,26 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid
-Apollo Tyres FC,5,POR2025277,Siva,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,0,0,Midfield,1,2,28
-Apollo Tyres FC,5,POR2025278,JACOB  ,12,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,2,28
-Apollo Tyres FC,5,POR2025283,Vasarth,57,0,0,0,0,0,0,4,4,0,0,1,2,0,1,1,0,0,0,0,0,0,0,0,Forward,1,2,28
-Apollo Tyres FC,5,POR2025285,Marshal,17,0,0,0,0,0,0,2,2,0,0,1,1,0,0,1,1,0,0,0,6,5,0,0,Defense,1,2,28
-Apollo Tyres FC,5,POR2025286,Jeffy ,21,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,5,0,0,0,Defense,1,2,28
-Apollo Tyres FC,5,POR2025287,MAHES,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,1,2,28
-Apollo Tyres FC,5,POR2025288,DEEPAK,7,1,0,1,0,0,0,0,0,0,4,4,8,0,0,2,0,0,0,0,3,0,0,0,Forward,1,2,28
-Apollo Tyres FC,5,POR2025289,SANJAY ,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Defense,1,2,28
-Apollo Tyres FC,5,POR2025290,Nishan,13,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,3,0,0,0,Midfield,1,2,28
-Apollo Tyres FC,5,POR2025291,Sheenu SR,20,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,Forward,1,2,28
-Apollo Tyres FC,5,POR2025292,Shailesh ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,1,0,0,Defense,1,2,28
-Apollo Tyres FC,5,POR2025293,Tamil,5,0,0,0,0,0,1,1,2,0,0,0,0,0,0,1,0,0,0,0,1,2,1,0,Midfield,1,2,28
-SGFC,13,POR2025259,KIRTHIK ,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Defense,0,5,28
-SGFC,13,POR2025261,RAKEY,17,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,Forward,0,5,28
-SGFC,13,POR2025262,John Marshal ,24,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,Defense,0,5,28
-SGFC,13,POR2025263,Sai,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,5,28
-SGFC,13,POR2025264,SHAM,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,5,28
-SGFC,13,POR2025267,Iyya ,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,Forward,0,5,28
-SGFC,13,POR2025268,Hari ms ,11,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,3,0,0,0,Forward,0,5,28
-SGFC,13,POR2025269,Raghul,9,0,0,0,0,0,0,1,1,0,0,2,2,0,0,3,0,0,0,0,2,0,0,0,Forward,0,5,28
-SGFC,13,POR2025270,BALA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,Defense,0,5,28
-SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,GK,0,5,28
-SGFC,13,POR2025273,FRANKLIN MESSI,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,Defense,0,5,28
-SGFC,13,POR2025275,Immanuel ,50,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,5,28
-SGFC,13,POR2025276,Vadakkan,18,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,7,2,1,0,Midfield,0,5,28
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Apollo Tyres FC,5,POR2025277,Siva,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,0,0,Midfield,1,2,28,J SIVAMARAN 
+Apollo Tyres FC,5,POR2025278,JACOB  ,12,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,2,28,Jacob Ruban
+Apollo Tyres FC,5,POR2025283,Vasarth,57,0,0,0,0,0,0,4,4,0,0,1,2,0,1,1,0,0,0,0,0,0,0,0,Forward,1,2,28,Vasanth 
+Apollo Tyres FC,5,POR2025285,Marshal,17,0,0,0,0,0,0,2,2,0,0,1,1,0,0,1,1,0,0,0,6,5,0,0,Defense,1,2,28,Jerome Marshal
+Apollo Tyres FC,5,POR2025286,Jeffy ,21,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,5,0,0,0,Defense,1,2,28,Jeffy J
+Apollo Tyres FC,5,POR2025287,MAHES,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,1,2,28,MAHESWARAN M 
+Apollo Tyres FC,5,POR2025288,DEEPAK,7,1,0,1,0,0,0,0,0,0,4,4,8,0,0,2,0,0,0,0,3,0,0,0,Forward,1,2,28,DEEPAK C
+Apollo Tyres FC,5,POR2025289,SANJAY ,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Defense,1,2,28,M.SANJAY KUMAR
+Apollo Tyres FC,5,POR2025290,Nishan,13,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,3,0,0,0,Midfield,1,2,28,N.shagul nishan
+Apollo Tyres FC,5,POR2025291,Sheenu SR,20,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,Forward,1,2,28,Sheenu.D
+Apollo Tyres FC,5,POR2025292,Shailesh ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,1,0,0,Defense,1,2,28,SHAILESH H.R.
+Apollo Tyres FC,5,POR2025293,Tamil,5,0,0,0,0,0,1,1,2,0,0,0,0,0,0,1,0,0,0,0,1,2,1,0,Midfield,1,2,28,Tamilarasu.p
+SGFC,13,POR2025259,KIRTHIK ,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Defense,0,5,28,KIRTHIK
+SGFC,13,POR2025261,RAKEY,17,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,Forward,0,5,28,Rakesh 
+SGFC,13,POR2025262,John Marshal ,24,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,Defense,0,5,28,W. John Marshal
+SGFC,13,POR2025263,Sai,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,5,28,H. Sai Krishnan 
+SGFC,13,POR2025264,SHAM,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,5,28,SHAM ROSHAN
+SGFC,13,POR2025267,Iyya ,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,Forward,0,5,28,Dineshkaran k
+SGFC,13,POR2025268,Hari ms ,11,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,3,0,0,0,Forward,0,5,28,Sri Saravana ganesh 
+SGFC,13,POR2025269,Raghul,9,0,0,0,0,0,0,1,1,0,0,2,2,0,0,3,0,0,0,0,2,0,0,0,Forward,0,5,28,Raghul raj
+SGFC,13,POR2025270,BALA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,Defense,0,5,28,Balasubramanyam kv
+SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,GK,0,5,28,VIGNESH
+SGFC,13,POR2025273,FRANKLIN MESSI,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,Defense,0,5,28,FRANKLIN.A
+SGFC,13,POR2025275,Immanuel ,50,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,5,28,Immanuel 
+SGFC,13,POR2025276,Vadakkan,18,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,7,2,1,0,Midfield,0,5,28,Avinash v
