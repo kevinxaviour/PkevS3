@@ -1,23 +1,23 @@
-team,teamid,playerid,player,jersey_no,Goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-FC Revelation,2,POR2025075,Pandi,8,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,2,2,S Pandian
-FC Revelation,2,POR2025077,Solai,27,1,0,0,0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,2,2,N Solaimalai
-FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,2,2,Jana Karthikeyan S
-FC Revelation,2,POR2025080,Praba,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,2,2,Prabakaran J
-FC Revelation,2,POR2025089,Ahino,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,2,2,Ahino Jahine J
-FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,2,2,S Shek Shamshir
-FC Revelation,2,POR2025095,Nixan,18,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Forward,0,2,2,Nixan samuvel
-FC Revelation,2,POR2025096,Sharan,20,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Forward,0,2,2,Sharan A
-FC Revelation,2,POR2025097,Sanjai,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,2,2,Ahilsanjai A
-FC Revelation,2,POR2025097,Sanjai ,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Defense,0,2,2,Ahilsanjai A
-FC Revelation,2,POR2025098,Alex,13,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,Midfield,0,2,2,John Alex V
-FC Revelation,2,POR2025099,Dory,9,1,0,1,1,0,1,0,1,0,0,1,0,0,0,0,1,0,1,0,Midfield,0,2,2,Sriram B
-SGFC,13,POR2025259,KIRTHIK ,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,4,2,KIRTHIK
-SGFC,13,POR2025261,RAKEY,17,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Forward,0,4,2,Rakesh 
-SGFC,13,POR2025262,John Marshal ,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,4,2,W. John Marshal
-SGFC,13,POR2025263,Sai,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,4,2,H. Sai Krishnan 
-SGFC,13,POR2025264,SHAM,8,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,4,2,SHAM ROSHAN
-SGFC,13,POR2025267,Iyya ,19,0,0,0,0,0,0,2,3,0,1,2,1,0,0,0,1,1,0,0,Forward,0,4,2,Dineshkaran k
-SGFC,13,POR2025268,Hari ms ,11,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,Forward,0,4,2,Sri Saravana ganesh 
-SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,0,4,2,VIGNESH
-SGFC,13,POR2025274,Rishi,79,0,1,0,1,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,2,RISHIKESH 
-SGFC,13,POR2025276,Vadakkan,18,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Midfield,0,4,2,Avinash v
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid
+FC Revelation,2,POR2025075,Pandi,8,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,2,2
+FC Revelation,2,POR2025077,Solai,27,1,0,1,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,2,2
+FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,2,2
+FC Revelation,2,POR2025080,Praba,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,2,2
+FC Revelation,2,POR2025089,Ahino,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,2,2
+FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,2,2
+FC Revelation,2,POR2025095,Nixan,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Forward,0,2,2
+FC Revelation,2,POR2025096,Sharan,20,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Forward,0,2,2
+FC Revelation,2,POR2025097,Sanjai,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,2,2
+FC Revelation,2,POR2025097,Sanjai ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Defense,0,2,2
+FC Revelation,2,POR2025098,Alex,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,Midfield,0,2,2
+FC Revelation,2,POR2025099,Dory,9,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,1,0,1,0,Midfield,0,2,2
+SGFC,13,POR2025259,KIRTHIK ,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,4,2
+SGFC,13,POR2025261,RAKEY,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Forward,0,4,2
+SGFC,13,POR2025262,John Marshal ,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,4,2
+SGFC,13,POR2025263,Sai,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,4,2
+SGFC,13,POR2025264,SHAM,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,4,2
+SGFC,13,POR2025267,Iyya ,19,0,0,0,0,0,0,0,0,0,0,2,3,0,1,2,1,0,0,0,1,1,0,0,Forward,0,4,2
+SGFC,13,POR2025268,Hari ms ,11,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,Forward,0,4,2
+SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,0,4,2
+SGFC,13,POR2025274,Rishi,79,0,0,0,0,0,1,0,1,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,2
+SGFC,13,POR2025276,Vadakkan,18,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Midfield,0,4,2

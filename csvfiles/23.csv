@@ -1,29 +1,28 @@
-team,teamid,playerid,player,jersey_no,Goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-FIFA,11,POR2025180,Jagadeesh,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,23,Jagadeesh G
-FIFA,11,POR2025181,Sathish ,8,0,0,0,0,0,1,1,2,0,0,1,0,0,0,0,2,0,1,0,Midfield,1,0,23,R. Sathish Kumar 
-FIFA,11,POR2025182,Kannan,5,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,3,0,0,Defense,1,0,23,Kannan.M
-FIFA,11,POR2025186,Micheal,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,Forward,1,0,23,Micheal Cornaleu. A
-FIFA,11,POR2025188,Vineeth,16,1,0,0,0,1,2,2,5,0,1,0,0,0,0,3,1,1,0,0,Forward,1,0,23,Vineethkumar. V
-FIFA,11,POR2025191,Deepak thapa ,20,0,0,0,0,0,0,1,2,0,1,1,0,0,0,0,9,0,1,0,Midfield,1,0,23,Deepak thapa magar 
-FIFA,11,POR2025195,Sanjay,19,1,0,0,0,0,4,0,4,0,0,1,0,0,0,0,1,1,0,0,Forward,1,0,23,N sanjay
-FIFA,11,POR2025196,DENIS,3,0,0,1,1,0,1,0,2,0,1,1,0,0,0,1,2,0,1,0,Defense,1,0,23,Denis vimal raj
-FIFA,11,POR2025199,Arvind,10,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,23,Aravindhan.R
-FIFA,11,POR2025201,Robert ,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,23,Robert Gerard Baldrey
-FIFA,11,POR2025187,Vishnu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GK,1,0,23,vishnu prasath E
-FIFA,11,POR2025204,Sri ,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,0,Defense,1,0,23,P.Sri Ganesh 
-FIFA,11,POR2025205,NAVIN,6,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,2,0,0,0,Midfield,1,0,23,Navin.P
-FIFA,11,POR2025207,Sundhar,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,23,Sundhar
-SGFC,13,POR2025259,KIRTHIK ,20,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,4,2,1,0,Defense,0,8,23,KIRTHIK
-SGFC,13,POR2025261,RAKEY,17,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Forward,0,8,23,Rakesh 
-SGFC,13,POR2025262,John Marshal ,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Defense,0,8,23,W. John Marshal
-SGFC,13,POR2025263,Sai,10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,8,23,H. Sai Krishnan 
-SGFC,13,POR2025265,Tamilzhamuthan,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,Midfield,0,8,23,Tamilzhamuthan R
-SGFC,13,POR2025266,Aadhii,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,8,23,ADHITHYAN.S
-SGFC,13,POR2025267,Iyya ,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,8,23,Dineshkaran k
-SGFC,13,POR2025268,Hari ms ,11,0,0,0,0,0,0,0,3,0,3,1,0,0,0,0,1,1,0,0,Forward,0,8,23,Sri Saravana ganesh 
-SGFC,13,POR2025269,Raghul,9,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,3,0,0,0,Forward,0,8,23,Raghul raj
-SGFC,13,POR2025270,BALA,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,2,0,Defense,0,8,23,Balasubramanyam kv
-SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,GK,0,8,23,VIGNESH
-SGFC,13,POR2025273,FRANKLIN MESSI,28,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,4,0,0,0,Defense,0,8,23,FRANKLIN.A
-SGFC,13,POR2025275,Immanuel ,50,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,0,0,0,Defense,0,8,23,Immanuel 
-SGFC,13,POR2025276,Vadakkan,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,5,3,0,0,Midfield,0,8,23,Avinash v
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid
+FIFA,11,POR2025180,Jagadeesh,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,23
+FIFA,11,POR2025181,Sathish ,8,0,0,0,0,0,0,0,0,0,1,1,2,0,0,1,0,0,0,0,2,0,1,0,Midfield,1,0,23
+FIFA,11,POR2025182,Kannan,5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,3,0,0,Defense,1,0,23
+FIFA,11,POR2025186,Micheal,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,Forward,1,0,23
+FIFA,11,POR2025188,Vineeth,16,1,0,1,0,1,0,0,0,1,2,2,5,0,1,0,0,0,0,3,1,1,0,0,Forward,1,0,23
+FIFA,11,POR2025191,Deepak thapa ,20,0,0,0,0,0,0,0,0,0,0,1,2,0,1,1,0,0,0,0,9,0,1,0,Midfield,1,0,23
+FIFA,11,POR2025195,Sanjay,19,1,1,0,0,0,0,0,0,0,4,0,4,0,0,1,0,0,0,0,1,1,0,0,Forward,1,0,23
+FIFA,11,POR2025196,DENIS,3,0,0,0,0,0,0,1,1,0,1,0,2,0,1,1,0,0,0,1,2,0,1,0,Defense,1,0,23
+FIFA,11,POR2025199,Arvind,10,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,23
+FIFA,11,POR2025201,Robert ,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,23
+FIFA,11,POR2025204,Sri ,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,0,Defense,1,0,23
+FIFA,11,POR2025205,NAVIN,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,2,0,0,0,Midfield,1,0,23
+FIFA,11,POR2025207,Sundhar,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,23
+SGFC,13,POR2025259,KIRTHIK ,20,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,4,2,1,0,Defense,0,8,23
+SGFC,13,POR2025261,RAKEY,17,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Forward,0,8,23
+SGFC,13,POR2025262,John Marshal ,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Defense,0,8,23
+SGFC,13,POR2025263,Sai,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,8,23
+SGFC,13,POR2025265,Tamilzhamuthan,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,Midfield,0,8,23
+SGFC,13,POR2025266,Aadhii,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,8,23
+SGFC,13,POR2025267,Iyya ,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,8,23
+SGFC,13,POR2025268,Hari ms ,11,0,0,0,0,0,0,0,0,0,0,0,3,0,3,1,0,0,0,0,1,1,0,0,Forward,0,8,23
+SGFC,13,POR2025269,Raghul,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,3,0,0,0,Forward,0,8,23
+SGFC,13,POR2025270,BALA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,2,0,Defense,0,8,23
+SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,GK,0,8,23
+SGFC,13,POR2025273,FRANKLIN MESSI,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,4,0,0,0,Defense,0,8,23
+SGFC,13,POR2025275,Immanuel ,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,0,0,0,Defense,0,8,23
+SGFC,13,POR2025276,Vadakkan,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,5,3,0,0,Midfield,0,8,23

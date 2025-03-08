@@ -1,32 +1,32 @@
-team,teamid,playerid,player,jersey_no,Goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-AMRFA,6,POR2025100,Raghul,20,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Forward,0,17,26,Raghul
-AMRFA,6,POR2025101,Sanjay,3,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,4,0,0,Defense,0,17,26,K Sanjay
-AMRFA,6,POR2025103,Deva,22,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,17,26,Deva R
-AMRFA,6,POR2025104,AJITH KUMAR R,6,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,2,1,0,0,Midfield,0,17,26,AJITH KUMAR R
-AMRFA,6,POR2025105,Logesh,9,0,0,0,0,0,1,1,2,0,0,0,0,0,0,0,4,0,0,0,Forward,0,17,26,Logesh R
-AMRFA,6,POR2025107,Dhanush,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,17,26,Dhanush
-AMRFA,6,POR2025111,Abi,4,0,0,0,0,0,0,1,1,0,0,2,1,0,0,0,1,0,0,0,Defense,0,17,26,Abilash S
-AMRFA,6,POR2025112,Dinesh,10,0,0,1,1,0,1,2,3,0,0,2,0,0,0,0,5,1,0,0,Midfield,0,17,26,Dinesh
-AMRFA,6,POR2025114,Pranith,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,Defense,0,17,26,M. Pranith
-AMRFA,6,POR2025115,Pranav,19,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,17,26,Pranav Sankar C.J
-AMRFA,6,POR2025118,Raji.R.S,18,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,Defense,0,17,26,Raji.R
-AMRFA,6,POR2025120,Gautam N,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,17,26,Gautam N
-AMRFA,6,POR2025122,VASANTH,29,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,Midfield,0,17,26,R.Vasanth babu
-AMRFA,6,POR2025124,Guru,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Forward,0,17,26,A.S GURU PRAKASH
-AMRFA,6,POR2025125,Niranjan ,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,GK,0,17,26,Niranjan
-Loyola College,1,POR2025001,Srini,39,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,3,26,S. SRINIVASAN
-Loyola College,1,POR2025003,Sanjay,16,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,Midfield,1,3,26,L.sanjay
-Loyola College,1,POR2025004,Vignesh ,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,1,3,26,Vignesh.S
-Loyola College,1,POR2025006,Mohanarasu,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,3,26,Mohanarasu 
-Loyola College,1,POR2025007,Sunil,19,2,1,2,3,1,4,1,5,0,0,0,0,0,0,2,1,0,0,0,Midfield,1,3,26,Sunil v 
-Loyola College,1,POR2025009,MARIA,4,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,Defense,1,3,26,Mariya Immanuel.A
-Loyola College,1,POR2025010,Kishore,6,0,1,1,2,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Defense,1,3,26,Kishore agilan
-Loyola College,1,POR2025011,Kishore R,12,3,1,2,3,2,5,2,7,0,0,1,0,0,0,0,1,0,0,0,Forward,1,3,26,Kishore Kumar R 
-Loyola College,1,POR2025012,JOBIN,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Midfield,1,3,26,JOBIN J
-Loyola College,1,POR2025013,Vishal,5,0,1,0,1,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,Defense,1,3,26,Vishal
-Loyola College,1,POR2025014,Lakshay,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,1,3,26,Lakshay.M
-Loyola College,1,POR2025015,Anold,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,1,3,26,Anold. A
-Loyola College,1,POR2025017,Siva,7,0,1,0,1,0,2,3,5,0,0,1,0,0,0,1,1,0,0,0,Midfield,1,3,26,N.sivasubramaniyan
-Loyola College,1,POR2025018,Vimal kumar ,11,0,0,2,2,1,0,2,2,0,0,1,0,0,0,0,0,1,0,0,Midfield,1,3,26,S.Vimal kumar 
-Loyola College,1,POR2025021,Rifan,30,2,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,3,26,Muhammed Rifan
-Loyola College,1,POR2025022,Melvin ,13,0,1,3,4,0,3,0,4,0,1,0,0,0,0,0,2,2,0,0,Midfield,1,3,26,Melvin Thomas
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid
+AMRFA,6,POR2025100,Raghul,20,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Forward,0,17,26
+AMRFA,6,POR2025101,Sanjay,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,4,0,0,Defense,0,17,26
+AMRFA,6,POR2025103,Deva,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,17,26
+AMRFA,6,POR2025104,AJITH KUMAR R,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,2,1,0,0,Midfield,0,17,26
+AMRFA,6,POR2025105,Logesh,9,0,0,0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,0,0,4,0,0,0,Forward,0,17,26
+AMRFA,6,POR2025107,Dhanush,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,17,26
+AMRFA,6,POR2025111,Abi,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,1,0,0,0,1,0,0,0,Defense,0,17,26
+AMRFA,6,POR2025112,Dinesh,10,0,0,0,0,0,0,1,1,0,1,2,3,0,0,2,0,0,0,0,5,1,0,0,Midfield,0,17,26
+AMRFA,6,POR2025114,Pranith,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,Defense,0,17,26
+AMRFA,6,POR2025115,Pranav,19,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,17,26
+AMRFA,6,POR2025118,Raji.R.S,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,Defense,0,17,26
+AMRFA,6,POR2025120,Gautam N,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,17,26
+AMRFA,6,POR2025122,VASANTH,29,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,Midfield,0,17,26
+AMRFA,6,POR2025124,Guru,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Forward,0,17,26
+AMRFA,6,POR2025125,Niranjan ,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,GK,0,17,26
+Loyola College,1,POR2025001,Srini,39,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,3,26
+Loyola College,1,POR2025003,Sanjay,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,Midfield,1,3,26
+Loyola College,1,POR2025004,Vignesh ,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,1,3,26
+Loyola College,1,POR2025006,Mohanarasu,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,3,26
+Loyola College,1,POR2025007,Sunil,19,2,1,1,0,0,1,2,3,1,4,1,5,0,0,0,0,0,0,2,1,0,0,0,Midfield,1,3,26
+Loyola College,1,POR2025009,MARIA,4,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,Defense,1,3,26
+Loyola College,1,POR2025010,Kishore,6,0,0,0,0,0,1,1,2,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Defense,1,3,26
+Loyola College,1,POR2025011,Kishore R,12,3,0,3,0,0,1,2,3,2,5,2,7,0,0,1,0,0,0,0,1,0,0,0,Forward,1,3,26
+Loyola College,1,POR2025012,JOBIN,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Midfield,1,3,26
+Loyola College,1,POR2025013,Vishal,5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,Defense,1,3,26
+Loyola College,1,POR2025014,Lakshay,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,1,3,26
+Loyola College,1,POR2025015,Anold,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,1,3,26
+Loyola College,1,POR2025017,Siva,7,0,0,0,0,0,1,0,1,0,2,3,5,0,0,1,0,0,0,1,1,0,0,0,Midfield,1,3,26
+Loyola College,1,POR2025018,Vimal kumar ,11,0,0,0,0,0,0,2,2,1,0,2,2,0,0,1,0,0,0,0,0,1,0,0,Midfield,1,3,26
+Loyola College,1,POR2025021,Rifan,30,2,0,2,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,3,26
+Loyola College,1,POR2025022,Melvin ,13,0,0,0,0,0,1,3,4,0,3,0,4,0,1,0,0,0,0,0,2,2,0,0,Midfield,1,3,26

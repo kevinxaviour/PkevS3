@@ -1,30 +1,30 @@
-team,teamid,playerid,player,jersey_no,Goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-First Goal FC,8,POR2025371,BALA,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,22,Bala srinivasan M
-First Goal FC,8,POR2025373,DHANUSH,8,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,4,1,2,0,Defense,0,3,22,DHANUSH WARAN
-First Goal FC,8,POR2025374,Sathish kumar,10,1,0,0,0,0,1,1,2,0,0,2,1,0,0,0,1,0,0,0,Forward,0,3,22,K. Sathish kumar
-First Goal FC,8,POR2025375,Murali,12,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Defense,0,3,22,Murali
-First Goal FC,8,POR2025377,NITHIN,13,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,GK,0,3,22,Nithin varshan.s
-First Goal FC,8,POR2025378,ROHITH JR,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,Defense,0,3,22,Rohith Christopher 
-First Goal FC,8,POR2025381,Kanna,17,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,Forward,0,3,22,E. Kanna
-First Goal FC,8,POR2025383,VISHAL,23,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,Defense,0,3,22,Vishal Gurumoorthi PG
-First Goal FC,8,POR2025384,VARUN,11,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,22,B.M.VARUN
-First Goal FC,8,POR2025386,AKASH ,33,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,1,0,0,Defense,0,3,22,R.AKASH
-First Goal FC,8,POR2025387,Anand,80,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Midfield,0,3,22,Anand 
-First Goal FC,8,POR2025388,Deepak ,22,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,0,Defense,0,3,22,Deepak Kumar 
-First Goal FC,8,POR2025389,Deepak,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Midfield,0,3,22,Deepak Kumar .S
-First Goal FC,8,POR2025393,Krishna,18,0,0,0,0,0,0,3,3,0,0,1,0,0,0,0,1,0,0,0,Forward,0,3,22,A.R.MOHANA KRISHNAN
-Poovai United,3,POR2025231,HARISH ,7,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,Forward,0,3,22,HARISH KUMAR.S
-Poovai United,3,POR2025232,GERALD,8,0,0,0,0,0,2,0,3,0,1,3,0,0,0,0,1,0,0,0,Midfield,0,3,22,GERALD MATTHEW A
-Poovai United,3,POR2025233,RAGU,23,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,3,22,RAGU R
-Poovai United,3,POR2025234,JOSHUA,10,0,0,1,1,0,0,0,1,0,1,1,1,0,0,0,1,0,0,0,Midfield,0,3,22,LOGESH KUMAR S
-Poovai United,3,POR2025235,YUVARAJ,4,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,Defense,0,3,22,YUVARAJ J
-Poovai United,3,POR2025237,ANTO ,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,3,22,ANTO JEROME G
-Poovai United,3,POR2025239,EZHIL,30,0,0,3,3,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,Defense,0,3,22,EZHILARASAN A
-Poovai United,3,POR2025244,AKASH,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Midfield,0,3,22,AKASH A
-Poovai United,3,POR2025246,DEEPAK ,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Defense,0,3,22,DEEPAK ANAND 
-Poovai United,3,POR2025247,MANI,11,0,1,2,3,0,0,2,4,0,2,1,0,0,0,0,0,0,0,0,Forward,0,3,22,MANI S 
-Poovai United,3,POR2025248,IRFAN,15,0,0,0,0,0,0,2,2,1,0,1,0,0,0,0,5,0,0,0,Midfield,0,3,22,MOHAMED IRFAN SK
-Poovai United,3,POR2025249,TAMIL,22,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,0,0,0,Forward,0,3,22,TAMIZARSAN R
-Poovai United,3,POR2025254,DINESH JR,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,3,22,D DINESH 
-Poovai United,3,POR2025255,SANJAY,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,0,3,22,SANJAY N 
-Poovai United,3,POR2025258,VICKY,92,0,0,1,1,0,0,1,2,0,1,2,1,0,0,0,2,2,0,0,Midfield,0,3,22,Vignesh V
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid
+First Goal FC,8,POR2025371,BALA,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,22
+First Goal FC,8,POR2025373,DHANUSH,8,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,4,1,2,0,Defense,0,3,22
+First Goal FC,8,POR2025374,Sathish kumar,10,1,0,1,0,1,0,0,0,0,1,1,2,0,0,2,1,0,0,0,1,0,0,0,Forward,0,3,22
+First Goal FC,8,POR2025375,Murali,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Defense,0,3,22
+First Goal FC,8,POR2025377,NITHIN,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,GK,0,3,22
+First Goal FC,8,POR2025378,ROHITH JR,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,Defense,0,3,22
+First Goal FC,8,POR2025381,Kanna,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,Forward,0,3,22
+First Goal FC,8,POR2025383,VISHAL,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,Defense,0,3,22
+First Goal FC,8,POR2025384,VARUN,11,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,22
+First Goal FC,8,POR2025386,AKASH ,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,1,0,0,Defense,0,3,22
+First Goal FC,8,POR2025387,Anand,80,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Midfield,0,3,22
+First Goal FC,8,POR2025388,Deepak ,22,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,0,Defense,0,3,22
+First Goal FC,8,POR2025389,Deepak,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Midfield,0,3,22
+First Goal FC,8,POR2025393,Krishna,18,0,0,0,0,0,0,0,0,0,0,3,3,0,0,1,0,0,0,0,1,0,0,0,Forward,0,3,22
+Poovai United,3,POR2025231,HARISH ,7,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,Forward,0,3,22
+Poovai United,3,POR2025232,GERALD,8,0,0,0,0,0,0,0,0,0,2,0,3,0,1,3,0,0,0,0,1,0,0,0,Midfield,0,3,22
+Poovai United,3,POR2025233,RAGU,23,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,3,22
+Poovai United,3,POR2025234,JOSHUA,10,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,1,0,0,0,1,0,0,0,Midfield,0,3,22
+Poovai United,3,POR2025235,YUVARAJ,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,Defense,0,3,22
+Poovai United,3,POR2025237,ANTO ,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,3,22
+Poovai United,3,POR2025239,EZHIL,30,0,0,0,0,0,0,3,3,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,Defense,0,3,22
+Poovai United,3,POR2025244,AKASH,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Midfield,0,3,22
+Poovai United,3,POR2025246,DEEPAK ,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Defense,0,3,22
+Poovai United,3,POR2025247,MANI,11,0,0,0,0,0,1,2,3,0,0,2,4,0,2,1,0,0,0,0,0,0,0,0,Forward,0,3,22
+Poovai United,3,POR2025248,IRFAN,15,0,0,0,0,0,0,0,0,0,0,2,2,1,0,1,0,0,0,0,5,0,0,0,Midfield,0,3,22
+Poovai United,3,POR2025249,TAMIL,22,1,0,1,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,0,0,0,Forward,0,3,22
+Poovai United,3,POR2025254,DINESH JR,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,3,22
+Poovai United,3,POR2025255,SANJAY,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,0,3,22
+Poovai United,3,POR2025258,VICKY,92,0,0,0,0,0,0,1,1,0,0,1,2,0,1,2,1,0,0,0,2,2,0,0,Midfield,0,3,22
