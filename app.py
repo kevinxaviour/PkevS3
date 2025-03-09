@@ -364,12 +364,13 @@ STAT_FUNCTIONS = {
 # Main app
 def main():
     st.title("Porkallam Season 3 Player Statistics")
-    
+
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
         st.session_state.df = None
         st.session_state.data_loaded = False
-    
+        st.session_state.selected_stat = None  # Store selected stat
+
     # Load data 
     if not st.session_state.data_loaded:
         with st.spinner("Loading data from GitHub repository..."):
@@ -395,16 +396,19 @@ def main():
                     st.error("Team mapping could not be loaded, using teamid instead.")
                 
                 st.session_state.data_loaded = True
-                # st.success("Data loaded successfully!")
             else:
                 st.error("Data loading failed. Check your GitHub repository and file paths.")
-    
-    # Sidebar for statistic selection
+
+    # Sidebar for statistic selection (Using Buttons Instead of Dropdown)
     st.sidebar.header("Select Stat")
-    selected_stat = st.sidebar.selectbox("", options=list(STAT_FUNCTIONS.keys()))
     
+    for stat_name in STAT_FUNCTIONS.keys():
+        if st.sidebar.button(stat_name):
+            st.session_state.selected_stat = stat_name
+
     # Display selected statistic
-    if st.session_state.data_loaded:
+    if st.session_state.data_loaded and st.session_state.selected_stat:
+        selected_stat = st.session_state.selected_stat
         stat_function = STAT_FUNCTIONS[selected_stat]["func"]
         description = STAT_FUNCTIONS[selected_stat]["desc"]
         
@@ -415,7 +419,7 @@ def main():
         try:
             result_df = stat_function(st.session_state.df.copy())
         
-            # Hide the index and use column configuration to auto-fit columns
+            # Display dataframe
             st.dataframe(
                 result_df,
                 height=500,
@@ -424,18 +428,10 @@ def main():
                 column_config={col: st.column_config.Column(width="auto") for col in result_df.columns}
             )
         
-            # Download button
-            # csv = result_df.to_csv(index=False)
-            # st.download_button(
-            #     label="Download current selection as CSV",
-            #     data=csv,
-            #     file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
-            #     mime='text/csv',
-            # )
         except Exception as e:
             st.error(f"Error calculating statistics: {str(e)}")
     else:
-        st.info("Please load data first.")
+        st.info("Please select a statistic.")
 
 # Run the main function
 if __name__ == "__main__":
