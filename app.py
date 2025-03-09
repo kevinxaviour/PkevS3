@@ -122,6 +122,26 @@ def Goalsd_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary[df_summary['Goals'] != 0]
     return df_summary
 
+def shotsd_stats(df: pd.DataFrame) -> pd.DataFrame:
+    df_summary = df.groupby(['team', 'playerid', 'Player_FN']).agg(
+        Matches=('matchid', 'nunique'),
+        Goals=('Goals', 'sum'),
+        Shots=('shots', 'sum'),
+        ShotsOT=('shots_on_target', 'sum')
+    ).reset_index()
+    df_summary = df_summary[df_summary['Shots'] > 0]
+    df_summary['Shots Per Match']=df_summary['Shots']/df_summary['Matches']
+    df_summary['Shots Per Match']=df_summary['Shots Per Match'].round(1)
+    df_summary['Shots On Target Per Match']=df_summary['ShotsOT']/df_summary['Matches']
+    df_summary['Shots On Target Per Match']=df_summary['Shots On Target Per Match'].round(1)
+    df_summary['Goals Per Match']=df_summary['Goals']/df_summary['Matches']
+    df_summary['Goals Per Match']=df_summary['Goals Per Match'].round(1)
+    df_summary = df_summary.sort_values(by=['Shots Per Match'], ascending=[False])
+    df_summary = df_summary[['Player_FN', 'team','Left','Shots Per Match','Shots On Target Per Match','Goals Per Match']].rename(columns={'Player_FN': 'Name','team':'Team'})
+    df_summary['Name'] = df_summary['Name'].str.title()
+    df_summary = df_summary.reset_index(drop=True)
+    return df_summary
+
 def Assists_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
         Matches=('matchid', 'nunique'), 
@@ -324,6 +344,7 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
 STAT_FUNCTIONS = {
     "Goals": {"func": Goals_stats, "desc": "Goal Scored By Players"},
     "Detailed Goals": {"func": Goalsd_stats, "desc": "Detailed Goal Statistics For Players"},
+    "Detailed Shots Per Match": {"func": shotsd_stats, "desc": "Detailed Shots Statistics For Players"},
     "Assists": {"func": Assists_stats, "desc": "Assists By Players"},
     "Goals + Assists": {"func": GA, "desc": "Goals + Assists By Players"},
     "Chances Created": {"func": cc, "desc": "Chances Created By Players"},
