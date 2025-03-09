@@ -137,7 +137,7 @@ def shotsd_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Goals Per Match']=df_summary['Goals']/df_summary['Matches']
     df_summary['Goals Per Match']=df_summary['Goals Per Match'].round(1)
     df_summary = df_summary.sort_values(by=['Shots Per Match'], ascending=[False])
-    df_summary = df_summary[['Player_FN', 'team','Left','Shots Per Match','Shots On Target Per Match','Goals Per Match']].rename(columns={'Player_FN': 'Name','team':'Team'})
+    df_summary = df_summary[['Player_FN', 'team','Shots Per Match','Shots On Target Per Match','Goals Per Match']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
