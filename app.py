@@ -361,30 +361,51 @@ STAT_FUNCTIONS = {
     "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save Percentage By Goalkeepers"}
 }
 
-# Main app function
+descriptions
+STAT_FUNCTIONS = {
+    "Goals": {"func": Goals_stats, "desc": "Goal Scored By Players"},
+    "Detailed Goals": {"func": Goalsd_stats, "desc": "Detailed Goal Statistics For Players"},
+    "Detailed Shots Per Match": {"func": shotsd_stats, "desc": "Detailed Shots Statistics For Players"},
+    "Assists": {"func": Assists_stats, "desc": "Assists By Players"},
+    "Goals + Assists": {"func": GA, "desc": "Goals + Assists By Players"},
+    "Chances Created": {"func": cc, "desc": "Chances Created By Players"},
+    "Shot Accuracy": {"func": shot_accuracy, "desc": "Shot Accuracy By Players"},
+    "Fouls": {"func": fouls_stats, "desc": "Fouls Committed By Players"},
+    "Yellow Cards": {"func": yc_stats, "desc": "Yellow Cards Received By Players"},
+    "Red Cards": {"func": rc_stats, "desc": "Red Cards Received By Players"},
+    "Offsides": {"func": offsides_stats, "desc": "Offside Statistics By Players"},
+    "Tackles Per Match": {"func": tackles_90, "desc": "Average Tackles Per Match By Players"},
+    "Interceptions Per Match": {"func": inter_90, "desc": "Average Interceptions Per Match By Players"},
+    "Blocks Per Match": {"func": blocks_90, "desc": "Average Blocks Per Match By Players"},
+    "Goalkeeper Saves": {"func": GK_Saves, "desc": "Total Saves By Goalkeepers"},
+    "Goalkeeper Clean Sheets": {"func": GK_cs, "desc": "Clean Sheets By Goalkeepers"},
+    "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save Percentage By Goalkeepers"}
+}
+
+# Main app
 def main():
     st.title("Porkallam Season 3 Player Statistics")
-
+    
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
         st.session_state.df = None
         st.session_state.data_loaded = False
-
-    # Load data
+    
+    # Load data 
     if not st.session_state.data_loaded:
         with st.spinner("Loading data from GitHub repository..."):
             # Fetch and merge CSV files
             merged_df = fetch_csv_files_from_github()
-
+            
             if not merged_df.empty:
                 st.session_state.df = merged_df
-
+                
                 # Process data similar to original script
                 st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
-
+                
                 # Fetch team mapping
                 team_mapping = fetch_team_mapping()
-
+                
                 if not team_mapping.empty:
                     # Perform the merge
                     st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
@@ -393,34 +414,45 @@ def main():
 
                 else:
                     st.error("Team mapping could not be loaded, using teamid instead.")
-
+                
                 st.session_state.data_loaded = True
+                # st.success("Data loaded successfully!")
             else:
                 st.error("Data loading failed. Check your GitHub repository and file paths.")
-
-    # Statistic selection dropdown (no sidebar)
-    st.header("Select Stat")
-    selected_stat = st.selectbox("", options=list(STAT_FUNCTIONS.keys()))
-
+    
+    # Sidebar for statistic selection
+    st.sidebar.header("Select Stat")
+    selected_stat = st.sidebar.selectbox("", options=list(STAT_FUNCTIONS.keys()))
+    
     # Display selected statistic
     if st.session_state.data_loaded:
         stat_function = STAT_FUNCTIONS[selected_stat]["func"]
         description = STAT_FUNCTIONS[selected_stat]["desc"]
-
+        
         st.subheader(f"{selected_stat} Stats")
         st.write(description)
-
+        
         # Apply the selected statistic function
         try:
             result_df = stat_function(st.session_state.df.copy())
-
-            # Display dataframe without index
+        
+            # Hide the index and use column configuration to auto-fit columns
             st.dataframe(
-                result_df.iloc[:, 1:], 
+                result_df,
                 height=500,
-                use_container_width=True
+                use_container_width=True,
+                hide_index=True,
+                column_config={col: st.column_config.Column(width="auto") for col in result_df.columns}
             )
-
+        
+            # Download button
+            # csv = result_df.to_csv(index=False)
+            # st.download_button(
+            #     label="Download current selection as CSV",
+            #     data=csv,
+            #     file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
+            #     mime='text/csv',
+            # )
         except Exception as e:
             st.error(f"Error calculating statistics: {str(e)}")
     else:
