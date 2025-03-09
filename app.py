@@ -280,12 +280,13 @@ def blocks_90(df: pd.DataFrame) -> pd.DataFrame:
 def GK_Saves(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
         Matches=('matchid', 'nunique'),  
+        PSaves=('penalty_saves', 'sum'),
         Tackles=('saves', 'sum') 
     ).reset_index()
     df_summary = df_summary.sort_values(by='Tackles', ascending=False)
     df_summary = df_summary[df_summary['Tackles'] != 0]
-    df_summary = df_summary[['Player_FN','team', 'Tackles']].rename(
-        columns={'Player_FN': 'Name', 'Tackles': 'Saves','team':'Team'})
+    df_summary = df_summary[['Player_FN','team', 'Psaves','Tackles']].rename(
+        columns={'Player_FN': 'Name', 'Tackles': 'Saves','team':'Team','Psaves':'Penalty Saves'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
@@ -305,7 +306,7 @@ def GK_cs(df: pd.DataFrame) -> pd.DataFrame:
 
 def savesp(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df[df['position'] == 'GK'].groupby(['playerid', 'Player_FN', 'team']).agg(
-        Saves=('saves', 'sum'),  
+        Saves=('saves', 'sum'),
         Shots_faced=('shots_faced', 'sum')   
     ).reset_index()
 
