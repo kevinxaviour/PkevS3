@@ -361,9 +361,8 @@ STAT_FUNCTIONS = {
     "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save Percentage By Goalkeepers"}
 }
 
+# Main app function
 def main():
-    st.set_page_config(page_title="Porkallam Season 3", layout="wide")
-
     st.title("Porkallam Season 3 Player Statistics")
 
     # Initialize session state for dataframe if not exists
@@ -371,21 +370,27 @@ def main():
         st.session_state.df = None
         st.session_state.data_loaded = False
 
-    # Load data 
+    # Load data
     if not st.session_state.data_loaded:
-        with st.spinner("Loading data, Please Wait"):
+        with st.spinner("Loading data from GitHub repository..."):
+            # Fetch and merge CSV files
             merged_df = fetch_csv_files_from_github()
-            
+
             if not merged_df.empty:
                 st.session_state.df = merged_df
+
+                # Process data similar to original script
                 st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
-                
+
+                # Fetch team mapping
                 team_mapping = fetch_team_mapping()
-                
+
                 if not team_mapping.empty:
+                    # Perform the merge
                     st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
                     st.session_state.df['team'] = st.session_state.df['TeamName']
                     st.session_state.df = st.session_state.df.drop(columns=['ID', 'TeamName'])
+
                 else:
                     st.error("Team mapping could not be loaded, using teamid instead.")
 
@@ -393,11 +398,9 @@ def main():
             else:
                 st.error("Data loading failed. Check your GitHub repository and file paths.")
 
-    # Layout for selection
-    col1, col2, col3 = st.columns([1, 3, 1])  # Centering the dropdown
-
-    with col2:
-        selected_stat = st.selectbox("Select Stat", options=list(STAT_FUNCTIONS.keys()))
+    # Statistic selection dropdown (no sidebar)
+    st.header("Select Stat")
+    selected_stat = st.selectbox("", options=list(STAT_FUNCTIONS.keys()))
 
     # Display selected statistic
     if st.session_state.data_loaded:
@@ -411,12 +414,11 @@ def main():
         try:
             result_df = stat_function(st.session_state.df.copy())
 
+            # Display dataframe without index
             st.dataframe(
                 result_df,
                 height=500,
-                use_container_width=True,
-                hide_index=True,
-                column_config={col: st.column_config.Column(width="auto") for col in result_df.columns}
+                use_container_width=True
             )
 
         except Exception as e:
