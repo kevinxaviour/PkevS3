@@ -8,7 +8,7 @@ from typing import List, Dict, Callable, Any
 st.set_page_config(
     page_title="Porkallam Season 3",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 # GitHub repository information
