@@ -178,7 +178,7 @@ def shot_accuracy(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Shot_Accuracy'] = df_summary['Shot_Accuracy'].fillna(0).round(1)
     df_summary=df_summary[df_summary['Shots']>=df_summary['Shots'].median()]
     df_summary = df_summary.sort_values(by='Shot_Accuracy', ascending=False)
-    df_summary = df_summary[(df_summary['Matches'] > df_summary['Matches'].median()) & (df_summary['Shot_Accuracy'] != 0)]
+    df_summary = df_summary[(df_summary['Matches'] > df_summary['Matches'].median()) & (df_summary['Shots'] != 0)]
     df_summary = df_summary[['Player_FN','team','Shots', 'Shot_Accuracy']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
@@ -241,7 +241,7 @@ def tackles_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Tackles_per90'] = df_summary['Tackles_per90'].round(1)
     df_summary = df_summary.sort_values(by='Tackles_per90', ascending=False)
     df_summary = df_summary[(df_summary['Tackles_per90'] != 0)] #&(df_summary['Matches'] > df_summary['Matches'].median()
-    df_summary = df_summary[['Player_FN','team','Matches', 'Tackles_per90']].rename(
+    df_summary = df_summary[['Player_FN','team', 'Tackles_per90']].rename(
         columns={'Player_FN': 'Name', 'Tackles_per90': 'Tackles Per Match','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
@@ -255,7 +255,7 @@ def inter_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Tackles_per90'] = df_summary['Tackles'] / df_summary['Matches']
     df_summary['Tackles_per90'] = df_summary['Tackles_per90'].round(1)
     df_summary = df_summary.sort_values(by='Tackles_per90', ascending=False)
-    df_summary = df_summary[(df_summary['Tackles_per90'] != 0)&(df_summary['Matches'] > df_summary['Matches'].median())]
+    df_summary = df_summary[(df_summary['Tackles_per90'] != 0)]#&(df_summary['Matches'] > df_summary['Matches'].median())
     df_summary = df_summary[['Player_FN','team', 'Tackles_per90']].rename(
         columns={'Player_FN': 'Name', 'Tackles_per90': 'Interceptions Per Match','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
@@ -270,7 +270,7 @@ def blocks_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Tackles_per90'] = df_summary['Tackles'] / df_summary['Matches']
     df_summary['Tackles_per90'] = df_summary['Tackles_per90'].round(1)
     df_summary = df_summary.sort_values(by='Tackles_per90', ascending=False)
-    df_summary = df_summary[(df_summary['Tackles_per90'] != 0)&(df_summary['Matches'] > df_summary['Matches'].median())]
+    df_summary = df_summary[(df_summary['Tackles_per90'] != 0)]#&(df_summary['Matches'] > df_summary['Matches'].median())
     df_summary = df_summary[['Player_FN','team', 'Tackles_per90']].rename(
         columns={'Player_FN': 'Name', 'Tackles_per90': 'Blocks Per Match','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
