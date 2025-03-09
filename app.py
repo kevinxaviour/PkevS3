@@ -361,61 +361,56 @@ STAT_FUNCTIONS = {
     "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save Percentage By Goalkeepers"}
 }
 
-# Main app
 def main():
+    st.set_page_config(page_title="Porkallam Season 3", layout="wide")
+
     st.title("Porkallam Season 3 Player Statistics")
-    
+
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
         st.session_state.df = None
         st.session_state.data_loaded = False
-    
+
     # Load data 
     if not st.session_state.data_loaded:
-        with st.spinner("Loading data from GitHub repository..."):
-            # Fetch and merge CSV files
+        with st.spinner("Loading data, Please Wait"):
             merged_df = fetch_csv_files_from_github()
             
             if not merged_df.empty:
                 st.session_state.df = merged_df
-                
-                # Process data similar to original script
                 st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
                 
-                # Fetch team mapping
                 team_mapping = fetch_team_mapping()
                 
                 if not team_mapping.empty:
-                    # Perform the merge
                     st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
                     st.session_state.df['team'] = st.session_state.df['TeamName']
                     st.session_state.df = st.session_state.df.drop(columns=['ID', 'TeamName'])
-
                 else:
                     st.error("Team mapping could not be loaded, using teamid instead.")
-                
+
                 st.session_state.data_loaded = True
-                # st.success("Data loaded successfully!")
             else:
                 st.error("Data loading failed. Check your GitHub repository and file paths.")
-    
-    # Sidebar for statistic selection
-    st.sidebar.header("Select Stat")
-    selected_stat = st.sidebar.selectbox("", options=list(STAT_FUNCTIONS.keys()))
-    
+
+    # Layout for selection
+    col1, col2, col3 = st.columns([1, 3, 1])  # Centering the dropdown
+
+    with col2:
+        selected_stat = st.selectbox("Select Stat", options=list(STAT_FUNCTIONS.keys()))
+
     # Display selected statistic
     if st.session_state.data_loaded:
         stat_function = STAT_FUNCTIONS[selected_stat]["func"]
         description = STAT_FUNCTIONS[selected_stat]["desc"]
-        
+
         st.subheader(f"{selected_stat} Stats")
         st.write(description)
-        
+
         # Apply the selected statistic function
         try:
             result_df = stat_function(st.session_state.df.copy())
-        
-            # Hide the index and use column configuration to auto-fit columns
+
             st.dataframe(
                 result_df,
                 height=500,
@@ -423,15 +418,7 @@ def main():
                 hide_index=True,
                 column_config={col: st.column_config.Column(width="auto") for col in result_df.columns}
             )
-        
-            # Download button
-            # csv = result_df.to_csv(index=False)
-            # st.download_button(
-            #     label="Download current selection as CSV",
-            #     data=csv,
-            #     file_name=f'{selected_stat.replace(" ", "_")}_stats.csv',
-            #     mime='text/csv',
-            # )
+
         except Exception as e:
             st.error(f"Error calculating statistics: {str(e)}")
     else:
