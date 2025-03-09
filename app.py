@@ -285,8 +285,8 @@ def GK_Saves(df: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
     df_summary = df_summary.sort_values(by='Tackles', ascending=False)
     df_summary = df_summary[df_summary['Tackles'] != 0]
-    df_summary = df_summary[['Player_FN','team', 'Psaves','Tackles']].rename(
-        columns={'Player_FN': 'Name', 'Tackles': 'Saves','team':'Team','Psaves':'Penalty Saves'})
+    df_summary = df_summary[['Player_FN','team', 'PSaves','Tackles']].rename(
+        columns={'Player_FN': 'Name', 'Tackles': 'Saves','team':'Team','PSaves':'Penalty Saves'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
