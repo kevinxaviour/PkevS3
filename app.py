@@ -416,7 +416,7 @@ def main():
 
             # Display dataframe without index
             st.dataframe(
-                result_df,
+                result_df.iloc[:, 1:], 
                 height=500,
                 use_container_width=True
             )
