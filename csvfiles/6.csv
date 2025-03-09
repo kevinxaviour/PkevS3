@@ -1,29 +1,29 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-AMRFA,6,POR2025100,Raghul,20,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,1,1,0,0,Forward,0,7,6,Raghul
-AMRFA,6,POR2025101,Sanjay,3,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,3,0,1,0,Defense,0,7,6,K Sanjay
-AMRFA,6,POR2025103,Deva,22,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Defense,0,7,6,Deva R
-AMRFA,6,POR2025105,Logesh,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,0,1,1,0,0,0,Forward,0,7,6,Logesh R
-AMRFA,6,POR2025106,VJ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,7,6,Vijay Amarnath A K 
-AMRFA,6,POR2025107,Dhanush,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,3,0,0,Defense,0,7,6,Dhanush
-AMRFA,6,POR2025111,Abi,4,1,0,1,0,0,0,0,0,0,1,0,2,0,1,1,0,0,0,0,3,0,0,0,Defense,0,7,6,Abilash S
-AMRFA,6,POR2025112,Dinesh,10,0,0,0,0,0,0,0,0,0,1,1,2,0,0,3,0,0,0,0,3,1,0,0,Midfield,0,7,6,Dinesh
-AMRFA,6,POR2025113,Benedi,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,7,6,Benedict J
-AMRFA,6,POR2025118,Raji.R.S,18,0,0,0,0,0,0,1,1,0,1,1,2,0,0,3,0,0,0,0,2,2,0,0,Defense,0,7,6,Raji.R
-AMRFA,6,POR2025121,Kutty ,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,3,1,1,0,Midfield,0,7,6,Kurasilkhan A
-AMRFA,6,POR2025122,VASANTH,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,7,6,R.Vasanth babu
-AMRFA,6,POR2025125,Niranjan ,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,0,7,6,Niranjan
-FIFA,11,POR2025181,Sathish ,8,0,0,0,0,0,0,0,0,0,0,1,2,0,1,2,0,0,0,0,1,0,0,0,Midfield,0,4,6,R. Sathish Kumar 
-FIFA,11,POR2025182,Kannan,5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,Defense,0,4,6,Kannan.M
-FIFA,11,POR2025187,Vishnu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,GK,0,4,6,vishnu prasath E
-FIFA,11,POR2025188,Vineeth,16,0,0,0,0,0,1,1,2,1,1,0,1,0,0,4,0,0,0,1,2,0,0,0,Forward,0,4,6,Vineethkumar. V
-FIFA,11,POR2025189,Vijay R,17,1,0,0,1,0,0,0,0,3,1,2,3,1,0,0,0,0,0,2,0,1,0,0,Midfield,0,4,6,Vijay R
-FIFA,11,POR2025190,Sanjay ,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,6,Sanjay Prasad 
-FIFA,11,POR2025191,Deepak thapa ,20,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,Midfield,0,4,6,Deepak thapa magar 
-FIFA,11,POR2025195,Sanjay,19,1,0,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,6,N sanjay
-FIFA,11,POR2025196,DENIS,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,2,1,0,Defense,0,4,6,Denis vimal raj
-FIFA,11,POR2025197,Rooney Paul,15,1,0,1,0,0,1,0,1,0,1,1,2,0,0,0,0,0,0,3,0,0,0,0,Midfield,0,4,6,B.Rooney Paul
-FIFA,11,POR2025199,Arvind,10,1,1,0,0,0,0,0,0,0,2,0,2,0,0,1,0,0,0,0,1,1,0,0,Midfield,0,4,6,Aravindhan.R
-FIFA,11,POR2025202,Shivaprasadh,7,0,0,0,0,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,5,0,0,0,Midfield,0,4,6,Shivaprasadh V
-FIFA,11,POR2025204,Sri ,23,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,1,0,Defense,0,4,6,P.Sri Ganesh 
-FIFA,11,POR2025205,NAVIN,6,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,4,6,Navin.P
-FIFA,11,POR2025207,Sundhar,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,6,Sundhar
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+AMRFA,6,POR2025100,Raghul,20,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,1,1,0,0,0,Forward,0,7,6,Raghul
+AMRFA,6,POR2025101,Sanjay,3,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,3,0,1,0,0,Defense,0,7,6,K Sanjay
+AMRFA,6,POR2025103,Deva,22,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,7,6,Deva R
+AMRFA,6,POR2025105,Logesh,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,0,1,1,0,0,0,0,Forward,0,7,6,Logesh R
+AMRFA,6,POR2025106,VJ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,7,6,Vijay Amarnath A K 
+AMRFA,6,POR2025107,Dhanush,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,3,0,0,0,Defense,0,7,6,Dhanush
+AMRFA,6,POR2025111,Abi,4,1,0,1,0,0,0,0,0,0,1,0,2,0,1,1,0,0,0,0,3,0,0,0,0,Defense,0,7,6,Abilash S
+AMRFA,6,POR2025112,Dinesh,10,0,0,0,0,0,0,0,0,0,1,1,2,0,0,3,0,0,0,0,3,1,0,0,0,Midfield,0,7,6,Dinesh
+AMRFA,6,POR2025113,Benedi,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,7,6,Benedict J
+AMRFA,6,POR2025118,Raji.R.S,18,0,0,0,0,0,0,1,1,0,1,1,2,0,0,3,0,0,0,0,2,2,0,0,0,Defense,0,7,6,Raji.R
+AMRFA,6,POR2025121,Kutty ,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,3,1,1,0,0,Midfield,0,7,6,Kurasilkhan A
+AMRFA,6,POR2025122,VASANTH,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,7,6,R.Vasanth babu
+AMRFA,6,POR2025125,Niranjan ,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,7,6,Niranjan
+FIFA,11,POR2025181,Sathish ,8,0,0,0,0,0,0,0,0,0,0,1,2,0,1,2,0,0,0,0,1,0,0,0,0,Midfield,0,4,6,R. Sathish Kumar 
+FIFA,11,POR2025182,Kannan,5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,Defense,0,4,6,Kannan.M
+FIFA,11,POR2025187,Vishnu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,4,6,vishnu prasath E
+FIFA,11,POR2025188,Vineeth,16,0,0,0,0,0,1,1,2,1,1,0,1,0,0,4,0,0,0,1,2,0,0,0,0,Forward,0,4,6,Vineethkumar. V
+FIFA,11,POR2025189,Vijay R,17,1,0,0,1,0,0,0,0,3,1,2,3,1,0,0,0,0,0,2,0,1,0,0,0,Midfield,0,4,6,Vijay R
+FIFA,11,POR2025190,Sanjay ,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,6,Sanjay Prasad 
+FIFA,11,POR2025191,Deepak thapa ,20,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,Midfield,0,4,6,Deepak thapa magar 
+FIFA,11,POR2025195,Sanjay,19,1,0,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,6,N sanjay
+FIFA,11,POR2025196,DENIS,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,2,1,0,0,Defense,0,4,6,Denis vimal raj
+FIFA,11,POR2025197,Rooney Paul,15,1,0,1,0,0,1,0,1,0,1,1,2,0,0,0,0,0,0,3,0,0,0,0,0,Midfield,0,4,6,B.Rooney Paul
+FIFA,11,POR2025199,Arvind,10,1,1,0,0,0,0,0,0,0,2,0,2,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,0,4,6,Aravindhan.R
+FIFA,11,POR2025202,Shivaprasadh,7,0,0,0,0,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,5,0,0,0,0,Midfield,0,4,6,Shivaprasadh V
+FIFA,11,POR2025204,Sri ,23,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,1,0,0,Defense,0,4,6,P.Sri Ganesh 
+FIFA,11,POR2025205,NAVIN,6,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,4,6,Navin.P
+FIFA,11,POR2025207,Sundhar,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,6,Sundhar

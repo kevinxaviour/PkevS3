@@ -1,27 +1,27 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-FC Revelation,2,POR2025075,Pandi,8,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2,0,0,0,0,2,0,1,0,Midfield,0,4,27,S Pandian
-FC Revelation,2,POR2025076,Tamil,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,GK,0,4,27,Tamilkumaran P
-FC Revelation,2,POR2025077,Solai,27,0,0,0,0,0,0,0,0,0,1,0,3,0,2,2,1,0,0,0,1,0,0,0,Midfield,0,4,27,N Solaimalai
-FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,2,1,0,Defense,0,4,27,Jana Karthikeyan S
-FC Revelation,2,POR2025080,Praba,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,1,0,Defense,0,4,27,Prabakaran J
-FC Revelation,2,POR2025082,Ahmed,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,Midfield,0,4,27,H A C Ahmed Sahib
-FC Revelation,2,POR2025088,Dinesh,22,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,2,2,0,Defense,0,4,27,Dinesh G
-FC Revelation,2,POR2025089,Ahino,17,0,0,0,0,0,0,1,1,0,1,2,3,1,0,0,0,0,0,0,0,0,0,0,Defense,0,4,27,Ahino Jahine J
-FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,Defense,0,4,27,S Shek Shamshir
-FC Revelation,2,POR2025095,Nixan,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3,1,0,0,0,Forward,0,4,27,Nixan samuvel
-FC Revelation,2,POR2025096,Sharan,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,4,27,Sharan A
-FC Revelation,2,POR2025098,Alex,13,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,27,John Alex V
-FC Revelation,2,POR2025099,Dory,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Midfield,0,4,27,Sriram B
-Santhome SAI,9,POR2025043,Pragadeesh dhanapal,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,4,0,0,Defense,1,3,27,Pragadeesh dhanapal
-Santhome SAI,9,POR2025044,Ranjith,14,1,0,1,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,Defense,1,3,27,Ranjith.V
-Santhome SAI,9,POR2025045,THARUN ,43,0,0,0,0,0,0,0,0,0,1,0,2,0,1,2,0,0,0,0,1,2,0,0,Forward,1,3,27,THARUN M
-Santhome SAI,9,POR2025046,Bharath,4,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,1,0,Defense,1,3,27,P. Bharath kumar
-Santhome SAI,9,POR2025048,Anto louis,09,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,1,0,0,0,0,1,0,0,Midfield,1,3,27,Anto louis d silva
-Santhome SAI,9,POR2025049,HARISH,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Forward,1,3,27,HARISH.S
-Santhome SAI,9,POR2025050,WALSH,10,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,Forward,1,3,27,V.S.VISHNU WALSH
-Santhome SAI,9,POR2025051,SHAHID,13,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,2,0,1,0,Midfield,1,3,27,MOHAMED SHAHID . N
-Santhome SAI,9,POR2025054,MOHAN,11,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,3,27,MOHAN RAJA.P
-Santhome SAI,9,POR2025060,LEO THOMAS,7,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,Midfield,1,3,27,LEO THOMAS
-Santhome SAI,9,POR2025062,ABI ,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,GK,1,3,27,ABISHEK A
-Santhome SAI,9,POR2025064,HEMA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,Defense,1,3,27,Hemachandran
-Santhome SAI,9,POR2025068,Usman,08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,Midfield,1,3,27,Afnas usman
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FC Revelation,2,POR2025075,Pandi,8,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2,0,0,0,0,2,0,1,0,0,Midfield,0,4,27,S Pandian
+FC Revelation,2,POR2025076,Tamil,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,4,27,Tamilkumaran P
+FC Revelation,2,POR2025077,Solai,27,0,0,0,0,0,0,0,0,0,1,0,3,0,2,2,1,0,0,0,1,0,0,0,0,Midfield,0,4,27,N Solaimalai
+FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,2,1,0,0,Defense,0,4,27,Jana Karthikeyan S
+FC Revelation,2,POR2025080,Praba,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,1,0,0,Defense,0,4,27,Prabakaran J
+FC Revelation,2,POR2025082,Ahmed,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,Midfield,0,4,27,H A C Ahmed Sahib
+FC Revelation,2,POR2025088,Dinesh,22,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,2,2,0,0,Defense,0,4,27,Dinesh G
+FC Revelation,2,POR2025089,Ahino,17,0,0,0,0,0,0,1,1,0,1,2,3,1,0,0,0,0,0,0,0,0,0,0,0,Defense,0,4,27,Ahino Jahine J
+FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,Defense,0,4,27,S Shek Shamshir
+FC Revelation,2,POR2025095,Nixan,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3,1,0,0,0,0,Forward,0,4,27,Nixan samuvel
+FC Revelation,2,POR2025096,Sharan,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Forward,0,4,27,Sharan A
+FC Revelation,2,POR2025098,Alex,13,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,27,John Alex V
+FC Revelation,2,POR2025099,Dory,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,Midfield,0,4,27,Sriram B
+Santhome SAI,9,POR2025043,Pragadeesh dhanapal,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,4,0,0,0,Defense,1,3,27,Pragadeesh dhanapal
+Santhome SAI,9,POR2025044,Ranjith,14,1,0,1,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Defense,1,3,27,Ranjith.V
+Santhome SAI,9,POR2025045,THARUN ,43,0,0,0,0,0,0,0,0,0,1,0,2,0,1,2,0,0,0,0,1,2,0,0,0,Forward,1,3,27,THARUN M
+Santhome SAI,9,POR2025046,Bharath,4,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,1,0,0,Defense,1,3,27,P. Bharath kumar
+Santhome SAI,9,POR2025048,Anto louis,09,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,1,0,0,0,0,1,0,0,0,Midfield,1,3,27,Anto louis d silva
+Santhome SAI,9,POR2025049,HARISH,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Forward,1,3,27,HARISH.S
+Santhome SAI,9,POR2025050,WALSH,10,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Forward,1,3,27,V.S.VISHNU WALSH
+Santhome SAI,9,POR2025051,SHAHID,13,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,2,0,1,0,0,Midfield,1,3,27,MOHAMED SHAHID . N
+Santhome SAI,9,POR2025054,MOHAN,11,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Midfield,1,3,27,MOHAN RAJA.P
+Santhome SAI,9,POR2025060,LEO THOMAS,7,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,Midfield,1,3,27,LEO THOMAS
+Santhome SAI,9,POR2025062,ABI ,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,0,GK,1,3,27,ABISHEK A
+Santhome SAI,9,POR2025064,HEMA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,0,Defense,1,3,27,Hemachandran
+Santhome SAI,9,POR2025068,Usman,08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,Midfield,1,3,27,Afnas usman

@@ -1,30 +1,30 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-Podium FC,18,POR2025209,guna,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,GK,0,5,20,Guna sekar
-Podium FC,18,POR2025210,Armaan,17,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,Forward,0,5,20,Armaan aslam pathan
-Podium FC,18,POR2025215,jaison,03,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,Defense,0,5,20,jaison joshwa
-Podium FC,18,POR2025216,naveen,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Forward,0,5,20,naveen
-Podium FC,18,POR2025219,rajesh,09,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,Forward,0,5,20,rajesh
-Podium FC,18,POR2025222,joshua,10,0,0,0,0,0,0,0,0,0,1,1,2,0,0,1,0,0,0,0,3,0,0,0,Forward,0,5,20,joshua
-Podium FC,18,POR2025223,surya,18,0,0,0,0,0,0,0,0,0,0,3,3,0,0,1,0,0,0,0,3,0,0,0,Midfield,0,5,20,surya
-Podium FC,18,POR2025224,moris,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,Forward,0,5,20,moris dinakaran
-Podium FC,18,POR2025225,bala,24,0,0,0,0,0,0,0,0,0,1,0,2,0,1,1,0,0,0,0,3,1,2,0,Defense,0,5,20,bala
-Podium FC,18,POR2025226,benjamin,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,2,1,1,0,Forward,0,5,20,benjamin
-Podium FC,18,POR2025227,dhanush,21,0,0,0,0,0,0,1,1,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Forward,0,5,20,dhanush
-Podium FC,18,POR2025228,Vasanth,25,1,0,1,0,0,0,1,1,0,1,0,2,0,1,0,0,0,0,0,0,1,0,0,Forward,0,5,20,Vasanth 
-Wolfpack FC,16,POR2025344,Ruban ,17,0,0,0,0,0,1,2,3,0,0,1,1,1,0,0,0,0,0,1,4,0,0,0,Defense,0,3,20,Ruban.A
-Wolfpack FC,16,POR2025345,Thooyavan,12,1,0,1,0,0,0,0,0,0,1,1,2,0,0,3,0,0,0,0,0,1,0,0,Forward,0,3,20,S.Thooyavan
-Wolfpack FC,16,POR2025346,Raul,13,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,1,0,0,Midfield,0,3,20,G.M Raul Palin
-Wolfpack FC,16,POR2025348,Yuvaraj,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,Defense,0,3,20,L.Yuvaraj 
-Wolfpack FC,16,POR2025349,Lokesh,30,0,0,0,0,0,0,1,1,1,0,2,4,0,2,0,0,0,0,0,0,0,0,0,Forward,0,3,20,Lokesh.K
-Wolfpack FC,16,POR2025350,Aadil,11,1,1,0,0,0,0,2,2,0,2,1,4,0,1,1,0,0,0,1,2,0,0,0,Forward,0,3,20,Aadil Sinju Abdul Kharim 
-Wolfpack FC,16,POR2025351,Aadit,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,3,20,Aaditya K
-Wolfpack FC,16,POR2025352,Sourav,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Defense,0,3,20,Sourav Sharma
-Wolfpack FC,16,POR2025353,Allan,8,1,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,20,Allan Rahul 
-Wolfpack FC,16,POR2025355,Gabriel,7,1,0,1,0,0,0,0,0,0,1,1,2,0,0,3,0,0,0,0,3,2,2,0,Midfield,0,3,20,i.Gabriel Lawrson
-Wolfpack FC,16,POR2025356,Gerald,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Forward,0,3,20,Gerald Moses D
-Wolfpack FC,16,POR2025357,Sri,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,3,20,Sri Saran
-Wolfpack FC,16,POR2025358,Stephen,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,3,20,Stephen Chelliah
-Wolfpack FC,16,POR2025360,Bharath,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,3,20,M.Bharath
-Wolfpack FC,16,POR2025362,Anand ,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,20,P Anand 
-Wolfpack FC,16,POR2025364,Balaji,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,GK,0,3,20,Balaji S
-Wolfpack FC,16,POR2025367,Gowtham,6,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,0,3,20,Gowtham
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Podium FC,18,POR2025209,guna,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,GK,0,5,20,Guna sekar
+Podium FC,18,POR2025210,Armaan,17,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,Forward,0,5,20,Armaan aslam pathan
+Podium FC,18,POR2025215,jaison,03,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,0,Defense,0,5,20,jaison joshwa
+Podium FC,18,POR2025216,naveen,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,5,20,naveen
+Podium FC,18,POR2025219,rajesh,09,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,5,20,rajesh
+Podium FC,18,POR2025222,joshua,10,0,0,0,0,0,0,0,0,0,1,1,2,0,0,1,0,0,0,0,3,0,0,0,0,Forward,0,5,20,joshua
+Podium FC,18,POR2025223,surya,18,0,0,0,0,0,0,0,0,0,0,3,3,0,0,1,0,0,0,0,3,0,0,0,0,Midfield,0,5,20,surya
+Podium FC,18,POR2025224,moris,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,Forward,0,5,20,moris dinakaran
+Podium FC,18,POR2025225,bala,24,0,0,0,0,0,0,0,0,0,1,0,2,0,1,1,0,0,0,0,3,1,2,0,0,Defense,0,5,20,bala
+Podium FC,18,POR2025226,benjamin,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,2,1,1,0,0,Forward,0,5,20,benjamin
+Podium FC,18,POR2025227,dhanush,21,0,0,0,0,0,0,1,1,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,Forward,0,5,20,dhanush
+Podium FC,18,POR2025228,Vasanth,25,1,0,1,0,0,0,1,1,0,1,0,2,0,1,0,0,0,0,0,0,1,0,0,0,Forward,0,5,20,Vasanth 
+Wolfpack FC,16,POR2025344,Ruban ,17,0,0,0,0,0,1,2,3,0,0,1,1,1,0,0,0,0,0,1,4,0,0,0,0,Defense,0,3,20,Ruban.A
+Wolfpack FC,16,POR2025345,Thooyavan,12,1,0,1,0,0,0,0,0,0,1,1,2,0,0,3,0,0,0,0,0,1,0,0,0,Forward,0,3,20,S.Thooyavan
+Wolfpack FC,16,POR2025346,Raul,13,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,1,0,0,0,Midfield,0,3,20,G.M Raul Palin
+Wolfpack FC,16,POR2025348,Yuvaraj,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Defense,0,3,20,L.Yuvaraj 
+Wolfpack FC,16,POR2025349,Lokesh,30,0,0,0,0,0,0,1,1,1,0,2,4,0,2,0,0,0,0,0,0,0,0,0,0,Forward,0,3,20,Lokesh.K
+Wolfpack FC,16,POR2025350,Aadil,11,1,1,0,0,0,0,2,2,0,2,1,4,0,1,1,0,0,0,1,2,0,0,0,0,Forward,0,3,20,Aadil Sinju Abdul Kharim 
+Wolfpack FC,16,POR2025351,Aadit,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,3,20,Aaditya K
+Wolfpack FC,16,POR2025352,Sourav,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Defense,0,3,20,Sourav Sharma
+Wolfpack FC,16,POR2025353,Allan,8,1,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,20,Allan Rahul 
+Wolfpack FC,16,POR2025355,Gabriel,7,1,0,1,0,0,0,0,0,0,1,1,2,0,0,3,0,0,0,0,3,2,2,0,0,Midfield,0,3,20,i.Gabriel Lawrson
+Wolfpack FC,16,POR2025356,Gerald,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,3,20,Gerald Moses D
+Wolfpack FC,16,POR2025357,Sri,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,3,20,Sri Saran
+Wolfpack FC,16,POR2025358,Stephen,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,3,20,Stephen Chelliah
+Wolfpack FC,16,POR2025360,Bharath,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,3,20,M.Bharath
+Wolfpack FC,16,POR2025362,Anand ,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,20,P Anand 
+Wolfpack FC,16,POR2025364,Balaji,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,GK,0,3,20,Balaji S
+Wolfpack FC,16,POR2025367,Gowtham,6,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,3,20,Gowtham

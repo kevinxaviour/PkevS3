@@ -1,27 +1,27 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-Podium FC,18,POR2025209,guna,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,0,3,4,Guna sekar
-Podium FC,18,POR2025210,Armaan,17,0,0,0,0,0,0,0,0,0,1,1,2,0,0,1,0,0,0,1,1,0,0,0,Forward,0,3,4,Armaan aslam pathan
-Podium FC,18,POR2025212,Ajith,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,3,4,Ajithn kumar
-Podium FC,18,POR2025215,jaison,03,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,0,0,0,0,1,1,1,0,Defense,0,3,4,jaison joshwa
-Podium FC,18,POR2025216,naveen,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Forward,0,3,4,naveen
-Podium FC,18,POR2025217,hamosh,8,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,1,1,0,0,Midfield,0,3,4,Hamosh
-Podium FC,18,POR2025219,rajesh,09,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,1,0,0,Forward,0,3,4,rajesh
-Podium FC,18,POR2025223,surya,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,3,0,0,0,0,4,1,0,0,Midfield,0,3,4,surya
-Podium FC,18,POR2025224,moris,5,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,Forward,0,3,4,moris dinakaran
-Podium FC,18,POR2025225,bala,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,Defense,0,3,4,bala
-Podium FC,18,POR2025226,benjamin,23,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Forward,0,3,4,benjamin
-Podium FC,18,POR2025227,dhanush,21,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,Forward,0,3,4,dhanush
-Podium FC,18,POR2025228,Vasanth,25,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Forward,0,3,4,Vasanth 
-Puzhal FCA,4,POR2025395,Eswar ,13,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,4,4,1,0,Defense,1,3,4,R.Eswar 
-Puzhal FCA,4,POR2025399,Rajkumar,10,1,1,0,0,0,0,0,0,0,2,0,2,0,0,2,0,0,0,0,0,0,0,0,Forward,1,3,4,A. Rajkumar 
-Puzhal FCA,4,POR2025401,Kamesh ,11,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,Forward,1,3,4,Kameshwaran M 
-Puzhal FCA,4,POR2025405,Naishan ,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,1,3,4,Naishan Varghese 
-Puzhal FCA,4,POR2025409,Mani,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,GK,1,3,4,MANIKANDAN 
-Puzhal FCA,4,POR2025411,Asif AK,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,3,4,Asif khan
-Puzhal FCA,4,POR2025412,MADHAVAN ,8,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,0,Defense,1,3,4,MADHAVAN 
-Puzhal FCA,4,POR2025413,Sri,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Midfield,1,3,4,Sri arabindh 
-Puzhal FCA,4,POR2025414,Britto ,4,0,0,0,0,0,1,0,1,0,0,0,1,0,1,2,0,0,0,1,1,0,0,0,Midfield,1,3,4,Leoncius Britto 
-Puzhal FCA,4,POR2025415,Jonathan B,15,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,3,3,0,0,Defense,1,3,4,  B Jonathan 
-Puzhal FCA,4,POR2025416,Babu,17,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,3,4,0,0,0,Midfield,1,3,4,R.Ramakrishnan
-Puzhal FCA,4,POR2025417,JAI ,16,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,3,4,JAI GANESH E
-Puzhal FCA,4,POR2025418,PRAVEEN,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,1,0,0,Midfield,1,3,4,G.Praveendran 
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Podium FC,18,POR2025209,guna,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,0,3,4,Guna sekar
+Podium FC,18,POR2025210,Armaan,17,0,0,0,0,0,0,0,0,0,1,1,2,0,0,1,0,0,0,1,1,0,0,0,0,Forward,0,3,4,Armaan aslam pathan
+Podium FC,18,POR2025212,Ajith,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,3,4,Ajithn kumar
+Podium FC,18,POR2025215,jaison,03,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,0,0,0,0,1,1,1,0,0,Defense,0,3,4,jaison joshwa
+Podium FC,18,POR2025216,naveen,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,3,4,naveen
+Podium FC,18,POR2025217,hamosh,8,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,1,1,0,0,0,Midfield,0,3,4,Hamosh
+Podium FC,18,POR2025219,rajesh,09,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,1,0,0,0,Forward,0,3,4,rajesh
+Podium FC,18,POR2025223,surya,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,3,0,0,0,0,4,1,0,0,0,Midfield,0,3,4,surya
+Podium FC,18,POR2025224,moris,5,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,Forward,0,3,4,moris dinakaran
+Podium FC,18,POR2025225,bala,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2,0,0,Defense,0,3,4,bala
+Podium FC,18,POR2025226,benjamin,23,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Forward,0,3,4,benjamin
+Podium FC,18,POR2025227,dhanush,21,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,Forward,0,3,4,dhanush
+Podium FC,18,POR2025228,Vasanth,25,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,3,4,Vasanth 
+Puzhal FCA,4,POR2025395,Eswar ,13,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,4,4,1,0,0,Defense,1,3,4,R.Eswar 
+Puzhal FCA,4,POR2025399,Rajkumar,10,1,1,0,0,0,0,0,0,0,2,0,2,0,0,2,0,0,0,0,0,0,0,0,0,Forward,1,3,4,A. Rajkumar 
+Puzhal FCA,4,POR2025401,Kamesh ,11,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Forward,1,3,4,Kameshwaran M 
+Puzhal FCA,4,POR2025405,Naishan ,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Defense,1,3,4,Naishan Varghese 
+Puzhal FCA,4,POR2025409,Mani,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,1,3,4,MANIKANDAN 
+Puzhal FCA,4,POR2025411,Asif AK,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Midfield,1,3,4,Asif khan
+Puzhal FCA,4,POR2025412,MADHAVAN ,8,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,0,0,Defense,1,3,4,MADHAVAN 
+Puzhal FCA,4,POR2025413,Sri,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,1,3,4,Sri arabindh 
+Puzhal FCA,4,POR2025414,Britto ,4,0,0,0,0,0,1,0,1,0,0,0,1,0,1,2,0,0,0,1,1,0,0,0,0,Midfield,1,3,4,Leoncius Britto 
+Puzhal FCA,4,POR2025415,Jonathan B,15,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,3,3,0,0,0,Defense,1,3,4,  B Jonathan 
+Puzhal FCA,4,POR2025416,Babu,17,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,3,4,0,0,0,0,Midfield,1,3,4,R.Ramakrishnan
+Puzhal FCA,4,POR2025417,JAI ,16,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,3,4,JAI GANESH E
+Puzhal FCA,4,POR2025418,PRAVEEN,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,1,0,0,0,Midfield,1,3,4,G.Praveendran 

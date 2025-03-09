@@ -1,28 +1,28 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-FC Marina,14,POR2025127,PAUL,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,GK,0,4,7, PAUL ABRAHAM.A
-FC Marina,14,POR2025130,DHILIP,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,0,0,0,Defense,0,4,7,DHILIP KUMAR.E
-FC Marina,14,POR2025132,THEMSO,23,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,4,7,THEMSO JAJO
-FC Marina,14,POR2025133,RAVI,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,7,RAVI TEJA Y.R
-FC Marina,14,POR2025134,R10,10,0,0,0,0,0,0,1,1,0,1,1,2,0,0,0,0,0,0,1,0,0,0,0,Forward,0,4,7,REGAN ALBERNAS
-FC Marina,14,POR2025135,SOSO LAYAM,27,0,0,0,0,0,0,1,1,0,0,1,1,0,0,4,0,0,0,0,0,1,1,0,Forward,0,4,7,SHANGAM LAYAM
-FC Marina,14,POR2025143,PRADHEEP ,8,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Midfield,0,4,7,PRADEEP A.S
-FC Marina,14,POR2025144,SANTHOSH ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,Defense,0,4,7,SANTHOSH.S
-FC Marina,14,POR2025145,PRAMODH,17,0,0,0,0,0,0,0,0,0,0,1,2,0,1,0,0,0,0,0,2,0,0,0,Midfield,0,4,7,PRAMODH AK
-FC Marina,14,POR2025147,TAMIL,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,4,7,TAMIL SELVAN.D
-FC Marina,14,POR2025149,BRIJITH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,Defense,0,4,7,BRIJITH VARGEES
-FC Marina,14,POR2025150,AK,30,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,0,0,Defense,0,4,7,Aditya Kalyananthy 
-SFC,7,POR2025152,siva,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,1,1,7,sivabalan
-SFC,7,POR2025153,VIJI.N,10,1,0,1,0,0,0,0,0,0,2,1,3,0,0,1,0,0,0,0,0,0,0,0,Midfield,1,1,7,vijay
-SFC,7,POR2025154,SOLAI,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,4,1,1,0,Defense,1,1,7,SOLAI RAJ
-SFC,7,POR2025155,KAMESH,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,1,7,KAMESH 
-SFC,7,POR2025159,MADDY,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,1,1,7,madhavan
-SFC,7,POR2025160,GUHAN,4,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,0,0,0,0,1,1,1,0,Midfield,1,1,7,GUHAN RAJ
-SFC,7,POR2025162,EZHIL,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,1,1,7,EZHIL
-SFC,7,POR2025164,SANDY,22,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,2,1,0,0,Midfield,1,1,7,SANTHOSH KUMAR SELVAM
-SFC,7,POR2025165,PADAYAN,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,Forward,1,1,7,RAJASEKHAR
-SFC,7,POR2025167,YUVA,15,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,Midfield,1,1,7,YUVARAJ
-SFC,7,POR2025168,SEKAR,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Midfield,1,1,7,SEKAR
-SFC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,GK,1,1,7,NITHEESH MAHARAJA
-SFC,7,POR2025173,NAREN,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,1,7,NARENDRAN
-SFC,7,POR2025174,NANDHA,9,0,0,0,0,0,0,3,3,0,0,0,1,0,1,1,1,0,0,7,1,0,0,0,Forward,1,1,7,NANDHAKUMAR
-SFC,7,POR2025175,VASANTH JR,14,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,Forward,1,1,7,VASANTH
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FC Marina,14,POR2025127,PAUL,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,4,7, PAUL ABRAHAM.A
+FC Marina,14,POR2025130,DHILIP,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,0,0,0,0,Defense,0,4,7,DHILIP KUMAR.E
+FC Marina,14,POR2025132,THEMSO,23,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,4,7,THEMSO JAJO
+FC Marina,14,POR2025133,RAVI,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,7,RAVI TEJA Y.R
+FC Marina,14,POR2025134,R10,10,0,0,0,0,0,0,1,1,0,1,1,2,0,0,0,0,0,0,1,0,0,0,0,0,Forward,0,4,7,REGAN ALBERNAS
+FC Marina,14,POR2025135,SOSO LAYAM,27,0,0,0,0,0,0,1,1,0,0,1,1,0,0,4,0,0,0,0,0,1,1,0,0,Forward,0,4,7,SHANGAM LAYAM
+FC Marina,14,POR2025143,PRADHEEP ,8,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,4,7,PRADEEP A.S
+FC Marina,14,POR2025144,SANTHOSH ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,0,Defense,0,4,7,SANTHOSH.S
+FC Marina,14,POR2025145,PRAMODH,17,0,0,0,0,0,0,0,0,0,0,1,2,0,1,0,0,0,0,0,2,0,0,0,0,Midfield,0,4,7,PRAMODH AK
+FC Marina,14,POR2025147,TAMIL,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Forward,0,4,7,TAMIL SELVAN.D
+FC Marina,14,POR2025149,BRIJITH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,Defense,0,4,7,BRIJITH VARGEES
+FC Marina,14,POR2025150,AK,30,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,4,7,Aditya Kalyananthy 
+SFC,7,POR2025152,siva,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,1,1,7,sivabalan
+SFC,7,POR2025153,VIJI.N,10,1,0,1,0,0,0,0,0,0,2,1,3,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,1,1,7,vijay
+SFC,7,POR2025154,SOLAI,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,4,1,1,0,0,Defense,1,1,7,SOLAI RAJ
+SFC,7,POR2025155,KAMESH,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,1,7,KAMESH 
+SFC,7,POR2025159,MADDY,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,1,7,madhavan
+SFC,7,POR2025160,GUHAN,4,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,0,0,0,0,1,1,1,0,0,Midfield,1,1,7,GUHAN RAJ
+SFC,7,POR2025162,EZHIL,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Defense,1,1,7,EZHIL
+SFC,7,POR2025164,SANDY,22,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,2,1,0,0,0,Midfield,1,1,7,SANTHOSH KUMAR SELVAM
+SFC,7,POR2025165,PADAYAN,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,Forward,1,1,7,RAJASEKHAR
+SFC,7,POR2025167,YUVA,15,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,1,7,YUVARAJ
+SFC,7,POR2025168,SEKAR,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,Midfield,1,1,7,SEKAR
+SFC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,1,1,7,NITHEESH MAHARAJA
+SFC,7,POR2025173,NAREN,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,1,7,NARENDRAN
+SFC,7,POR2025174,NANDHA,9,0,0,0,0,0,0,3,3,0,0,0,1,0,1,1,1,0,0,7,1,0,0,0,0,Forward,1,1,7,NANDHAKUMAR
+SFC,7,POR2025175,VASANTH JR,14,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,Forward,1,1,7,VASANTH

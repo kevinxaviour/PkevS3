@@ -1,28 +1,28 @@
-team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,position,clean_sheets,shots_faced,matchid,Player_FN
-Puzhal FCA,4,POR2025395,Eswar ,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,2,2,0,Defense,0,3,25,R.Eswar 
-Puzhal FCA,4,POR2025396,Vinoba,26,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,Defense,0,3,25,S.vinoba gandhi
-Puzhal FCA,4,POR2025397,Alex inbaraj ,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,25,Inbaraj 
-Puzhal FCA,4,POR2025399,Rajkumar,10,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Forward,0,3,25,A. Rajkumar 
-Puzhal FCA,4,POR2025400,Ranjith,24,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,Midfield,0,3,25,Ranjith 
-Puzhal FCA,4,POR2025401,Kamesh ,11,0,0,0,0,0,0,0,0,0,1,0,2,0,1,1,0,0,0,0,0,0,1,0,Forward,0,3,25,Kameshwaran M 
-Puzhal FCA,4,POR2025406,Anson ,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,GK,0,3,25,Anson rapheal
-Puzhal FCA,4,POR2025407,Ravindar,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,Midfield,0,3,25,Ravindar.s
-Puzhal FCA,4,POR2025411,Asif AK,6,0,0,0,0,0,0,0,0,0,1,0,3,0,2,0,0,0,0,1,2,1,0,0,Midfield,0,3,25,Asif khan
-Puzhal FCA,4,POR2025412,MADHAVAN ,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,5,0,0,0,Defense,0,3,25,MADHAVAN 
-Puzhal FCA,4,POR2025413,Sri,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,0,0,Midfield,0,3,25,Sri arabindh 
-Puzhal FCA,4,POR2025415,Jonathan B,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,Defense,0,3,25,  B Jonathan 
-Puzhal FCA,4,POR2025416,Babu,17,0,0,0,0,0,0,0,0,0,1,0,1,0,0,3,1,0,0,0,0,0,0,0,Midfield,0,3,25,R.Ramakrishnan
-Puzhal FCA,4,POR2025417,JAI ,16,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,Midfield,0,3,25,JAI GANESH E
-Puzhal FCA,4,POR2025418,PRAVEEN,20,0,0,0,0,0,0,2,2,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Midfield,0,3,25,G.Praveendran 
-Sethu FC,7,POR2025152,siva,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Defense,1,4,25,sivabalan
-Sethu FC,7,POR2025153,VIJI.N,10,0,0,0,0,0,0,1,1,0,1,2,3,0,0,1,0,0,0,0,1,1,0,0,Midfield,1,4,25,vijay
-Sethu FC,7,POR2025154,SOLAI,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,2,0,0,Defense,1,4,25,SOLAI RAJ
-Sethu FC,7,POR2025157,BEBITTO JR,11,0,0,0,0,0,0,2,2,0,0,1,1,0,0,1,0,0,0,0,2,1,0,0,Forward,1,4,25,BEBITO GODWIN
-Sethu FC,7,POR2025159,MADDY,18,0,0,0,0,0,0,1,1,0,0,0,1,0,1,2,0,0,0,0,2,1,0,0,Midfield,1,4,25,madhavan
-Sethu FC,7,POR2025160,GUHAN,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,2,2,0,Midfield,1,4,25,GUHAN RAJ
-Sethu FC,7,POR2025164,SANDY,22,0,0,0,0,0,1,0,1,0,0,0,0,0,0,4,0,0,0,0,4,1,0,0,Midfield,1,4,25,SANTHOSH KUMAR SELVAM
-Sethu FC,7,POR2025165,PADAYAN,17,1,1,0,0,0,0,1,1,0,2,3,6,0,1,0,0,0,0,0,3,0,0,0,Forward,1,4,25,RAJASEKHAR
-Sethu FC,7,POR2025168,SEKAR,19,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,0,0,0,Midfield,1,4,25,SEKAR
-Sethu FC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,GK,1,4,25,NITHEESH MAHARAJA
-Sethu FC,7,POR2025173,NAREN,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,Midfield,1,4,25,NARENDRAN
-Sethu FC,7,POR2025174,NANDHA,9,0,0,0,0,0,0,0,0,0,0,1,1,0,0,5,0,0,0,0,4,1,0,0,Forward,1,4,25,NANDHAKUMAR
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Puzhal FCA,4,POR2025395,Eswar ,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,2,2,0,0,Defense,0,3,25,R.Eswar 
+Puzhal FCA,4,POR2025396,Vinoba,26,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,3,25,S.vinoba gandhi
+Puzhal FCA,4,POR2025397,Alex inbaraj ,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,25,Inbaraj 
+Puzhal FCA,4,POR2025399,Rajkumar,10,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,3,25,A. Rajkumar 
+Puzhal FCA,4,POR2025400,Ranjith,24,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,3,25,Ranjith 
+Puzhal FCA,4,POR2025401,Kamesh ,11,0,0,0,0,0,0,0,0,0,1,0,2,0,1,1,0,0,0,0,0,0,1,0,0,Forward,0,3,25,Kameshwaran M 
+Puzhal FCA,4,POR2025406,Anson ,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,3,25,Anson rapheal
+Puzhal FCA,4,POR2025407,Ravindar,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,0,3,25,Ravindar.s
+Puzhal FCA,4,POR2025411,Asif AK,6,0,0,0,0,0,0,0,0,0,1,0,3,0,2,0,0,0,0,1,2,1,0,0,0,Midfield,0,3,25,Asif khan
+Puzhal FCA,4,POR2025412,MADHAVAN ,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,5,0,0,0,0,Defense,0,3,25,MADHAVAN 
+Puzhal FCA,4,POR2025413,Sri,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,0,0,0,Midfield,0,3,25,Sri arabindh 
+Puzhal FCA,4,POR2025415,Jonathan B,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,Defense,0,3,25,  B Jonathan 
+Puzhal FCA,4,POR2025416,Babu,17,0,0,0,0,0,0,0,0,0,1,0,1,0,0,3,1,0,0,0,0,0,0,0,0,Midfield,0,3,25,R.Ramakrishnan
+Puzhal FCA,4,POR2025417,JAI ,16,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,Midfield,0,3,25,JAI GANESH E
+Puzhal FCA,4,POR2025418,PRAVEEN,20,0,0,0,0,0,0,2,2,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,Midfield,0,3,25,G.Praveendran 
+Sethu FC,7,POR2025152,siva,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,4,25,sivabalan
+Sethu FC,7,POR2025153,VIJI.N,10,0,0,0,0,0,0,1,1,0,1,2,3,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,1,4,25,vijay
+Sethu FC,7,POR2025154,SOLAI,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,2,0,0,0,Defense,1,4,25,SOLAI RAJ
+Sethu FC,7,POR2025157,BEBITTO JR,11,0,0,0,0,0,0,2,2,0,0,1,1,0,0,1,0,0,0,0,2,1,0,0,0,Forward,1,4,25,BEBITO GODWIN
+Sethu FC,7,POR2025159,MADDY,18,0,0,0,0,0,0,1,1,0,0,0,1,0,1,2,0,0,0,0,2,1,0,0,0,Midfield,1,4,25,madhavan
+Sethu FC,7,POR2025160,GUHAN,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,2,2,0,0,Midfield,1,4,25,GUHAN RAJ
+Sethu FC,7,POR2025164,SANDY,22,0,0,0,0,0,1,0,1,0,0,0,0,0,0,4,0,0,0,0,4,1,0,0,0,Midfield,1,4,25,SANTHOSH KUMAR SELVAM
+Sethu FC,7,POR2025165,PADAYAN,17,1,1,0,0,0,0,1,1,0,2,3,6,0,1,0,0,0,0,0,3,0,0,0,0,Forward,1,4,25,RAJASEKHAR
+Sethu FC,7,POR2025168,SEKAR,19,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,0,0,0,0,Midfield,1,4,25,SEKAR
+Sethu FC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,GK,1,4,25,NITHEESH MAHARAJA
+Sethu FC,7,POR2025173,NAREN,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,0,Midfield,1,4,25,NARENDRAN
+Sethu FC,7,POR2025174,NANDHA,9,0,0,0,0,0,0,0,0,0,0,1,1,0,0,5,0,0,0,0,4,1,0,0,0,Forward,1,4,25,NANDHAKUMAR
