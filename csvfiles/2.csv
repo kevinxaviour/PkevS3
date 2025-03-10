@@ -1,8 +1,11 @@
 team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
 FC Revelation,2,POR2025075,Pandi,8,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,2,2,S Pandian
+FC Revelation,2,POR2025076,Tamil,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GK,0,2,2,Tamilkumaran P
 FC Revelation,2,POR2025077,Solai,27,1,0,1,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,2,2,N Solaimalai
 FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,2,2,Jana Karthikeyan S
 FC Revelation,2,POR2025080,Praba,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,2,2,Prabakaran J
+FC Revelation,2,POR2025082,Ahmed,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,2,2,H A C Ahmed Sahib
+FC Revelation,2,POR2025086,Akhilesh,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,2,2,Akhilesh S
 FC Revelation,2,POR2025089,Ahino,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,2,2,Ahino Jahine J
 FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,2,2,S Shek Shamshir
 FC Revelation,2,POR2025095,Nixan,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,2,2,Nixan samuvel
@@ -18,6 +21,9 @@ SGFC,13,POR2025263,Sai,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfie
 SGFC,13,POR2025264,SHAM,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,4,2,SHAM ROSHAN
 SGFC,13,POR2025267,Iyya ,19,0,0,0,0,0,0,0,0,0,0,2,3,0,1,2,1,0,0,0,1,1,0,0,0,Forward,0,4,2,Dineshkaran k
 SGFC,13,POR2025268,Hari ms ,11,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Forward,0,4,2,Sri Saravana ganesh 
+SGFC,13,POR2025269,Raghul,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,2,Raghul raj
+SGFC,13,POR2025270,BALA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,4,2,Balasubramanyam kv
 SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,4,2,VIGNESH
 SGFC,13,POR2025274,Rishi,79,0,0,0,0,0,1,0,1,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,2,RISHIKESH 
+SGFC,13,POR2025275,Immanuel,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,4,2,Immanuel 
 SGFC,13,POR2025276,Vadakkan,18,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Midfield,0,4,2,Avinash v
