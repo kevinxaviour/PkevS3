@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import io
-import requests
+import os
 from typing import List, Dict, Callable, Any
 
 # Set page title and configuration
@@ -11,29 +10,22 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# GitHub repository information
-GITHUB_REPO = "PkevS3"
-GITHUB_USER = "kevinxaviour"  
-CSV_DIR = "csvfiles"
-EXCEL_DIR = "impfiles"
-TEAM_MAPPING_FILE = "Team IDs.xlsx"
+# Local directory information
+CSV_DIR = "csvfiles"  # Directory containing CSV files
+EXCEL_DIR = "impfiles"  # Directory containing Excel files
+TEAM_MAPPING_FILE = os.path.join(EXCEL_DIR, "Team IDs.xlsx")
 
-# Function to fetch all CSV files from GitHub repository directory
-def fetch_csv_files_from_github() -> pd.DataFrame:
-    """Fetch and merge all CSV files from the GitHub repository's csvfiles directory."""
-    # API URL to get directory contents
-    api_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{CSV_DIR}"
-    
+# Function to fetch all CSV files from local directory
+def fetch_csv_files_local() -> pd.DataFrame:
+    """Fetch and merge all CSV files from the local csvfiles directory."""
     try:
-        # Get directory listing
-        response = requests.get(api_url)
-        response.raise_for_status()
+        # Check if directory exists
+        if not os.path.exists(CSV_DIR):
+            st.error(f"Directory {CSV_DIR} not found.")
+            return pd.DataFrame()
         
-        # Extract file information
-        files_info = response.json()
-        
-        # Filter for CSV files
-        csv_files = [file_info for file_info in files_info if file_info['name'].lower().endswith('.csv')]
+        # Get all CSV files in the directory
+        csv_files = [f for f in os.listdir(CSV_DIR) if f.lower().endswith('.csv')]
         
         if not csv_files:
             st.error(f"No CSV files found in {CSV_DIR} directory.")
@@ -41,22 +33,17 @@ def fetch_csv_files_from_github() -> pd.DataFrame:
         
         # Fetch and merge all CSV files
         all_dfs = []
-        for file_info in csv_files:
-            with st.spinner(f"Loading {file_info['name']}..."):
-                # Get raw content URL
-                download_url = file_info['download_url']
+        for file_name in csv_files:
+            with st.spinner(f"Loading {file_name}..."):
+                file_path = os.path.join(CSV_DIR, file_name)
                 
-                # Fetch file content
-                file_response = requests.get(download_url)
-                file_response.raise_for_status()
-                
-                # Read CSV from response content
+                # Read CSV file
                 try:
-                    df = pd.read_csv(io.StringIO(file_response.content.decode('ISO-8859-1')))
+                    df = pd.read_csv(file_path, encoding='ISO-8859-1')
                     all_dfs.append(df)
-                   # st.success(f"Loaded {file_info['name']}")
+                    # st.success(f"Loaded {file_name}")
                 except Exception as e:
-                    st.warning(f"Error reading {file_info['name']}: {str(e)}")
+                    st.warning(f"Error reading {file_name}: {str(e)}")
         
         if all_dfs:
             # Concatenate all DataFrames
@@ -67,23 +54,21 @@ def fetch_csv_files_from_github() -> pd.DataFrame:
             return pd.DataFrame()
             
     except Exception as e:
-        st.error(f"Error accessing GitHub repository: {str(e)}")
+        st.error(f"Error accessing local directory: {str(e)}")
         return pd.DataFrame()
 
-# Function to fetch team mapping from GitHub
-def fetch_team_mapping() -> pd.DataFrame:
-    """Fetch team mapping Excel file from GitHub repository."""
-    # Raw content URL for the Excel file
-    excel_url = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/{EXCEL_DIR}/{TEAM_MAPPING_FILE}"
-    
+# Function to fetch team mapping from local file
+def fetch_team_mapping_local() -> pd.DataFrame:
+    """Fetch team mapping Excel file from local directory."""
     try:
         with st.spinner(f"Loading team mapping file..."):
-            # Fetch file content
-            response = requests.get(excel_url)
-            response.raise_for_status()
+            # Check if file exists
+            if not os.path.exists(TEAM_MAPPING_FILE):
+                st.error(f"Team mapping file not found at {TEAM_MAPPING_FILE}")
+                return pd.DataFrame()
             
-            # Read Excel from response content
-            team_mapping = pd.read_excel(io.BytesIO(response.content))
+            # Read Excel file
+            team_mapping = pd.read_excel(TEAM_MAPPING_FILE)
             # st.success("Team mapping loaded successfully")
             return team_mapping
             
@@ -91,7 +76,7 @@ def fetch_team_mapping() -> pd.DataFrame:
         st.error(f"Error fetching team mapping file: {str(e)}")
         return pd.DataFrame()
 
-# Statistics functions
+# Statistics functions - keeping all the same functions from your original code
 def Goals_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['team', 'playerid', 'Player_FN']).agg(
         Matches=('matchid', 'nunique'),
@@ -172,6 +157,7 @@ def GA(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Name'] = df_summary['Name'].str.title()  # Convert names to title case
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
+
 def cc(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
         Matches=('matchid', 'nunique'),  
@@ -359,7 +345,6 @@ STAT_FUNCTIONS = {
     "Fouls": {"func": fouls_stats, "desc": "Fouls Committed By Players"},
     "Yellow Cards": {"func": yc_stats, "desc": "Yellow Cards Received By Players"},
     "Red Cards": {"func": rc_stats, "desc": "Red Cards Received By Players"},
-    
 }
 
 # Main app
@@ -374,9 +359,9 @@ def main():
 
     # Load data 
     if not st.session_state.data_loaded:
-        with st.spinner("Loading data from GitHub repository..."):
+        with st.spinner("Loading data from local files..."):
             # Fetch and merge CSV files
-            merged_df = fetch_csv_files_from_github()
+            merged_df = fetch_csv_files_local()
             
             if not merged_df.empty:
                 st.session_state.df = merged_df
@@ -385,20 +370,19 @@ def main():
                 st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
                 
                 # Fetch team mapping
-                team_mapping = fetch_team_mapping()
+                team_mapping = fetch_team_mapping_local()
                 
                 if not team_mapping.empty:
                     # Perform the merge
                     st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
                     st.session_state.df['team'] = st.session_state.df['TeamName']
                     st.session_state.df = st.session_state.df.drop(columns=['ID', 'TeamName'])
-
                 else:
                     st.error("Team mapping could not be loaded, using teamid instead.")
                 
                 st.session_state.data_loaded = True
             else:
-                st.error("Data loading failed. Check your GitHub repository and file paths.")
+                st.error("Data loading failed. Check your local directories and file paths.")
 
     # Sidebar for statistic selection (Using Buttons Instead of Dropdown)
     st.sidebar.header("Select Stat")
