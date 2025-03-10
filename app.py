@@ -345,20 +345,21 @@ STAT_FUNCTIONS = {
     "Goals": {"func": Goals_stats, "desc": "Goal Scored By Players"},
     "Detailed Goals": {"func": Goalsd_stats, "desc": "Detailed Goal Statistics For Players"},
     "Detailed Shots Per Match": {"func": shotsd_stats, "desc": "Detailed Shots Statistics For Players"},
+    "Shot Accuracy": {"func": shot_accuracy, "desc": "Shot Accuracy By Players"},
     "Assists": {"func": Assists_stats, "desc": "Assists By Players"},
     "Goals + Assists": {"func": GA, "desc": "Goals + Assists By Players"},
     "Chances Created": {"func": cc, "desc": "Chances Created By Players"},
-    "Shot Accuracy": {"func": shot_accuracy, "desc": "Shot Accuracy By Players"},
+    "Tackles Per Match": {"func": tackles_90, "desc": "Tackles Per Match By Players"},
+    "Interceptions Per Match": {"func": inter_90, "desc": "Interceptions Per Match By Players"},
+    "Blocks Per Match": {"func": blocks_90, "desc": "Blocks Per Match By Players"},
+    "Goalkeeper Saves": {"func": GK_Saves, "desc": "Total Saves By Goalkeepers"},
+    "Goalkeeper Clean Sheets": {"func": GK_cs, "desc": "Clean Sheets By Goalkeepers"},
+    "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save Percentage By Goalkeepers"},
+    "Offsides": {"func": offsides_stats, "desc": "Offside Statistics By Players"},
     "Fouls": {"func": fouls_stats, "desc": "Fouls Committed By Players"},
     "Yellow Cards": {"func": yc_stats, "desc": "Yellow Cards Received By Players"},
     "Red Cards": {"func": rc_stats, "desc": "Red Cards Received By Players"},
-    "Offsides": {"func": offsides_stats, "desc": "Offside Statistics By Players"},
-    "Tackles Per Match": {"func": tackles_90, "desc": "Average Tackles Per Match By Players"},
-    "Interceptions Per Match": {"func": inter_90, "desc": "Average Interceptions Per Match By Players"},
-    "Blocks Per Match": {"func": blocks_90, "desc": "Average Blocks Per Match By Players"},
-    "Goalkeeper Saves": {"func": GK_Saves, "desc": "Total Saves By Goalkeepers"},
-    "Goalkeeper Clean Sheets": {"func": GK_cs, "desc": "Clean Sheets By Goalkeepers"},
-    "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save Percentage By Goalkeepers"}
+    
 }
 
 # Main app
