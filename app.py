@@ -8,7 +8,7 @@ from typing import List, Dict, Callable, Any
 st.set_page_config(
     page_title="Porkallam Season 3",
     layout="wide",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="expanded"
 )
 
 # GitHub repository information
@@ -432,7 +432,7 @@ def main():
         except Exception as e:
             st.error(f"Error calculating statistics: {str(e)}")
     else:
-        st.info("Please select a statistic.")
+        st.info("Please Select a Stat.")
 
 # Run the main function
 if __name__ == "__main__":
