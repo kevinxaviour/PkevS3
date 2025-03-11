@@ -1,0 +1,29 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Podium FC,18,POR2025210,Armaan,17,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Forward,0,6,32,Armaan aslam pathan
+Podium FC,18,POR2025214,monish,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,6,32,Monish raj
+Podium FC,18,POR2025215,jaison,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,6,32,jaison joshwa
+Podium FC,18,POR2025216,naveen,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Forward,0,6,32,naveen
+Podium FC,18,POR2025217,hamosh,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,6,32,Hamosh
+Podium FC,18,POR2025219,rajesh,9,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,6,32,rajesh
+Podium FC,18,POR2025221,david,14,0,0,0,0,0,0,0,0,0,0,0,1,0,1,3,0,0,0,0,1,2,0,0,0,Midfield,0,6,32,david samuel
+Podium FC,18,POR2025222,joshua,10,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,3,0,0,0,0,Forward,0,6,32,joshua
+Podium FC,18,POR2025223,surya,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Midfield,0,6,32,surya
+Podium FC,18,POR2025224,moris,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Forward,0,6,32,moris dinakaran
+Podium FC,18,POR2025225,bala,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,Defense,0,6,32,bala
+Podium FC,18,POR2025226,benjamin,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Forward,0,6,32,benjamin
+Podium FC,18,POR2025227,dhanush,21,0,0,0,0,0,0,1,1,0,1,1,2,0,0,1,0,0,0,1,0,0,0,0,0,Forward,0,6,32,dhanush
+Podium FC,18,POR2025228,Vasanth,25,1,0,1,0,0,0,0,0,0,2,2,4,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,6,32,Vasanth 
+Podium FC,18,POR2025229,TONNY,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,6,32,TONNY
+Steds HCL FC,15,POR2025318,Shankar,20,1,0,1,0,1,0,2,2,0,2,0,2,0,0,0,0,0,0,0,3,0,1,0,0,Midfield,0,4,32,Umashankar M
+Steds HCL FC,15,POR2025323,Mani DJ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,Defense,0,4,32,Manikandan
+Steds HCL FC,15,POR2025324,Akash,10,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,1,0,1,0,0,0,Forward,0,4,32,Akash
+Steds HCL FC,15,POR2025325,Bala,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Defense,0,4,32,Balamurugan
+Steds HCL FC,15,POR2025327,Mithran,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,4,32,Mithran
+Steds HCL FC,15,POR2025328,Selva,19,1,1,0,0,0,0,0,0,0,1,1,2,0,0,2,0,0,0,0,2,0,0,0,0,Midfield,0,4,32,Selvaganapathy G 
+Steds HCL FC,15,POR2025329,Vignesh JR,15,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Forward,0,4,32,Vigneshwaran
+Steds HCL FC,15,POR2025330,Surya,8,0,0,0,0,0,1,1,2,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,Defense,0,4,32,Surya
+Steds HCL FC,15,POR2025335,Magesh,7,1,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,3,1,1,0,0,0,Midfield,0,4,32,Magesh
+Steds HCL FC,15,POR2025337,Noel,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,1,0,0,0,0,Defense,0,4,32,Noel S
+Steds HCL FC,15,POR2025338,Kathick,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,0,0,0,0,Forward,0,4,32,Karthik.k
+Steds HCL FC,15,POR2025340,Alex,6,0,0,0,0,0,0,2,2,0,2,1,3,0,0,1,0,0,0,1,3,0,0,0,0,Defense,0,4,32,Ajay Alex
+Steds HCL FC,15,POR2025343,Siva,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,Forward,0,4,32,Sivakumar
