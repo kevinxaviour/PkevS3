@@ -327,9 +327,12 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
     return df_summary
 
 def totalgoals(df: pd.DataFrame) -> pd.DataFrame:
-    df_summary = df_summary['Goals'].sum()
+    df_summary = df['Goals'].sum()
     df_summary=(int(df_summary))+1
     return df_summary
+
+
+
 
 # Dictionary mapping function names to functions and their descriptions
 STAT_FUNCTIONS = {
@@ -367,6 +370,8 @@ def main():
         with st.spinner("Loading data from local files..."):
             # Fetch and merge CSV files
             merged_df = fetch_csv_files_local()
+            total_goals=totalgoals(merged_df)
+            st.metric(label="Total Goals", value=total_goals)
             
             if not merged_df.empty:
                 st.session_state.df = merged_df
