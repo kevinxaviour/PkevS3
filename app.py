@@ -417,7 +417,7 @@ def main():
             st.error(f"Error calculating statistics: {str(e)}")
     else:
         st.info("Please Select a Stat.")
-
+st.metric(label="Total Sales", value="₹1,50,000", delta="₹5,000")  
 # Run the main function
 if __name__ == "__main__":
     main()
