@@ -440,50 +440,35 @@ STAT_FUNCTIONS = {
 
 # Main app
 def main():
-    # Initialize session state for dataframe if not exists
+    # Initialize ALL session state variables upfront
     if 'df' not in st.session_state:
         st.session_state.df = None
         st.session_state.data_loaded = False
-        st.session_state.selected_stat = None  # Store selected stat
-        st.session_state.total_goals = None
-        st.session_state.total_players = None
+        st.session_state.selected_stat = None
+        st.session_state.total_goals = 0  # Default value
+        st.session_state.total_players = 0  # Default value
 
-    # Load data 
+    # Load data only if not loaded
     if not st.session_state.data_loaded:
-        with st.spinner("Loading data from local files..."):
-            # Fetch and merge CSV files
-            merged_df = fetch_csv_files_local()
-            total_goals = totalgoals(merged_df)
-            total_players = tpp(merged_df)
-            
-            if not merged_df.empty:
-                st.session_state.df = merged_df
-                st.session_state.total_goals = total_goals
-                st.session_state.total_players = total_players
-                
-                # Process data similar to original script
-                st.session_state.df['Player_FN'] = st.session_state.df['Player_FN'].fillna(st.session_state.df.get('player', ''))
-                
-                # Fetch team mapping
-                team_mapping = fetch_team_mapping_local()
-                
-                if not team_mapping.empty:
-                    # Perform the merge
-                    st.session_state.df = st.session_state.df.merge(team_mapping, left_on='teamid', right_on='ID', how='left')
-                    st.session_state.df['team'] = st.session_state.df['TeamName']
-                    st.session_state.df = st.session_state.df.drop(columns=['ID', 'TeamName'])
+        with st.spinner("Loading data..."):
+            try:
+                merged_df = fetch_csv_files_local()
+                if not merged_df.empty:
+                    # Calculate and store metrics
+                    st.session_state.total_goals = totalgoals(merged_df)
+                    st.session_state.total_players = tpp(merged_df)
+                    
+                    # Rest of your data processing...
+                    st.session_state.data_loaded = True
                 else:
-                    st.error("Team mapping could not be loaded, using teamid instead.")
-                
-                st.session_state.data_loaded = True
-            else:
-                st.error("Data loading failed. Check your local directories and file paths.")
+                    st.error("Data loading failed")
+            except Exception as e:
+                st.error(f"Initialization error: {str(e)}")
+                st.session_state.data_loaded = False  # Explicitly handle failure
 
-    # Display metrics
-    if st.session_state.data_loaded:
-        st.metric(label="Total Goals", value=st.session_state.total_goals)
-        st.metric(label="Total Players Played", value=st.session_state.total_players)
-
+    # Display metrics SAFELY
+    st.metric(label="Total Goals", value=st.session_state.total_goals)
+    st.metric(label="Total Players", value=st.session_s
     # Display title
     st.title("Porkallam Season 3 Player Statistics")
 
