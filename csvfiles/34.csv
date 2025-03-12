@@ -1,0 +1,27 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Noble FC,17,POR2025421,Razul,17,0,0,0,0,0,0,0,0,0,0,0,2,0,2,5,0,0,0,0,2,0,0,0,0,Midfield,0,4,34,Shudarshan Raj N
+Noble FC,17,POR2025423,Sarves,27,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,4,34,Sarveswaran m
+Noble FC,17,POR2025424,Stephin,28,1,1,0,0,0,0,0,0,1,1,0,1,0,0,3,0,0,0,1,1,0,0,0,0,Forward,0,4,34,Stephin balan.y
+Noble FC,17,POR2025425,Rahul ,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,0,Midfield,0,4,34,Rahul.g
+Noble FC,17,POR2025426,Ok,7,1,0,0,1,0,0,0,0,0,1,0,1,0,0,4,0,0,0,0,2,0,0,0,0,Forward,0,4,34,Ashwin.S
+Noble FC,17,POR2025427,Karthikeyan,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,4,34,Karthikeyan. M
+Noble FC,17,POR2025429,Karthi,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,3,1,0,0,0,Defense,0,4,34,Karthikeyan. R
+Noble FC,17,POR2025430,Shijo Mathew,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,4,34,Shijo Mathew
+Noble FC,17,POR2025434,Sudhan,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,Forward,0,4,34,Sudhan
+Noble FC,17,POR2025436,Vedanth,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,34,Vedanth Ragupati
+Noble FC,17,POR2025441,Vijayakumar,45,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3,0,0,0,0,2,1,0,0,0,Defense,0,4,34,Vijayakumar
+Noble FC,17,POR2025442,Kaviyarasan,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Defense,0,4,34,Kaviyarasan
+Santhome SAI,9,POR2025043,Pragadeesh dhanapal,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,2,1,0,0,Defense,0,2,34,Pragadeesh dhanapal
+Santhome SAI,9,POR2025044,Ranjith,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,2,34,Ranjith.V
+Santhome SAI,9,POR2025045,THARUN ,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Forward,0,2,34,THARUN M
+Santhome SAI,9,POR2025046,Bharath,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,Defense,0,2,34,P. Bharath kumar
+Santhome SAI,9,POR2025048,Anto louis,09,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,Midfield,0,2,34,Anto louis d silva
+Santhome SAI,9,POR2025049,HARISH,27,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,0,0,0,0,3,0,0,0,0,Forward,0,2,34,HARISH.S
+Santhome SAI,9,POR2025050,WALSH,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,Forward,0,2,34,V.S.VISHNU WALSH
+Santhome SAI,9,POR2025051,SHAHID,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,0,0,0,0,Midfield,0,2,34,MOHAMED SHAHID . N
+Santhome SAI,9,POR2025054,MOHAN,11,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,2,34,MOHAN RAJA.P
+Santhome SAI,9,POR2025060,LEO THOMAS,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,2,34,LEO THOMAS
+Santhome SAI,9,POR2025062,ABI ,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,GK,0,2,34,ABISHEK A
+Santhome SAI,9,POR2025063,Harsha,20,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Forward,0,2,34,A K Harshavardhan
+Santhome SAI,9,POR2025064,HEMA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,0,1,0,0,Defense,0,2,34,Hemachandran
+Santhome SAI,9,POR2025068,Usman,08,1,0,1,0,1,0,0,0,1,2,0,2,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,2,34,Afnas usman
