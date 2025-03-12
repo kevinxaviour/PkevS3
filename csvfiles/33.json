@@ -1,0 +1,4518 @@
+[
+  {
+    "id": 1741788493666.4963,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "DHANUSH",
+    "playerid": "POR2025373",
+    "jersey_no": "8",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.9011,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.2327,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "NITHIN",
+    "playerid": "POR2025377",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.2915,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Kanna",
+    "playerid": "POR2025381",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.2578,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "VISHAL",
+    "playerid": "POR2025383",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.5205,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Arun",
+    "playerid": "POR2025385",
+    "jersey_no": "7",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.4102,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.0515,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak ",
+    "playerid": "POR2025388",
+    "jersey_no": "22",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.3928,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.8735,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "MEGA",
+    "playerid": "POR2025392",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.9678,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Krishna",
+    "playerid": "POR2025393",
+    "jersey_no": "18",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741788493666.6628,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "JOSH",
+    "playerid": "POR2025295",
+    "jersey_no": "5",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.728,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "NAVIN",
+    "playerid": "POR2025296",
+    "jersey_no": "11",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.6497,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Sanjay",
+    "playerid": "POR2025299",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.3262,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "KRISHNA",
+    "playerid": "POR2025300",
+    "jersey_no": "74",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.0286,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Vishnu ",
+    "playerid": "POR2025304",
+    "jersey_no": "27",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.0176,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Ajith",
+    "playerid": "POR2025307",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.2058,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.1262,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "AJMAL ",
+    "playerid": "POR2025310",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.7485,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Balaji",
+    "playerid": "POR2025312",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.1545,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Gokul",
+    "playerid": "POR2025314",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741788493666.411,
+    "timestamp": "2025-03-12T14:08:13.666Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "S11",
+        "subEvent": "True"
+      }
+    ],
+    "x": 0,
+    "y": 0,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790130223,
+    "timestamp": "2025-03-12T14:35:30.223Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "JOSH",
+    "playerid": "POR2025295",
+    "jersey_no": "5",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 25,
+    "y": 28,
+    "endX": 25,
+    "endY": 27,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790156203,
+    "timestamp": "2025-03-12T14:35:56.203Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 77,
+    "y": 76,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790197363,
+    "timestamp": "2025-03-12T14:36:37.363Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 31,
+    "y": 69,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790220893,
+    "timestamp": "2025-03-12T14:37:00.893Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Gokul",
+    "playerid": "POR2025314",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Free Kick"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 97,
+    "y": 8,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790252464,
+    "timestamp": "2025-03-12T14:37:32.464Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Gokul",
+    "playerid": "POR2025314",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "Others",
+        "subEvent": "Corner"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 119,
+    "y": 2,
+    "endX": 119,
+    "endY": 2,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790291238,
+    "timestamp": "2025-03-12T14:38:11.238Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Sanjay",
+    "playerid": "POR2025299",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 69,
+    "y": 7,
+    "endX": 69,
+    "endY": 6,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790304184,
+    "timestamp": "2025-03-12T14:38:24.184Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "JOSH",
+    "playerid": "POR2025295",
+    "jersey_no": "5",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 18,
+    "y": 16,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790398674,
+    "timestamp": "2025-03-12T14:39:58.674Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Krishna",
+    "playerid": "POR2025393",
+    "jersey_no": "18",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 84,
+    "y": 2,
+    "endX": 83,
+    "endY": 2,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790407908,
+    "timestamp": "2025-03-12T14:40:07.908Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 38,
+    "y": 76,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790433058,
+    "timestamp": "2025-03-12T14:40:33.058Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 107,
+    "y": 50,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790448687,
+    "timestamp": "2025-03-12T14:40:48.687Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 42,
+    "y": 73,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790468777,
+    "timestamp": "2025-03-12T14:41:08.777Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "MEGA",
+    "playerid": "POR2025392",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 43,
+    "y": 66,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790511142,
+    "timestamp": "2025-03-12T14:41:51.142Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Sanjay",
+    "playerid": "POR2025299",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 69,
+    "y": 41,
+    "endX": 69,
+    "endY": 39,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790593363,
+    "timestamp": "2025-03-12T14:43:13.363Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 2,
+    "y": 57,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790614067,
+    "timestamp": "2025-03-12T14:43:34.067Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Kanna",
+    "playerid": "POR2025381",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "Others",
+        "subEvent": "Corner"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 118,
+    "y": 1,
+    "endX": 119,
+    "endY": 1,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790623104,
+    "timestamp": "2025-03-12T14:43:43.104Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 81,
+    "y": 25,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790632188,
+    "timestamp": "2025-03-12T14:43:52.188Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Sanjay",
+    "playerid": "POR2025299",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 75,
+    "y": 12,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790653433,
+    "timestamp": "2025-03-12T14:44:13.433Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak ",
+    "playerid": "POR2025388",
+    "jersey_no": "22",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 34,
+    "y": 29,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790665032,
+    "timestamp": "2025-03-12T14:44:25.032Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "VISHAL",
+    "playerid": "POR2025383",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 25,
+    "y": 4,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790712714,
+    "timestamp": "2025-03-12T14:45:12.714Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Cross"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 106,
+    "y": 58,
+    "endX": 118,
+    "endY": 32,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790722594,
+    "timestamp": "2025-03-12T14:45:22.594Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Krishna",
+    "playerid": "POR2025393",
+    "jersey_no": "18",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "FastBreak"
+      },
+      {
+        "part_used": "Head"
+      }
+    ],
+    "x": 117,
+    "y": 32,
+    "endX": 117,
+    "endY": 33,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790749130,
+    "timestamp": "2025-03-12T14:45:49.130Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "NAVIN",
+    "playerid": "POR2025296",
+    "jersey_no": "11",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 15,
+    "y": 12,
+    "endX": 15,
+    "endY": 11,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790776228,
+    "timestamp": "2025-03-12T14:46:16.228Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Others",
+        "subEvent": "Corner"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 118,
+    "y": 78,
+    "endX": 119,
+    "endY": 78,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790796899,
+    "timestamp": "2025-03-12T14:46:36.899Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Cross"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 118,
+    "y": 78,
+    "endX": 115,
+    "endY": 32,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790804520,
+    "timestamp": "2025-03-12T14:46:44.520Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Corner"
+      },
+      {
+        "part_used": "Head"
+      }
+    ],
+    "x": 115,
+    "y": 32,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790823937,
+    "timestamp": "2025-03-12T14:47:03.937Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 51,
+    "y": 67,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790866395,
+    "timestamp": "2025-03-12T14:47:46.395Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "DHANUSH",
+    "playerid": "POR2025373",
+    "jersey_no": "8",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 22,
+    "y": 24,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790911644,
+    "timestamp": "2025-03-12T14:48:31.644Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Balaji",
+    "playerid": "POR2025312",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Attempt Saved"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Free Kick"
+      },
+      {
+        "part_used": "Left"
+      }
+    ],
+    "x": 93,
+    "y": 52,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790911645,
+    "timestamp": "2025-03-12T14:48:31.644Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "NITHIN",
+    "playerid": "POR2025377",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Goal_Keeper",
+        "subEvent": "Save"
+      }
+    ],
+    "x": 27,
+    "y": 28,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790917861,
+    "timestamp": "2025-03-12T14:48:37.861Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "AJMAL ",
+    "playerid": "POR2025310",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Offside"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 112,
+    "y": 46,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741790925750,
+    "timestamp": "2025-03-12T14:48:45.750Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "NITHIN",
+    "playerid": "POR2025377",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Card",
+        "subEvent": "Yellow"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 5,
+    "y": 39,
+    "endX": 4,
+    "endY": 40,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741790960460,
+    "timestamp": "2025-03-12T14:49:20.460Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Ajith",
+    "playerid": "POR2025307",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 50,
+    "y": 36,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791054458,
+    "timestamp": "2025-03-12T14:50:54.458Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 84,
+    "y": 24,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791109206,
+    "timestamp": "2025-03-12T14:51:49.206Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Arun",
+    "playerid": "POR2025385",
+    "jersey_no": "7",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 31,
+    "y": 38,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791147129,
+    "timestamp": "2025-03-12T14:52:27.129Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Gokul",
+    "playerid": "POR2025314",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Free Kick"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 90,
+    "y": 49,
+    "endX": 90,
+    "endY": 48,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791196851,
+    "timestamp": "2025-03-12T14:53:16.851Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Balaji",
+    "playerid": "POR2025312",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 75,
+    "y": 77,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791207083,
+    "timestamp": "2025-03-12T14:53:27.083Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "VISHAL",
+    "playerid": "POR2025383",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 41,
+    "y": 8,
+    "endX": 42,
+    "endY": 7,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791235759,
+    "timestamp": "2025-03-12T14:53:55.759Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 2,
+    "y": 69,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791260710,
+    "timestamp": "2025-03-12T14:54:20.710Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Kanna",
+    "playerid": "POR2025381",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 77,
+    "y": 74,
+    "endX": 77,
+    "endY": 74,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791318684,
+    "timestamp": "2025-03-12T14:55:18.684Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 36,
+    "y": 72,
+    "endX": 36,
+    "endY": 72,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791384584,
+    "timestamp": "2025-03-12T14:56:24.584Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Balaji",
+    "playerid": "POR2025312",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 46,
+    "y": 74,
+    "endX": 46,
+    "endY": 74,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791395317,
+    "timestamp": "2025-03-12T14:56:35.317Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Balaji",
+    "playerid": "POR2025312",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Cross"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 92,
+    "y": 72,
+    "endX": 117,
+    "endY": 33,
+    "is_assist": 1,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791404002,
+    "timestamp": "2025-03-12T14:56:44.002Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "AJMAL ",
+    "playerid": "POR2025310",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Goal"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "FastBreak"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 118,
+    "y": 34,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791439818,
+    "timestamp": "2025-03-12T14:57:19.818Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "DHANUSH",
+    "playerid": "POR2025373",
+    "jersey_no": "8",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 32,
+    "y": 71,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791475729,
+    "timestamp": "2025-03-12T14:57:55.729Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 65,
+    "y": 4,
+    "endX": 66,
+    "endY": 4,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791499495,
+    "timestamp": "2025-03-12T14:58:19.495Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 56,
+    "y": 21,
+    "endX": 55,
+    "endY": 22,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791545539,
+    "timestamp": "2025-03-12T14:59:05.539Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "AJMAL ",
+    "playerid": "POR2025310",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 109,
+    "y": 59,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791566971,
+    "timestamp": "2025-03-12T14:59:26.971Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Gokul",
+    "playerid": "POR2025314",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 65,
+    "y": 25,
+    "endX": 65,
+    "endY": 25,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791599414,
+    "timestamp": "2025-03-12T14:59:59.414Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 112,
+    "y": 41,
+    "endX": 112,
+    "endY": 40,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791622657,
+    "timestamp": "2025-03-12T15:00:22.657Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "MEGA",
+    "playerid": "POR2025392",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Offside"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 84,
+    "y": 45,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791657129,
+    "timestamp": "2025-03-12T15:00:57.129Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 84,
+    "y": 71,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791680402,
+    "timestamp": "2025-03-12T15:01:20.402Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 17,
+    "y": 6,
+    "endX": 17,
+    "endY": 6,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791736848,
+    "timestamp": "2025-03-12T15:02:16.848Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Others",
+        "subEvent": "Corner"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 119,
+    "y": 78,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791751215,
+    "timestamp": "2025-03-12T15:02:31.215Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Arun",
+    "playerid": "POR2025385",
+    "jersey_no": "7",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 15,
+    "y": 39,
+    "endX": 15,
+    "endY": 39,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791762647,
+    "timestamp": "2025-03-12T15:02:42.647Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Sanjay",
+    "playerid": "POR2025299",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 95,
+    "y": 8,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791784815,
+    "timestamp": "2025-03-12T15:03:04.815Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Arun",
+    "playerid": "POR2025385",
+    "jersey_no": "7",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 35,
+    "y": 34,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791790299,
+    "timestamp": "2025-03-12T15:03:10.299Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Arun",
+    "playerid": "POR2025385",
+    "jersey_no": "7",
+    "events": [
+      {
+        "mainEvent": "Card",
+        "subEvent": "Yellow"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 36,
+    "y": 35,
+    "endX": 35,
+    "endY": 37,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791823761,
+    "timestamp": "2025-03-12T15:03:43.761Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Free Kick"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 81,
+    "y": 42,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791856029,
+    "timestamp": "2025-03-12T15:04:16.029Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Vishnu ",
+    "playerid": "POR2025304",
+    "jersey_no": "27",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 72,
+    "y": 52,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741791901477,
+    "timestamp": "2025-03-12T15:05:01.477Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 42,
+    "y": 74,
+    "endX": 42,
+    "endY": 74,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791912101,
+    "timestamp": "2025-03-12T15:05:12.101Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "MEGA",
+    "playerid": "POR2025392",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 78,
+    "y": 39,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741791921976,
+    "timestamp": "2025-03-12T15:05:21.976Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 42,
+    "y": 57,
+    "endX": 42,
+    "endY": 56,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741792782173,
+    "timestamp": "2025-03-12T15:19:42.173Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "In"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792782174,
+    "timestamp": "2025-03-12T15:19:42.173Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Sanjay",
+    "playerid": "POR2025299",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "Out"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792782173,
+    "timestamp": "2025-03-12T15:19:42.173Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "In"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792782174,
+    "timestamp": "2025-03-12T15:19:42.173Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Sanjay",
+    "playerid": "POR2025299",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "Out"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792886344,
+    "timestamp": "2025-03-12T15:21:26.344Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Sathish kumar",
+    "playerid": "POR2025374",
+    "jersey_no": "10",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "In"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792886345,
+    "timestamp": "2025-03-12T15:21:26.344Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Arun",
+    "playerid": "POR2025385",
+    "jersey_no": "7",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "Out"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792886344,
+    "timestamp": "2025-03-12T15:21:26.344Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Sathish kumar",
+    "playerid": "POR2025374",
+    "jersey_no": "10",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "In"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792886345,
+    "timestamp": "2025-03-12T15:21:26.344Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Arun",
+    "playerid": "POR2025385",
+    "jersey_no": "7",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "Out"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792917104,
+    "timestamp": "2025-03-12T15:21:57.104Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Pradeep ",
+    "playerid": "POR2025390",
+    "jersey_no": "91",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "In"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792917105,
+    "timestamp": "2025-03-12T15:21:57.104Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Krishna",
+    "playerid": "POR2025393",
+    "jersey_no": "18",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "Out"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792917104,
+    "timestamp": "2025-03-12T15:21:57.104Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Pradeep ",
+    "playerid": "POR2025390",
+    "jersey_no": "91",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "In"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792917105,
+    "timestamp": "2025-03-12T15:21:57.104Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Krishna",
+    "playerid": "POR2025393",
+    "jersey_no": "18",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "Out"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741792929376,
+    "timestamp": "2025-03-12T15:22:09.376Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "JOSH",
+    "playerid": "POR2025295",
+    "jersey_no": "5",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 17,
+    "y": 3,
+    "endX": 17,
+    "endY": 5,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741792933214,
+    "timestamp": "2025-03-12T15:22:13.214Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Kanna",
+    "playerid": "POR2025381",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 104,
+    "y": 76,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741792954234,
+    "timestamp": "2025-03-12T15:22:34.234Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 80,
+    "y": 5,
+    "endX": 79,
+    "endY": 7,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741792983775,
+    "timestamp": "2025-03-12T15:23:03.775Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 78,
+    "y": 67,
+    "endX": 78,
+    "endY": 67,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741792997445,
+    "timestamp": "2025-03-12T15:23:17.445Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Through"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 87,
+    "y": 56,
+    "endX": 109,
+    "endY": 53,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793009603,
+    "timestamp": "2025-03-12T15:23:29.603Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "AJMAL ",
+    "playerid": "POR2025310",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "FastBreak"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 116,
+    "y": 53,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793021730,
+    "timestamp": "2025-03-12T15:23:41.730Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "NAVIN",
+    "playerid": "POR2025296",
+    "jersey_no": "11",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 82,
+    "y": 13,
+    "endX": 82,
+    "endY": 14,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793030207,
+    "timestamp": "2025-03-12T15:23:50.207Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 41,
+    "y": 61,
+    "endX": 41,
+    "endY": 61,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793055085,
+    "timestamp": "2025-03-12T15:24:15.085Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 108,
+    "y": 55,
+    "endX": 100,
+    "endY": 53,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793062523,
+    "timestamp": "2025-03-12T15:24:22.523Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Vishnu ",
+    "playerid": "POR2025304",
+    "jersey_no": "27",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Attempt Saved"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 98,
+    "y": 54,
+    "endX": 98,
+    "endY": 54,
+    "is_block": 1,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793069235,
+    "timestamp": "2025-03-12T15:24:29.235Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak ",
+    "playerid": "POR2025388",
+    "jersey_no": "22",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Block"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 16,
+    "y": 29,
+    "endX": 17,
+    "endY": 28,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793099481,
+    "timestamp": "2025-03-12T15:24:59.481Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Balaji",
+    "playerid": "POR2025312",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 72,
+    "y": 4,
+    "endX": 71,
+    "endY": 4,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793130357,
+    "timestamp": "2025-03-12T15:25:30.357Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Through"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 81,
+    "y": 66,
+    "endX": 95,
+    "endY": 61,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793144254,
+    "timestamp": "2025-03-12T15:25:44.254Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "AJMAL ",
+    "playerid": "POR2025310",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 105,
+    "y": 53,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793163207,
+    "timestamp": "2025-03-12T15:26:03.207Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 46,
+    "y": 60,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793173304,
+    "timestamp": "2025-03-12T15:26:13.304Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Vishnu ",
+    "playerid": "POR2025304",
+    "jersey_no": "27",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 68,
+    "y": 49,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793204085,
+    "timestamp": "2025-03-12T15:26:44.085Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Ajith",
+    "playerid": "POR2025307",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 74,
+    "y": 39,
+    "endX": 73,
+    "endY": 39,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793231546,
+    "timestamp": "2025-03-12T15:27:11.546Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Ajith",
+    "playerid": "POR2025307",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 30,
+    "y": 46,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793250991,
+    "timestamp": "2025-03-12T15:27:30.991Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Attempt Saved"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "FastBreak"
+      },
+      {
+        "part_used": "Left"
+      }
+    ],
+    "x": 110,
+    "y": 55,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793250992,
+    "timestamp": "2025-03-12T15:27:30.991Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "NITHIN",
+    "playerid": "POR2025377",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Goal_Keeper",
+        "subEvent": "Save"
+      }
+    ],
+    "x": 10,
+    "y": 25,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793262344,
+    "timestamp": "2025-03-12T15:27:42.344Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "DHANUSH",
+    "playerid": "POR2025373",
+    "jersey_no": "8",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 23,
+    "y": 49,
+    "endX": 23,
+    "endY": 49,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793285883,
+    "timestamp": "2025-03-12T15:28:05.883Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Goal"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Free Kick"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 97,
+    "y": 33,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793307758,
+    "timestamp": "2025-03-12T15:28:27.758Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Vishnu ",
+    "playerid": "POR2025304",
+    "jersey_no": "27",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 49,
+    "y": 54,
+    "endX": 49,
+    "endY": 55,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793318293,
+    "timestamp": "2025-03-12T15:28:38.293Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "VISHAL",
+    "playerid": "POR2025383",
+    "jersey_no": "23",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 5,
+    "y": 23,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793383758,
+    "timestamp": "2025-03-12T15:29:43.758Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 106,
+    "y": 59,
+    "endX": 98,
+    "endY": 54,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793393914,
+    "timestamp": "2025-03-12T15:29:53.914Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 99,
+    "y": 54,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793467668,
+    "timestamp": "2025-03-12T15:31:07.668Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 47,
+    "y": 48,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793473177,
+    "timestamp": "2025-03-12T15:31:13.177Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 20,
+    "y": 68,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793500635,
+    "timestamp": "2025-03-12T15:31:40.635Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Free Kick"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 99,
+    "y": 11,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793537656,
+    "timestamp": "2025-03-12T15:32:17.656Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 49,
+    "y": 53,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793553465,
+    "timestamp": "2025-03-12T15:32:33.465Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Balaji",
+    "playerid": "POR2025312",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 44,
+    "y": 18,
+    "endX": 44,
+    "endY": 18,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793576295,
+    "timestamp": "2025-03-12T15:32:56.295Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Kanna",
+    "playerid": "POR2025381",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Offside"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 106,
+    "y": 27,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793606274,
+    "timestamp": "2025-03-12T15:33:26.274Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Offside"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 92,
+    "y": 61,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793630539,
+    "timestamp": "2025-03-12T15:33:50.539Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Vishnu ",
+    "playerid": "POR2025304",
+    "jersey_no": "27",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 40,
+    "y": 60,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793649953,
+    "timestamp": "2025-03-12T15:34:09.953Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 84,
+    "y": 39,
+    "endX": 84,
+    "endY": 39,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793658544,
+    "timestamp": "2025-03-12T15:34:18.544Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 72,
+    "y": 22,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793680101,
+    "timestamp": "2025-03-12T15:34:40.101Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 75,
+    "y": 58,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793692641,
+    "timestamp": "2025-03-12T15:34:52.641Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Through"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 81,
+    "y": 61,
+    "endX": 98,
+    "endY": 52,
+    "is_assist": 1,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793738949,
+    "timestamp": "2025-03-12T15:35:38.949Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Cross"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 112,
+    "y": 18,
+    "endX": 117,
+    "endY": 49,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793747068,
+    "timestamp": "2025-03-12T15:35:47.068Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Attempt Saved"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 115,
+    "y": 47,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793765848,
+    "timestamp": "2025-03-12T15:36:05.848Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak ",
+    "playerid": "POR2025388",
+    "jersey_no": "22",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Save"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 2,
+    "y": 46,
+    "endX": 2,
+    "endY": 46,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793787912,
+    "timestamp": "2025-03-12T15:36:27.912Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Left"
+      }
+    ],
+    "x": 87,
+    "y": 32,
+    "endX": 86,
+    "endY": 32,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793842077,
+    "timestamp": "2025-03-12T15:37:22.077Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "MEGA",
+    "playerid": "POR2025392",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Goal"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "FastBreak"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 108,
+    "y": 50,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793857270,
+    "timestamp": "2025-03-12T15:37:37.270Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "MEGA",
+    "playerid": "POR2025392",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "Others",
+        "subEvent": "Corner"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 118,
+    "y": 79,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793877758,
+    "timestamp": "2025-03-12T15:37:57.758Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "MEGA",
+    "playerid": "POR2025392",
+    "jersey_no": "9",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Cross"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 119,
+    "y": 78,
+    "endX": 108,
+    "endY": 34,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793890473,
+    "timestamp": "2025-03-12T15:38:10.473Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Attempt Saved"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Corner"
+      },
+      {
+        "part_used": "Head"
+      }
+    ],
+    "x": 108,
+    "y": 35,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741793890474,
+    "timestamp": "2025-03-12T15:38:10.473Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "KRISHNA",
+    "playerid": "POR2025300",
+    "jersey_no": "74",
+    "events": [
+      {
+        "mainEvent": "Goal_Keeper",
+        "subEvent": "Save"
+      }
+    ],
+    "x": 12,
+    "y": 45,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793922327,
+    "timestamp": "2025-03-12T15:38:42.327Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 40,
+    "y": 16,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741793950964,
+    "timestamp": "2025-03-12T15:39:10.964Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Head"
+      }
+    ],
+    "x": 117,
+    "y": 36,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794053597,
+    "timestamp": "2025-03-12T15:40:53.597Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "JOSH",
+    "playerid": "POR2025295",
+    "jersey_no": "5",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 12,
+    "y": 49,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794081721,
+    "timestamp": "2025-03-12T15:41:21.721Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Sathish kumar",
+    "playerid": "POR2025374",
+    "jersey_no": "10",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 107,
+    "y": 28,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794131011,
+    "timestamp": "2025-03-12T15:42:11.011Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 52,
+    "y": 20,
+    "endX": 51,
+    "endY": 20,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794179095,
+    "timestamp": "2025-03-12T15:42:59.095Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Sathish kumar",
+    "playerid": "POR2025374",
+    "jersey_no": "10",
+    "events": [
+      {
+        "mainEvent": "Others",
+        "subEvent": "Corner"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 119,
+    "y": 78,
+    "endX": 119,
+    "endY": 78,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794215442,
+    "timestamp": "2025-03-12T15:43:35.442Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 32,
+    "y": 37,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794225895,
+    "timestamp": "2025-03-12T15:43:45.895Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 84,
+    "y": 44,
+    "endX": 84,
+    "endY": 44,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794235209,
+    "timestamp": "2025-03-12T15:43:55.209Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Kanna",
+    "playerid": "POR2025381",
+    "jersey_no": "17",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Offside"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 93,
+    "y": 27,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794266928,
+    "timestamp": "2025-03-12T15:44:26.928Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Sathish kumar",
+    "playerid": "POR2025374",
+    "jersey_no": "10",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 44,
+    "y": 54,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794298163,
+    "timestamp": "2025-03-12T15:44:58.163Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Interception"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 14,
+    "y": 53,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794318304,
+    "timestamp": "2025-03-12T15:45:18.304Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Through"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 104,
+    "y": 26,
+    "endX": 109,
+    "endY": 25,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794323628,
+    "timestamp": "2025-03-12T15:45:23.628Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Njb",
+    "playerid": "POR2025303",
+    "jersey_no": "24",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Left"
+      }
+    ],
+    "x": 108,
+    "y": 25,
+    "endX": 108,
+    "endY": 25,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794366403,
+    "timestamp": "2025-03-12T15:46:06.403Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Balaji",
+    "playerid": "POR2025312",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 96,
+    "y": 73,
+    "endX": 96,
+    "endY": 73,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794421991,
+    "timestamp": "2025-03-12T15:47:01.991Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 32,
+    "y": 33,
+    "endX": 33,
+    "endY": 33,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794431606,
+    "timestamp": "2025-03-12T15:47:11.606Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 27,
+    "y": 60,
+    "endX": 27,
+    "endY": 60,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794434646,
+    "timestamp": "2025-03-12T15:47:14.646Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "JOSH",
+    "playerid": "POR2025295",
+    "jersey_no": "5",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 12,
+    "y": 54,
+    "endX": 11,
+    "endY": 55,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794475594,
+    "timestamp": "2025-03-12T15:47:55.594Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 38,
+    "y": 11,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794497811,
+    "timestamp": "2025-03-12T15:48:17.811Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "JOSH",
+    "playerid": "POR2025295",
+    "jersey_no": "5",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Hand"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 32,
+    "y": 35,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794530906,
+    "timestamp": "2025-03-12T15:48:50.906Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Sathish kumar",
+    "playerid": "POR2025374",
+    "jersey_no": "10",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Goal"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Free Kick"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 84,
+    "y": 45,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794577653,
+    "timestamp": "2025-03-12T15:49:37.653Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Manoj",
+    "playerid": "POR2025444",
+    "jersey_no": "14",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 51,
+    "y": 56,
+    "endX": 51,
+    "endY": 56,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794598217,
+    "timestamp": "2025-03-12T15:49:58.217Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 70,
+    "y": 45,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794726535,
+    "timestamp": "2025-03-12T15:52:06.535Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Vishnu ",
+    "playerid": "POR2025304",
+    "jersey_no": "27",
+    "events": [
+      {
+        "mainEvent": "Card",
+        "subEvent": "Yellow"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 67,
+    "y": 47,
+    "endX": 67,
+    "endY": 47,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794854492,
+    "timestamp": "2025-03-12T15:54:14.492Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Akash",
+    "playerid": "POR2025315",
+    "jersey_no": "8",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "In"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741794854493,
+    "timestamp": "2025-03-12T15:54:14.492Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "Out"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741794854492,
+    "timestamp": "2025-03-12T15:54:14.492Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Akash",
+    "playerid": "POR2025315",
+    "jersey_no": "8",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "In"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741794854493,
+    "timestamp": "2025-03-12T15:54:14.492Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Priyo",
+    "playerid": "POR2025308",
+    "jersey_no": "25",
+    "events": [
+      {
+        "mainEvent": "Substitution",
+        "subEvent": "Out"
+      }
+    ],
+    "Half": 1,
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": 1741794913674,
+    "timestamp": "2025-03-12T15:55:13.674Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Pradeep ",
+    "playerid": "POR2025390",
+    "jersey_no": "91",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Tackle"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 67,
+    "y": 7,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794948387,
+    "timestamp": "2025-03-12T15:55:48.387Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Cross"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 91,
+    "y": 54,
+    "endX": 108,
+    "endY": 30,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794956507,
+    "timestamp": "2025-03-12T15:55:56.507Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Sathish kumar",
+    "playerid": "POR2025374",
+    "jersey_no": "10",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Attempt Saved"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Right"
+      }
+    ],
+    "x": 107,
+    "y": 34,
+    "is_block": 1,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794961923,
+    "timestamp": "2025-03-12T15:56:01.923Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "JOSH",
+    "playerid": "POR2025295",
+    "jersey_no": "5",
+    "events": [
+      {
+        "mainEvent": "Defense",
+        "subEvent": "Block"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 12,
+    "y": 44,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741794992499,
+    "timestamp": "2025-03-12T15:56:32.499Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Card",
+        "subEvent": "Yellow"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 119,
+    "y": 3,
+    "endX": 119,
+    "endY": 2,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741794998073,
+    "timestamp": "2025-03-12T15:56:38.073Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Murali",
+    "playerid": "POR2025375",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Others",
+        "subEvent": "Corner"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 119,
+    "y": 3,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741795015545,
+    "timestamp": "2025-03-12T15:56:55.545Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Balaji",
+    "playerid": "POR2025312",
+    "jersey_no": "12",
+    "events": [
+      {
+        "mainEvent": "Foul",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 8,
+    "y": 25,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741795045864,
+    "timestamp": "2025-03-12T15:57:25.864Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Deepak",
+    "playerid": "POR2025389",
+    "jersey_no": "16",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Normal"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 119,
+    "y": 17,
+    "endX": 108,
+    "endY": 34,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741795055345,
+    "timestamp": "2025-03-12T15:57:35.345Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "Anand",
+    "playerid": "POR2025387",
+    "jersey_no": "80",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Miss"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Left"
+      }
+    ],
+    "x": 107,
+    "y": 34,
+    "endX": 108,
+    "endY": 34,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741795083833,
+    "timestamp": "2025-03-12T15:58:03.833Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "AJMAL ",
+    "playerid": "POR2025310",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Shot",
+        "subEvent": "Attempt Saved"
+      },
+      {
+        "outcome": 1
+      },
+      {
+        "situation": "Regular Play"
+      },
+      {
+        "part_used": "Left"
+      }
+    ],
+    "x": 106,
+    "y": 33,
+    "Half": 1,
+    "is_home": 0
+  },
+  {
+    "id": 1741795083834,
+    "timestamp": "2025-03-12T15:58:03.833Z",
+    "time": "00:00",
+    "team": "First Goal FC",
+    "teamid": "8",
+    "oppteamid": "10",
+    "player": "NITHIN",
+    "playerid": "POR2025377",
+    "jersey_no": "13",
+    "events": [
+      {
+        "mainEvent": "Goal_Keeper",
+        "subEvent": "Save"
+      }
+    ],
+    "x": 14,
+    "y": 47,
+    "Half": 1,
+    "is_home": 1
+  },
+  {
+    "id": 1741795093323,
+    "timestamp": "2025-03-12T15:58:13.323Z",
+    "time": "00:00",
+    "team": "Guns N Goals",
+    "teamid": "10",
+    "oppteamid": "8",
+    "player": "Vishnu ",
+    "playerid": "POR2025304",
+    "jersey_no": "27",
+    "events": [
+      {
+        "mainEvent": "Pass",
+        "subEvent": "Cross"
+      },
+      {
+        "outcome": 1
+      }
+    ],
+    "x": 90,
+    "y": 24,
+    "endX": 106,
+    "endY": 36,
+    "is_key_pass": 1,
+    "Half": 1,
+    "is_home": 0
+  }
+]
