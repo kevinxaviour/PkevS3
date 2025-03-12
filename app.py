@@ -376,9 +376,9 @@ def main():
             # Fetch and merge CSV files
             merged_df = fetch_csv_files_local()
             total_goals=totalgoals(merged_df)
-            tpp=tpp(merged_df)
+            tp_p=tpp(merged_df)
             st.metric(label="Total Goals", value=total_goals)
-            st.metric(label="Total Players Played", value=tpp)
+            st.metric(label="Total Players Played", value=tp_p)
             
             if not merged_df.empty:
                 st.session_state.df = merged_df
