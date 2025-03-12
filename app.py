@@ -331,6 +331,11 @@ def totalgoals(df: pd.DataFrame) -> pd.DataFrame:
     df_summary=(int(df_summary))+1
     return df_summary
 
+def tpp(df: pd.DataFrame) -> pd.DataFrame:
+    df_summary = df['playerid'].nunique()
+    return df_summary
+    
+
 
 
 
@@ -371,7 +376,9 @@ def main():
             # Fetch and merge CSV files
             merged_df = fetch_csv_files_local()
             total_goals=totalgoals(merged_df)
+            tpp=tpp(merged_df)
             st.metric(label="Total Goals", value=total_goals)
+            st.metric(label="Total Players Played", value=tpp)
             
             if not merged_df.empty:
                 st.session_state.df = merged_df
