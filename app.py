@@ -427,7 +427,6 @@ def main():
             st.error(f"Error calculating statistics: {str(e)}")
     else:
         st.info("Please Select a Stat.")
-st.metric(label="Total Goals", value=totalgoals(merged_df))  
 # Run the main function
 if __name__ == "__main__":
     main()
