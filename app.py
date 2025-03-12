@@ -468,7 +468,7 @@ def main():
 
     # Display metrics SAFELY
     st.metric(label="Total Goals", value=st.session_state.total_goals)
-    st.metric(label="Total Players", value=st.session_s
+    st.metric(label="Total Players", value=st.session_state.total_players)
     # Display title
     st.title("Porkallam Season 3 Player Statistics")
 
