@@ -326,6 +326,11 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
 
+def totalgoals(df: pd.DataFrame) -> pd.DataFrame:
+    df_summary = df_summary['Goals'].sum()
+    df_summary=df_summary+1
+    return df_summary
+
 # Dictionary mapping function names to functions and their descriptions
 STAT_FUNCTIONS = {
     "Goals": {"func": Goals_stats, "desc": "Goal Scored By Players"},
@@ -417,7 +422,7 @@ def main():
             st.error(f"Error calculating statistics: {str(e)}")
     else:
         st.info("Please Select a Stat.")
-st.metric(label="Total Sales", value="₹1,50,000", delta="₹5,000")  
+st.metric(label="Total Goals", value=totalgoals())  
 # Run the main function
 if __name__ == "__main__":
     main()
