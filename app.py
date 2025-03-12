@@ -328,7 +328,7 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
 
 def totalgoals(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary['Goals'].sum()
-    df_summary=df_summary+1
+    df_summary=(int(df_summary))+1
     return df_summary
 
 # Dictionary mapping function names to functions and their descriptions
@@ -422,7 +422,7 @@ def main():
             st.error(f"Error calculating statistics: {str(e)}")
     else:
         st.info("Please Select a Stat.")
-st.metric(label="Total Goals", value=totalgoals(df))  
+st.metric(label="Total Goals", value=totalgoals(merged_df))  
 # Run the main function
 if __name__ == "__main__":
     main()
