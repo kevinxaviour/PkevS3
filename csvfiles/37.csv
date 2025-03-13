@@ -1,0 +1,32 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FC Revelation,2,POR2025073,SURAJ,12,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,2,0,0,0,0,Midfield,0,11,37,Suraj Kumar
+FC Revelation,2,POR2025075,Pandi,8,0,0,0,0,0,0,2,2,0,0,1,1,0,0,2,0,0,0,0,2,0,0,0,0,Midfield,0,11,37,S Pandian
+FC Revelation,2,POR2025076,Tamil,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,9,0,GK,0,11,37,Tamilkumaran P
+FC Revelation,2,POR2025078,Kishore,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GK,0,11,37,Kishore K
+FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,4,1,0,0,0,Defense,0,11,37,Jana Karthikeyan S
+FC Revelation,2,POR2025080,Praba,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,3,0,0,Defense,0,11,37,Prabakaran J
+FC Revelation,2,POR2025082,Ahmed,6,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,Midfield,0,11,37,H A C Ahmed Sahib
+FC Revelation,2,POR2025084,Sourav,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,11,37,Sourav Dasharath Pandere
+FC Revelation,2,POR2025085,Aravind,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,11,37,Aravind 
+FC Revelation,2,POR2025086,Akhilesh,21,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,Forward,0,11,37,Akhilesh S
+FC Revelation,2,POR2025089,Ahino,17,0,0,0,0,0,0,0,0,0,1,1,2,0,0,1,0,0,0,0,1,0,1,0,0,Defense,0,11,37,Ahino Jahine J
+FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,11,37,S Shek Shamshir
+FC Revelation,2,POR2025091,Surya JS,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,11,37,Surya
+FC Revelation,2,POR2025092,Surya Jr,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,Forward,0,11,37,Jayasurya J
+FC Revelation,2,POR2025095,Nixan,18,0,0,0,0,0,0,1,1,0,0,2,2,0,0,1,0,0,0,0,2,0,0,0,0,Forward,0,11,37,Nixan samuvel
+FC Revelation,2,POR2025099,Dory,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Midfield,0,11,37,Sriram B
+Loyola College,1,POR2025001,Srini,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Midfield,1,1,37,S. SRINIVASAN
+Loyola College,1,POR2025449,Ramajayam.V,8,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,Forward,1,1,37,Ramajayam.V
+Loyola College,1,POR2025003,Sanjay,16,1,0,1,0,0,0,0,0,0,2,0,2,0,0,3,1,0,0,0,4,0,0,0,0,Midfield,1,1,37,L.sanjay
+Loyola College,1,POR2025006,Mohanarasu,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,2,0,0,0,Defense,1,1,37,Mohanarasu 
+Loyola College,1,POR2025007,Sunil,19,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,1,0,0,3,4,1,0,0,0,Midfield,1,1,37,Sunil v 
+Loyola College,1,POR2025008,Kumaran,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,5,1,0,0,0,Defense,1,1,37,M.kumaran
+Loyola College,1,POR2025009,MARIA,4,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0,Defense,1,1,37,Mariya Immanuel.A
+Loyola College,1,POR2025011,Kishore R,12,1,1,0,0,0,0,1,1,0,5,0,6,0,1,1,0,0,0,1,2,0,1,0,0,Forward,1,1,37,Kishore Kumar R 
+Loyola College,1,POR2025012,JOBIN,10,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,1,1,37,JOBIN J
+Loyola College,1,POR2025013,Vishal,5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,Defense,1,1,37,Vishal
+Loyola College,1,POR2025014,Lakshay,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,1,1,37,Lakshay.M
+Loyola College,1,POR2025017,Siva,7,0,0,0,0,0,1,5,6,0,1,1,3,0,1,1,0,0,0,0,0,1,1,0,0,Midfield,1,1,37,N.sivasubramaniyan
+Loyola College,1,POR2025018,Vimal kumar ,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,1,1,37,S.Vimal kumar 
+Loyola College,1,POR2025021,Rifan,30,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,1,37,Muhammed Rifan
+Loyola College,1,POR2025022,Melvin ,13,0,0,0,0,0,0,5,5,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,Midfield,1,1,37,Melvin Thomas
