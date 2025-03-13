@@ -1,0 +1,28 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+AMRFA,6,POR2025100,Raghul,20,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,Forward,0,4,35,Raghul
+AMRFA,6,POR20251003,Nandhu,26,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,4,35,Nandha Kumar
+AMRFA,6,POR2025101,Sanjay,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,3,0,0,Defense,0,4,35,K Sanjay
+AMRFA,6,POR2025103,Deva,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Defense,0,4,35,Deva R
+AMRFA,6,POR2025104,AJITH KUMAR R,6,0,0,0,0,0,0,1,1,0,0,1,1,0,0,3,0,0,0,0,1,0,0,0,0,Midfield,0,4,35,AJITH KUMAR R
+AMRFA,6,POR2025105,Logesh,9,2,0,1,0,0,0,1,1,2,2,1,3,0,0,1,0,0,0,0,1,0,0,0,0,Forward,0,4,35,Logesh R
+AMRFA,6,POR2025107,Dhanush,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,Defense,0,4,35,Dhanush
+AMRFA,6,POR2025111,Abi,4,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,Defense,0,4,35,Abilash S
+AMRFA,6,POR2025112,Dinesh,10,0,0,0,0,0,0,1,1,0,1,4,5,1,0,1,0,0,0,0,4,2,0,0,0,Midfield,0,4,35,Dinesh
+AMRFA,6,POR2025113,Benedi,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Forward,0,4,35,Benedict J
+AMRFA,6,POR2025118,Raji.R.S,18,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,4,35,Raji.R
+AMRFA,6,POR2025124,Guru,30,1,0,1,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0,Forward,0,4,35,A.S GURU PRAKASH
+AMRFA,6,POR2025125,Niranjan ,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,0,4,35,Niranjan
+Apollo Tyres FC,5,POR2025277,Siva,6,0,0,0,0,0,0,1,1,0,1,0,2,0,1,1,0,0,0,0,2,0,0,0,0,Midfield,0,4,35,J SIVAMARAN 
+Apollo Tyres FC,5,POR2025278,JACOB  ,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,4,35,Jacob Ruban
+Apollo Tyres FC,5,POR2025282,Clinton ,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,4,35,Clinton 
+Apollo Tyres FC,5,POR2025283,Vasarth,57,2,0,2,0,0,1,4,5,0,2,0,2,0,0,0,0,0,0,0,2,0,0,0,0,Forward,0,4,35,Vasanth 
+Apollo Tyres FC,5,POR2025285,Marshal,17,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,2,1,0,0,2,2,0,0,0,Defense,0,4,35,Jerome Marshal
+Apollo Tyres FC,5,POR2025286,Jeffy ,21,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,4,35,Jeffy J
+Apollo Tyres FC,5,POR2025287,MAHES,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,0,4,35,MAHESWARAN M 
+Apollo Tyres FC,5,POR2025288,DEEPAK,7,0,0,0,0,0,1,0,1,1,0,3,4,0,1,1,0,0,0,1,4,0,0,0,0,Forward,0,4,35,DEEPAK C
+Apollo Tyres FC,5,POR2025289,SANJAY ,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Defense,0,4,35,M.SANJAY KUMAR
+Apollo Tyres FC,5,POR2025290,Nishan,13,1,0,1,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,35,N.shagul nishan
+Apollo Tyres FC,5,POR2025291,Sheenu SR,20,0,0,0,0,0,1,0,1,1,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,Forward,0,4,35,Sheenu.D
+Apollo Tyres FC,5,POR2025292,Shailesh ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,0,Defense,0,4,35,SHAILESH H.R.
+Apollo Tyres FC,5,POR2025293,Tamil,5,0,0,0,0,0,0,0,0,0,0,2,2,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,0,4,35,Tamilarasu.p
+Apollo Tyres FC,5,POR2025294,KISHORE,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,Midfield,0,4,35,Kishore
