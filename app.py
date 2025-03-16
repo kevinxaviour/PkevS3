@@ -99,7 +99,6 @@ def Goals_statst(df: pd.DataFrame) -> pd.DataFrame:
     df_summary['Rank'] = df_summary['Goals'].rank(method='dense', ascending=False).astype(int)
     df_summary = df_summary[['Rank', 'team', 'Goals']].rename(columns={'team':'Team'})
     df_summary = df_summary.reset_index(drop=True)
-    df_summary = df_summary[df_summary['Goals'] != 0]
     return df_summary
 
 def Goalsd_stats(df: pd.DataFrame) -> pd.DataFrame:
@@ -136,6 +135,24 @@ def shotsd_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary.sort_values(by=['Shots Per Match'], ascending=[False])
     df_summary = df_summary[['Player_FN', 'team','Shots Per Match','Shots On Target Per Match','Goals Per Match']].rename(columns={'Player_FN': 'Name','team':'Team'})
     df_summary['Name'] = df_summary['Name'].str.title()
+    df_summary = df_summary.reset_index(drop=True)
+    return df_summary
+
+def shotsd_statst(df: pd.DataFrame) -> pd.DataFrame:
+    df_summary = df.groupby(['team']).agg(
+        Matches=('matchid', 'nunique'),
+        Goals=('Goals', 'sum'),
+        Shots=('shots', 'sum'),
+        ShotsOT=('shots_on_target', 'sum')
+    ).reset_index()
+    df_summary['Shots Per Match']=df_summary['Shots']/df_summary['Matches']
+    df_summary['Shots Per Match']=df_summary['Shots Per Match'].round(1)
+    df_summary['Shots On Target Per Match']=df_summary['ShotsOT']/df_summary['Matches']
+    df_summary['Shots On Target Per Match']=df_summary['Shots On Target Per Match'].round(1)
+    df_summary['Goals Per Match']=df_summary['Goals']/df_summary['Matches']
+    df_summary['Goals Per Match']=df_summary['Goals Per Match'].round(1)
+    df_summary = df_summary.sort_values(by=['Shots Per Match'], ascending=[False])
+    df_summary = df_summary[['team','Shots Per Match','Shots On Target Per Match','Goals Per Match']].rename(columns={'team':'Team'})
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
 
@@ -370,7 +387,8 @@ STAT_FUNCTIONS = {
     "Fouls": {"func": fouls_stats, "desc": "Fouls Committed By Players"},
     "Yellow Cards": {"func": yc_stats, "desc": "Yellow Cards Received By Players"},
     "Red Cards": {"func": rc_stats, "desc": "Red Cards Received By Players"},
-    "Goals By Teams": {"func": Goals_statst, "desc": "Goal Scored By Teams"}
+    "Goals By Teams": {"func": Goals_statst, "desc": "Goal Scored By Teams"},
+    "Shots Stats By Teams": {"func": shotsd_statst, "desc": "Shot Stats By Teams"}
 }
 
 # # Main app
