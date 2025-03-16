@@ -90,6 +90,18 @@ def Goals_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary[df_summary['Goals'] != 0]
     return df_summary
 
+def Goals_statst(df: pd.DataFrame) -> pd.DataFrame:
+    df_summary = df.groupby(['team']).agg(
+        Matches=('matchid', 'nunique'),
+        Goals=('Goals', 'sum')
+    ).reset_index()
+    df_summary = df_summary.sort_values(by=['Goals', 'Matches'], ascending=[False, True])
+    df_summary['Rank'] = df_summary['Goals'].rank(method='dense', ascending=False).astype(int)
+    df_summary = df_summary[['Rank', 'team', 'Goals']].rename(columns={'team':'Team'})
+    df_summary = df_summary.reset_index(drop=True)
+    df_summary = df_summary[df_summary['Goals'] != 0]
+    return df_summary
+
 def Goalsd_stats(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['team', 'playerid', 'Player_FN']).agg(
         Matches=('matchid', 'nunique'),
@@ -358,6 +370,7 @@ STAT_FUNCTIONS = {
     "Fouls": {"func": fouls_stats, "desc": "Fouls Committed By Players"},
     "Yellow Cards": {"func": yc_stats, "desc": "Yellow Cards Received By Players"},
     "Red Cards": {"func": rc_stats, "desc": "Red Cards Received By Players"},
+    "Goals By Teams": {"func": Goals_statst, "desc": "Goal Scored By Teams"}
 }
 
 # # Main app
