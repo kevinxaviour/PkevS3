@@ -1,0 +1,29 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Apollo Tyres FC,5,POR2025277,Siva,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,Midfield,0,5,38,J SIVAMARAN 
+Apollo Tyres FC,5,POR2025278,JACOB  ,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,5,38,Jacob Ruban
+Apollo Tyres FC,5,POR2025283,Vasarth,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Forward,0,5,38,Vasanth 
+Apollo Tyres FC,5,POR2025284,Saravanan,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,Defense,0,5,38,SARAVANAN M
+Apollo Tyres FC,5,POR2025286,Jeffy ,21,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,3,3,0,0,0,Defense,0,5,38,Jeffy J
+Apollo Tyres FC,5,POR2025287,MAHES,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,0,5,38,MAHESWARAN M 
+Apollo Tyres FC,5,POR2025288,DEEPAK,7,0,0,0,0,0,0,0,0,0,1,0,2,0,1,0,0,0,0,0,1,0,0,0,0,Forward,0,5,38,DEEPAK C
+Apollo Tyres FC,5,POR2025289,SANJAY ,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,4,3,0,0,0,Defense,0,5,38,M.SANJAY KUMAR
+Apollo Tyres FC,5,POR2025290,Nishan,13,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,1,0,0,0,Midfield,0,5,38,N.shagul nishan
+Apollo Tyres FC,5,POR2025291,Sheenu SR,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,5,38,Sheenu.D
+Apollo Tyres FC,5,POR2025292,Shailesh ,4,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,Defense,0,5,38,SHAILESH H.R.
+Apollo Tyres FC,5,POR2025293,Tamil,5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,3,2,0,0,0,Midfield,0,5,38,Tamilarasu.p
+Apollo Tyres FC,5,POR2025294,KISHORE,18,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,5,38,Kishore
+FC Revelation,2,POR2025073,SURAJ,12,2,0,2,0,0,0,0,0,1,2,0,2,0,0,1,0,0,0,0,2,0,0,0,0,Midfield,1,2,38,Suraj Kumar
+FC Revelation,2,POR2025075,Pandi,8,1,0,1,0,0,0,2,2,0,1,0,1,0,0,0,0,0,0,0,4,1,0,0,0,Midfield,1,2,38,S Pandian
+FC Revelation,2,POR2025076,Tamil,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,1,2,38,Tamilkumaran P
+FC Revelation,2,POR2025077,Solai,27,0,0,0,0,0,0,0,0,0,0,2,2,1,0,3,0,0,0,0,2,1,0,0,0,Midfield,1,2,38,N Solaimalai
+FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,2,2,0,0,0,Defense,1,2,38,Jana Karthikeyan S
+FC Revelation,2,POR2025082,Ahmed,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,Midfield,1,2,38,H A C Ahmed Sahib
+FC Revelation,2,POR2025084,Sourav,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,2,38,Sourav Dasharath Pandere
+FC Revelation,2,POR2025086,Akhilesh,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,2,38,Akhilesh S
+FC Revelation,2,POR2025089,Ahino,17,0,0,0,0,0,0,0,0,0,2,0,2,0,0,1,0,0,0,1,1,0,0,0,0,Defense,1,2,38,Ahino Jahine J
+FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Defense,1,2,38,S Shek Shamshir
+FC Revelation,2,POR2025091,Surya JS,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,2,38,Surya
+FC Revelation,2,POR2025092,Surya Jr,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,1,2,38,Jayasurya J
+FC Revelation,2,POR2025098,Alex,13,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Midfield,1,2,38,John Alex V
+FC Revelation,2,POR2025099,Dory,9,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Midfield,1,2,38,Sriram B
+FC Revelation,2,POR2025450,Dhanasekar,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,Defense,1,2,38,Dhanasekar R
