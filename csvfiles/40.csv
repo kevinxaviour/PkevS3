@@ -1,0 +1,29 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FIFA,11,POR2025180,Jagadeesh,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Midfield,1,0,40,Jagadeesh G
+FIFA,11,POR2025181,Sathish ,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,5,0,0,0,0,Midfield,1,0,40,R. Sathish Kumar 
+FIFA,11,POR2025182,Kannan,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,5,3,1,0,0,Defense,1,0,40,Kannan.M
+FIFA,11,POR2025185,Paarvin,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,0,Defense,1,0,40,Paarvin raj
+FIFA,11,POR2025186,Micheal,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Forward,1,0,40,Micheal Cornaleu. A
+FIFA,11,POR2025187,Vishnu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GK,1,0,40,vishnu prasath E
+FIFA,11,POR2025188,Vineeth,16,0,0,0,0,0,0,1,1,0,0,1,1,0,0,4,0,0,0,1,2,0,0,0,0,Forward,1,0,40,Vineethkumar. V
+FIFA,11,POR2025191,Deepak thapa ,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,2,0,1,0,0,Midfield,1,0,40,Deepak thapa magar 
+FIFA,11,POR2025195,Sanjay,19,0,0,0,0,0,0,0,0,0,0,1,1,0,0,3,0,0,0,1,2,0,0,0,0,Forward,1,0,40,N sanjay
+FIFA,11,POR2025203,SAKTHIYAN,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,1,0,40,Sakthiyan. R
+FIFA,11,POR2025205,NAVIN,6,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,3,0,0,0,0,Midfield,1,0,40,Navin.P
+FIFA,11,POR2025207,Sundhar,26,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,Midfield,1,0,40,Sundhar
+FIFA,11,POR2025463,ROSHAN ,40,0,0,0,0,0,0,1,1,0,1,1,2,0,0,1,0,0,0,2,3,0,0,0,0,Forward,1,0,40,ROSHAN MD
+Santhome SAI,9,POR2025043,Pragadeesh dhanapal,18,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,3,2,0,0,0,Defense,1,1,40,Pragadeesh dhanapal
+Santhome SAI,9,POR2025044,Ranjith,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Defense,1,1,40,Ranjith.V
+Santhome SAI,9,POR2025045,THARUN ,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Forward,1,1,40,THARUN M
+Santhome SAI,9,POR2025046,Bharath,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,4,0,0,0,0,Defense,1,1,40,P. Bharath kumar
+Santhome SAI,9,POR2025048,Anto louis,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,1,40,Anto louis d silva
+Santhome SAI,9,POR2025049,HARISH,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,1,1,40,HARISH.S
+Santhome SAI,9,POR2025050,WALSH,10,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Forward,1,1,40,V.S.VISHNU WALSH
+Santhome SAI,9,POR2025051,SHAHID,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Midfield,1,1,40,MOHAMED SHAHID . N
+Santhome SAI,9,POR2025054,MOHAN,11,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,1,0,0,0,Midfield,1,1,40,MOHAN RAJA.P
+Santhome SAI,9,POR2025060,LEO THOMAS,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,1,40,LEO THOMAS
+Santhome SAI,9,POR2025062,ABI ,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,1,1,40,ABISHEK A
+Santhome SAI,9,POR2025063,Harsha,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Forward,1,1,40,A K Harshavardhan
+Santhome SAI,9,POR2025064,HEMA,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,3,2,0,0,0,Defense,1,1,40,Hemachandran
+Santhome SAI,9,POR2025068,Usman,8,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,4,0,0,0,0,Midfield,1,1,40,Afnas usman
+Santhome SAI,9,POR2025072,Thivakar,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,1,1,40,Thivakar.P
