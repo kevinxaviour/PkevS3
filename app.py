@@ -386,9 +386,9 @@ STAT_FUNCTIONS = {
     "Offsides": {"func": offsides_stats, "desc": "Offside Statistics By Players"},
     "Fouls": {"func": fouls_stats, "desc": "Fouls Committed By Players"},
     "Yellow Cards": {"func": yc_stats, "desc": "Yellow Cards Received By Players"},
-    "Red Cards": {"func": rc_stats, "desc": "Red Cards Received By Players"},
-    "Goals By Teams": {"func": Goals_statst, "desc": "Goal Scored By Teams"},
-    "Shots Stats By Teams": {"func": shotsd_statst, "desc": "Shot Stats By Teams"}
+    "Red Cards": {"func": rc_stats, "desc": "Red Cards Received By Players"}
+    # "Goals By Teams": {"func": Goals_statst, "desc": "Goal Scored By Teams"},
+    # "Shots Stats By Teams": {"func": shotsd_statst, "desc": "Shot Stats By Teams"}
 }
 
 # # Main app
