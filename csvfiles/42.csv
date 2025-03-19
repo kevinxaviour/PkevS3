@@ -1,0 +1,34 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+AMRFA,6,POR20251003,Nandhu,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,4,0,1,0,0,Defense,0,8,42,Nandha Kumar
+AMRFA,6,POR2025103,Deva,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,Defense,0,8,42,Deva R
+AMRFA,6,POR2025104,AJITH KUMAR R,6,0,0,0,0,0,0,3,3,0,0,1,1,0,0,1,1,0,0,0,1,1,0,0,0,Midfield,0,8,42,AJITH KUMAR R
+AMRFA,6,POR2025105,Logesh,9,0,0,0,0,0,0,0,0,0,1,0,3,0,2,0,0,0,0,2,0,0,0,0,0,Forward,0,8,42,Logesh R
+AMRFA,6,POR2025106,VJ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,Midfield,0,8,42,Vijay Amarnath A K 
+AMRFA,6,POR2025107,Dhanush,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Defense,0,8,42,Dhanush
+AMRFA,6,POR2025108,Karnesh M,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,8,42,Karnesh M
+AMRFA,6,POR2025111,Abi,4,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,2,2,2,0,0,Defense,0,8,42,Abilash S
+AMRFA,6,POR2025112,Dinesh,10,0,0,0,0,0,0,1,1,0,0,3,3,0,0,0,0,0,0,0,2,0,0,0,0,Midfield,0,8,42,Dinesh
+AMRFA,6,POR2025115,Pranav,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,8,42,Pranav Sankar C.J
+AMRFA,6,POR2025118,Raji.R.S,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,Defense,0,8,42,Raji.R
+AMRFA,6,POR2025120,Gautam N,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,8,42,Gautam N
+AMRFA,6,POR2025122,VASANTH,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,Midfield,0,8,42,R.Vasanth babu
+AMRFA,6,POR2025123,Ashu,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,8,42,Jaya Ashwath GP 
+AMRFA,6,POR2025125,Niranjan ,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,8,42,Niranjan
+AMRFA,6,POR2025469,Anand Kumar,62,1,0,1,0,0,0,0,0,1,2,0,2,0,0,2,0,0,0,0,0,0,0,0,0,Midfield,0,8,42,Anand Kumar
+AMRFA,6,POR2025470,Dinesh Kumar,61,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,1,0,0,0,Midfield,0,8,42,Dinesh Kumar M
+SGFC,13,POR2025259,KIRTHIK ,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,3,42,KIRTHIK
+SGFC,13,POR2025260,ELAM,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,3,42,Elam Kathir 
+SGFC,13,POR2025261,RAKEY,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Forward,0,3,42,Rakesh 
+SGFC,13,POR2025262,John Marshal ,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Defense,0,3,42,W. John Marshal
+SGFC,13,POR2025263,Sai,10,0,0,0,0,0,1,1,2,0,1,0,2,0,1,1,0,0,0,0,2,1,0,0,0,Midfield,0,3,42,H. Sai Krishnan 
+SGFC,13,POR2025266,Aadhii,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,3,42,ADHITHYAN.S
+SGFC,13,POR2025268,Saravana,11,3,2,1,0,0,1,1,2,0,3,0,3,0,0,2,0,0,0,0,0,0,0,0,0,Forward,0,3,42,Sri Saravana ganesh 
+SGFC,13,POR2025269,Raghul,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,3,42,Raghul raj
+SGFC,13,POR2025270,BALA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,3,42,Balasubramanyam kv
+SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,GK,0,3,42,VIGNESH
+SGFC,13,POR2025272,AKTHAR,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GK,0,0,42,Mohammed Akthar 
+SGFC,13,POR2025273,FRANKLIN MESSI,28,0,0,0,0,0,0,0,0,0,1,2,4,0,1,1,0,0,0,0,5,0,0,0,0,Defense,0,3,42,FRANKLIN.A
+SGFC,13,POR2025275,Immanuel ,50,0,0,0,0,0,0,0,0,0,1,1,2,0,0,1,0,0,0,0,0,2,0,0,0,Defense,0,3,42,Immanuel 
+SGFC,13,POR2025276,Avinash,18,0,0,0,0,0,0,1,1,0,0,1,1,0,0,2,0,0,0,0,3,2,1,0,0,Midfield,0,3,42,Avinash v
+SGFC,13,POR2025445,Akshay Tk,77,1,1,0,0,0,1,0,1,0,2,3,6,0,1,5,0,0,0,0,0,0,0,0,0,Forward,0,3,42,Akshay Tk
+SGFC,13,POR2025446,Munivelu.C,3,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,2,1,0,0,Defense,0,3,42,Munivelu.C
