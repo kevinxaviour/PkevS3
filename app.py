@@ -5,7 +5,7 @@ from typing import List, Dict, Callable, Any
 
 # Set page title and configuration
 st.set_page_config(
-    page_title="Porkallam Season 3",
+    page_title="Porkkalam Season 3",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -393,7 +393,7 @@ STAT_FUNCTIONS = {
 
 # # Main app
 def main():
-    st.title("Porkallam Season 3 Player Statistics")
+    st.title("Porkkalam Season 3 Player Statistics")
 
     # Initialize session state for dataframe if not exists
     if 'df' not in st.session_state:
