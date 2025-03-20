@@ -1,0 +1,29 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Guns N Goals,10,POR2025295,JOSH,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,0,0,0,Defense,0,7,44,J.Joshua 
+Guns N Goals,10,POR2025296,NAVIN,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Defense,0,7,44,NAVIN KUMAR S
+Guns N Goals,10,POR2025297,Rehan ,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,Defense,0,7,44,Abdul Rehan 
+Guns N Goals,10,POR2025300,KRISHNA,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,GK,0,7,44,HARI KRISHNAN
+Guns N Goals,10,POR2025303,Njb,24,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,Midfield,0,7,44,Nevan John Benny 
+Guns N Goals,10,POR2025304,Vishnu ,27,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,1,0,0,0,1,0,0,0,0,Midfield,0,7,44,Mahavishnu 
+Guns N Goals,10,POR2025306,Raghul,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,7,44,Raghul R
+Guns N Goals,10,POR2025308,Priyo,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,4,1,0,0,0,Defense,0,7,44,Yugapriyan sanjay srinivasan
+Guns N Goals,10,POR2025310,AJMAL ,13,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,7,44,AJMAL P M
+Guns N Goals,10,POR2025311,Siddique ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,7,44,Siddique 
+Guns N Goals,10,POR2025312,Balaji,12,0,0,0,0,0,0,0,0,0,0,0,2,0,2,4,0,0,0,0,2,0,0,0,0,Midfield,0,7,44,Balaji Elangovan 
+Guns N Goals,10,POR2025314,Gokul,17,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,Midfield,0,7,44,Gokul
+Guns N Goals,10,POR2025444,Manoj,14,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,1,0,0,0,Midfield,0,7,44,MANOJ
+Poovai United,3,POR2025230,SAKTHI,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,4,44,SAKTHIVEL J
+Poovai United,3,POR2025231,HARISH ,7,1,0,1,0,0,0,2,2,0,1,2,3,1,0,2,0,0,0,0,1,0,0,0,0,Forward,1,4,44,HARISH KUMAR.S
+Poovai United,3,POR2025232,GERALD,8,0,0,0,0,0,0,0,0,0,1,0,1,0,0,3,0,0,0,0,2,0,0,0,0,Midfield,1,4,44,GERALD MATTHEW A
+Poovai United,3,POR2025233,RAGU,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,3,2,0,0,0,Defense,1,4,44,RAGU R
+Poovai United,3,POR2025234,JOSHUA,10,0,0,0,0,0,2,1,3,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,1,4,44,LOGESH KUMAR S
+Poovai United,3,POR2025235,YUVARAJ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Defense,1,4,44,YUVARAJ J
+Poovai United,3,POR2025237,ANTO ,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,1,4,44,ANTO JEROME G
+Poovai United,3,POR2025239,EZHIL,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Defense,1,4,44,EZHILARASAN A
+Poovai United,3,POR2025248,IRFAN,15,2,1,0,1,1,0,1,1,0,2,1,3,0,0,1,0,0,0,0,2,0,0,0,0,Midfield,1,4,44,MOHAMED IRFAN SK
+Poovai United,3,POR2025249,TAMIL,22,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,1,4,44,TAMIZARSAN R
+Poovai United,3,POR2025252,YESHWANTH,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GK,1,4,44,YESHWANTH KUMAN S
+Poovai United,3,POR2025254,DINESH JR,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,4,44,D DINESH 
+Poovai United,3,POR2025256,vignesh,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,GK,1,4,44,Vignesh waran 
+Poovai United,3,POR2025258,VICKY,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,3,1,0,0,0,Midfield,1,4,44,Vignesh V
+Poovai United,3,POR2025472,S Prabkaran,79,1,0,1,0,0,0,1,1,0,2,3,6,0,1,3,0,0,0,0,2,0,0,0,0,Forward,1,4,44,S Prabkaran
