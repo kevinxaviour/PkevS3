@@ -1,0 +1,28 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FIFA,11,POR2025180,Jagadeesh,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Midfield,1,1,45,Jagadeesh G
+FIFA,11,POR2025181,Sathish ,8,1,0,1,0,0,0,1,1,0,1,0,1,0,0,3,0,0,0,0,6,0,0,0,0,Midfield,1,1,45,R. Sathish Kumar 
+FIFA,11,POR2025182,Kannan,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,3,0,0,0,Defense,1,1,45,Kannan.M
+FIFA,11,POR2025183,Kugan,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,1,45,P Kuganeshwaran 
+FIFA,11,POR2025185,Paarvin,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,Defense,1,1,45,Paarvin raj
+FIFA,11,POR2025187,Vishnu,1,0,0,0,0,0,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,1,1,45,vishnu prasath E
+FIFA,11,POR2025188,Vineeth,16,2,1,1,0,0,1,1,2,0,2,1,3,0,0,1,0,0,0,3,0,0,0,0,0,Forward,1,1,45,Vineethkumar. V
+FIFA,11,POR2025189,Vijay R,17,0,0,0,0,0,0,0,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,Midfield,1,1,45,Vijay R
+FIFA,11,POR2025191,Deepak thapa ,20,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,1,1,0,0,0,0,Midfield,1,1,45,Deepak thapa magar 
+FIFA,11,POR2025194,Akshay,9,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,1,45,K.L.Akshay Bala Kumaran 
+FIFA,11,POR2025195,Sanjay,19,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,4,0,0,0,0,Forward,1,1,45,N sanjay
+FIFA,11,POR2025196,DENIS,3,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,6,5,1,0,0,Defense,1,1,45,Denis vimal raj
+FIFA,11,POR2025205,NAVIN,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,Midfield,1,1,45,Navin.P
+FIFA,11,POR2025207,Sundhar,26,0,0,0,0,0,0,1,1,0,2,0,2,0,0,2,0,0,0,0,3,1,0,0,0,Midfield,1,1,45,Sundhar
+FIFA,11,POR2025462,Lokesh,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,1,45,Lokesh Bharani Kumar
+Noble FC,17,POR2025424,Stephin,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Forward,0,8,45,Stephin balan.y
+Noble FC,17,POR2025425,Rahul ,15,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,8,45,Rahul.g
+Noble FC,17,POR2025426,Ok,7,0,0,0,0,0,0,1,1,0,0,3,3,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,8,45,Ashwin.S
+Noble FC,17,POR2025427,Karthikeyan,5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,1,0,0,0,5,3,0,0,0,Defense,0,8,45,Karthikeyan. M
+Noble FC,17,POR2025428,SHAJI,80,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,1,0,0,0,3,3,0,0,0,Midfield,0,8,45,Shaji S
+Noble FC,17,POR2025430,Shijo Mathew,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,GK,0,8,45,Shijo Mathew
+Noble FC,17,POR2025436,Vedanth,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,8,45,Vedanth Ragupati
+Noble FC,17,POR2025441,Vijayakumar,45,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,Defense,0,8,45,Vijayakumar
+Noble FC,17,POR2025442,Kaviyarasan,24,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,7,2,0,0,0,Defense,0,8,45,Kaviyarasan
+Noble FC,17,POR2025458,Manu ,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Defense,0,8,45,Manu janes
+Noble FC,17,POR2025459,Avinash,19,0,0,0,0,0,0,0,0,0,0,1,2,0,1,1,0,0,0,0,1,0,0,0,0,Forward,0,8,45,Avinash
+Noble FC,17,POR2025460,Dhaliston ,8,0,0,0,0,0,0,2,2,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,Midfield,0,8,45,Dhaliston D Marian
