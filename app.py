@@ -312,6 +312,18 @@ def blocks_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
 
+def dfds(df: pd.DataFrame) -> pd.DataFrame:
+    df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
+        Matches=('matchid', 'nunique'),  
+        Tackles=('defender_saves', 'sum') 
+    ).reset_index()
+    df_summary = df_summary.sort_values(by='Tackles', ascending=False)
+    df_summary = df_summary[['Player_FN','team', 'Tackles']].rename(
+        columns={'Player_FN': 'Name', 'Tackles': 'Defender Saves','team':'Team'})
+    df_summary['Name'] = df_summary['Name'].str.title()
+    df_summary = df_summary.reset_index(drop=True)
+    return df_summary
+
 def GK_Saves(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df.groupby(['playerid', 'Player_FN', 'team']).agg(
         Matches=('matchid', 'nunique'),  
@@ -380,6 +392,7 @@ STAT_FUNCTIONS = {
     "Tackles Per Match": {"func": tackles_90, "desc": "Tackles Per Match By Players"},
     "Interceptions Per Match": {"func": inter_90, "desc": "Interceptions Per Match By Players"},
     "Blocks Per Match": {"func": blocks_90, "desc": "Blocks Per Match By Players"},
+    "Defender Saves": {"func": dfds, "desc": "Total Saves By Defenders"},
     "Goalkeeper Saves": {"func": GK_Saves, "desc": "Total Saves By Goalkeepers"},
     "Goalkeeper Clean Sheets": {"func": GK_cs, "desc": "Clean Sheets By Goalkeepers"},
     "Goalkeeper Save Percentage": {"func": savesp, "desc": "Save Percentage By Goalkeepers"},
