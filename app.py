@@ -317,6 +317,7 @@ def dfds(df: pd.DataFrame) -> pd.DataFrame:
         Matches=('matchid', 'nunique'),  
         Tackles=('defender_saves', 'sum') 
     ).reset_index()
+    df_summary=df_summary[df_summary['Tackles']!=0]
     df_summary = df_summary.sort_values(by='Tackles', ascending=False)
     df_summary = df_summary[['Player_FN','team', 'Tackles']].rename(
         columns={'Player_FN': 'Name', 'Tackles': 'Defender Saves','team':'Team'})
