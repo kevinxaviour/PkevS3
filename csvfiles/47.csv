@@ -1,0 +1,28 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Sethu FC,7,POR2025152,siva,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Defense,0,4,47,sivabalan
+Sethu FC,7,POR2025153,VIJI.N,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,Midfield,0,4,47,vijay
+Sethu FC,7,POR2025154,SOLAI,3,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,Defense,0,4,47,SOLAI RAJ
+Sethu FC,7,POR2025157,BEBITTO JR,11,1,0,1,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,Forward,0,4,47,BEBITO GODWIN
+Sethu FC,7,POR2025159,MADDY,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,2,2,1,0,0,Midfield,0,4,47,madhavan
+Sethu FC,7,POR2025160,GUHAN,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,1,0,0,Midfield,0,4,47,GUHAN RAJ
+Sethu FC,7,POR2025165,PADAYAN,17,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,0,1,0,1,0,0,0,Forward,0,4,47,RAJASEKHAR
+Sethu FC,7,POR2025167,YUVA,15,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,4,47,YUVARAJ
+Sethu FC,7,POR2025170,SURESH,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Midfield,0,4,47,SURESH
+Sethu FC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,4,47,NITHEESH MAHARAJA
+Sethu FC,7,POR2025174,NANDHA,9,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,2,2,0,0,0,0,Forward,0,4,47,NANDHAKUMAR
+Sethu FC,7,POR2025177,BALA,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,47,BALAMURUGAN
+Sethu FC,7,POR2025474,SARAVANAKUMAR,100,1,0,1,0,0,0,0,0,0,2,0,2,0,0,1,0,0,0,0,2,1,0,0,0,Defense,0,4,47,SARAVANAKUMAR
+Sethu FC,7,POR2025475,MARUTHU,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,1,0,0,Midfield,0,4,47,MARUTHU
+Steds HCL FC,15,POR2025318,Shankar,20,2,0,2,0,2,0,1,1,0,2,0,3,0,1,4,0,0,0,0,2,0,0,0,0,Midfield,0,4,47,Umashankar M
+Steds HCL FC,15,POR2025319,Vignesh,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,47,Vignesh V
+Steds HCL FC,15,POR2025322,Prasanth,80,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,Defense,0,4,47,Prasanth
+Steds HCL FC,15,POR2025323,Mani DJ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,Defense,0,4,47,Manikandan
+Steds HCL FC,15,POR2025324,Akash,10,0,0,0,0,0,0,1,1,0,1,0,2,0,1,1,0,0,0,0,0,0,0,0,0,Forward,0,4,47,Akash
+Steds HCL FC,15,POR2025327,Mithran,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,4,47,Mithran
+Steds HCL FC,15,POR2025328,Selva,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,Midfield,0,4,47,Selvaganapathy G 
+Steds HCL FC,15,POR2025329,Vignesh JR,15,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,47,Vigneshwaran
+Steds HCL FC,15,POR2025330,Surya,8,0,0,0,0,0,0,0,0,0,0,1,1,0,0,3,0,0,0,0,2,2,0,0,0,Defense,0,4,47,Surya
+Steds HCL FC,15,POR2025335,Magesh,7,0,0,0,0,0,0,1,1,0,1,0,1,0,0,5,0,0,0,0,0,0,0,0,0,Midfield,0,4,47,Magesh
+Steds HCL FC,15,POR2025338,Kathick,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,47,Karthik.k
+Steds HCL FC,15,POR2025340,Alex,9,0,0,0,0,0,0,2,2,0,0,1,1,0,0,3,1,0,0,0,2,1,0,0,0,Midfield,0,4,47,Ajay Alex
+Steds HCL FC,15,POR2025343,Siva,18,0,0,0,0,0,0,0,0,0,0,0,2,0,2,3,0,0,0,0,0,0,0,0,0,Forward,0,4,47,Sivakumar
