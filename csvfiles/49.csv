@@ -1,0 +1,32 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Guns N Goals,10,POR2025296,NAVIN,11,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,11,49,NAVIN KUMAR S
+Guns N Goals,10,POR2025297,Rehan ,32,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,0,Defense,0,11,49,Abdul Rehan 
+Guns N Goals,10,POR2025299,Sanjay,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,11,49,SANJAY S
+Guns N Goals,10,POR2025300,KRISHNA,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,GK,0,11,49,HARI KRISHNAN
+Guns N Goals,10,POR2025301,Jos�,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,11,49,Jose 
+Guns N Goals,10,POR2025303,Njb,24,1,0,1,0,0,0,1,1,0,3,1,4,0,0,0,0,0,0,1,0,0,0,0,0,Midfield,0,11,49,Nevan John Benny 
+Guns N Goals,10,POR2025304,Vishnu ,27,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,2,0,0,0,Midfield,0,11,49,Mahavishnu 
+Guns N Goals,10,POR2025305,Chirag,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,11,49,Chirag Chhabria
+Guns N Goals,10,POR2025306,Raghul,19,0,0,0,0,0,1,0,1,0,0,1,2,0,1,2,0,0,0,0,0,0,0,0,0,Midfield,0,11,49,Raghul R
+Guns N Goals,10,POR2025307,Ajith,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,Defense,0,11,49,Ajith
+Guns N Goals,10,POR2025312,Balaji,12,0,0,0,0,0,0,2,2,0,0,2,3,0,1,1,0,0,0,0,3,0,0,0,0,Midfield,0,11,49,Balaji Elangovan 
+Guns N Goals,10,POR2025314,Gokul,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,Midfield,0,11,49,Gokul
+Guns N Goals,10,POR2025485,Praveen,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,Midfield,0,11,49,Praveen
+Guns N Goals,10,POR2025486,Sudharshan,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,11,49,Sudharshan
+Guns N Goals,10,POR2025487,DravidRaj,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,Defense,0,11,49,DravidRaj
+Podium FC,18,POR2025209,guna,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,3,49,Guna sekar
+Podium FC,18,POR2025210,Armaan,17,1,0,0,0,0,0,1,1,0,3,2,5,0,0,3,0,0,0,0,1,0,0,0,0,Forward,0,3,49,Armaan aslam pathan
+Podium FC,18,POR2025211,prasanth,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,3,49,prasanth
+Podium FC,18,POR2025213,Naresh,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,49,Naresh
+Podium FC,18,POR2025215,jaison,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,Defense,0,3,49,jaison joshwa
+Podium FC,18,POR2025219,rajesh,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,Forward,0,3,49,rajesh
+Podium FC,18,POR2025220,manimaran,20,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,3,49,manimaran
+Podium FC,18,POR2025221,david,14,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,2,0,0,Midfield,0,3,49,david samuel
+Podium FC,18,POR2025222,joshua,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Forward,0,3,49,joshua
+Podium FC,18,POR2025223,surya,18,0,0,0,0,0,1,3,4,0,1,1,3,0,1,1,0,0,0,0,4,0,0,0,0,Midfield,0,3,49,surya
+Podium FC,18,POR2025224,moris,5,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,Forward,0,3,49,moris dinakaran
+Podium FC,18,POR2025225,bala,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,4,1,0,0,0,Defense,0,3,49,bala
+Podium FC,18,POR2025227,dhanush,21,0,0,0,0,0,1,1,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,3,49,dhanush
+Podium FC,18,POR2025228,Vasanth,25,5,0,5,0,0,1,0,1,1,6,0,6,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,3,49,Vasanth 
+Podium FC,18,POR2025480,Ruban,39,0,0,0,0,0,0,1,1,0,0,2,3,0,1,1,0,0,0,0,1,0,1,0,0,Forward,0,3,49,Ruban
+Podium FC,18,POR2025481,PRAVEEN ,12,0,0,0,0,0,1,1,2,0,0,2,2,0,0,2,0,0,0,0,3,1,0,0,0,Midfield,0,3,49,PRAVEEN RAJ
