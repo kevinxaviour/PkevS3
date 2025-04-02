@@ -1,28 +1,33 @@
 team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
-Falcons FA,12,POR2025024,Kamalesh,19,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,Forward,0,6,51,Kamaleshwaran S
-Falcons FA,12,POR2025026,Vicky,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,GK,0,6,51,Venkatesh
-Falcons FA,12,POR2025027,Deepak,8,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Midfield,0,6,51,Deepak M
-Falcons FA,12,POR2025028,Harish,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,6,51,Harish R
-Falcons FA,12,POR2025033,Parvez,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,Defense,0,6,51,Mohammed Parvez
-Falcons FA,12,POR2025034,Naresh,5,0,0,0,0,0,1,0,1,0,1,1,2,0,0,1,0,0,0,0,5,0,0,0,0,Defense,0,6,51,Naresh E
-Falcons FA,12,POR2025035,Lal,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,1,0,0,Defense,0,6,51,Mothilal N
-Falcons FA,12,POR2025036,Yuvaraj,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Midfield,0,6,51,Yuvaraj Kumar. R
-Falcons FA,12,POR2025038,Kabilan,11,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,1,1,0,0,0,Midfield,0,6,51,Kabilan J
-Falcons FA,12,POR2025039,Tunga,22,0,0,0,0,0,0,1,1,0,1,2,3,0,0,0,0,0,0,0,1,1,0,0,0,Forward,0,6,51,Vijay Tunga
-Falcons FA,12,POR2025042,Jaga,27,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,5,1,0,0,0,Defense,0,6,51,Jagadeesh A
-Falcons FA,12,POR2025488,Gobinath G,77,1,0,1,0,0,0,1,1,1,1,0,1,0,0,0,1,0,0,0,5,0,0,0,0,Forward,0,6,51,Gobinath G
-Falcons FA,12,POR2025489,Alister Noah. E,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,0,Defense,0,6,51,Alister Noah. E
-Falcons FA,12,POR2025490,harish kumar,24,0,0,0,0,0,0,1,1,0,2,2,4,0,0,1,0,0,0,0,0,1,0,0,0,Forward,0,6,51,harish kumar
-SGFC,13,POR2025259,KIRTHIK ,20,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,5,51,KIRTHIK
-SGFC,13,POR2025261,RAKEY,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,5,51,Rakesh 
-SGFC,13,POR2025262,John Marshal ,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Defense,0,5,51,W. John Marshal
-SGFC,13,POR2025263,Sai,10,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,2,0,0,0,0,Midfield,0,5,51,H. Sai Krishnan 
-SGFC,13,POR2025264,SHAM,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Defense,0,5,51,SHAM ROSHAN
-SGFC,13,POR2025265,Tamilzhamuthan,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,5,51,Tamilzhamuthan R
-SGFC,13,POR2025269,Raghul,9,0,0,0,0,0,0,0,0,0,2,1,3,0,0,3,0,0,0,1,1,2,0,0,0,Forward,0,5,51,Raghul raj
-SGFC,13,POR2025271,Vicky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,GK,0,5,51,VIGNESH
-SGFC,13,POR2025273,FRANKLIN MESSI,28,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,1,0,0,0,5,1,0,0,0,Defense,0,5,51,FRANKLIN.A
-SGFC,13,POR2025275,Immanuel ,50,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,Defense,0,5,51,Immanuel 
-SGFC,13,POR2025276,Avinash,18,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,1,0,0,Midfield,0,5,51,Avinash v
-SGFC,13,POR2025445,Akshay Tk,77,1,0,1,0,1,1,3,4,0,1,1,3,0,1,3,0,0,0,0,3,0,0,0,0,Forward,0,5,51,Akshay Tk
-SGFC,13,POR2025446,Munivelu.C,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,Defense,0,5,51,Munivelu.C
+FC Marina,14,POR2025126,YUVARAJ,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,GK,1,0,51,YUVARAJ.A
+FC Marina,14,POR2025128,Suriya,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,Defense,1,0,51,JAISURIYA.S
+FC Marina,14,POR2025130,DHILIP,12,0,0,0,0,0,0,0,0,0,1,3,5,0,1,1,0,0,0,0,5,4,0,0,0,Defense,1,0,51,DHILIP KUMAR.E
+FC Marina,14,POR2025131,KARTHIK JR,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,51,KARTHICK MANIKANDAN.A
+FC Marina,14,POR2025133,RAVI,8,1,1,0,0,0,0,0,0,0,2,1,3,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,51,RAVI TEJA Y.R
+FC Marina,14,POR2025135,SOSO LAYAM,27,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,Forward,1,0,51,SHANGAM LAYAM
+FC Marina,14,POR2025136,AKASH,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,0,51,Akash karun
+FC Marina,14,POR2025137,AKSHAY,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,1,0,51,Akshay Y.S
+FC Marina,14,POR2025139,Aswin ,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,1,0,51,Aswin C.P
+FC Marina,14,POR2025140,KISHORE ,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,0,51,KISHORE S
+FC Marina,14,POR2025142,Singboy,14,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,4,0,1,0,0,Defense,1,0,51,Leishising Tallanao
+FC Marina,14,POR2025145,PRAMODH,17,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,2,0,0,0,0,Midfield,1,0,51,PRAMODH AK
+FC Marina,14,POR2025147,TAMIL,9,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,Forward,1,0,51,TAMIL SELVAN.D
+FC Marina,14,POR2025149,BRIJITH,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,1,0,0,Defense,1,0,51,BRIJITH VARGEES
+FC Marina,14,POR2025150,AK,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,Defense,1,0,51,Aditya Kalyananthy 
+FC Marina,14,POR2025451,DHIYASH,24,1,1,0,0,0,0,0,0,1,2,0,2,0,0,2,0,0,0,1,1,0,0,0,0,Forward,1,0,51,Suresh.G
+FC Marina,14,POR2025451,DHIYASH,24,1,1,0,0,0,0,0,0,1,2,0,2,0,0,2,0,0,0,1,1,0,0,0,0,Forward,1,0,51,Suresh.G
+First Goal FC,8,POR2025373,DHANUSH,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,Defense,0,5,51,DHANUSH WARAN
+First Goal FC,8,POR2025375,Murali,12,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,Defense,0,5,51,Murali
+First Goal FC,8,POR2025376,Sanjeev ,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,5,51,SANJEEV KUMAR E
+First Goal FC,8,POR2025377,NITHIN,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,5,51,Nithin varshan.s
+First Goal FC,8,POR2025384,VARUN,11,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,Midfield,0,5,51,B.M.VARUN
+First Goal FC,8,POR2025385,Arun,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Defense,0,5,51,Arun
+First Goal FC,8,POR2025386,AKASH ,33,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,5,51,R.AKASH
+First Goal FC,8,POR2025387,Anand,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,Midfield,0,5,51,Anand 
+First Goal FC,8,POR2025388,Deepak ,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Defense,0,5,51,Deepak Kumar 
+First Goal FC,8,POR2025389,Deepak,16,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,4,2,2,0,0,Midfield,0,5,51,Deepak Kumar .S
+First Goal FC,8,POR2025391,Ramesh,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,Forward,0,5,51,Ramesh N
+First Goal FC,8,POR2025392,MEGA,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,0,Forward,0,5,51,Meganathan k
+First Goal FC,8,POR2025393,Krishna,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,2,0,0,0,0,Forward,0,5,51,A.R.MOHANA KRISHNAN
+First Goal FC,8,POR2025466,KALANITHI ,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,6,0,0,0,0,Defense,0,5,51,KALANITHI B
+First Goal FC,8,POR2025471,Gokul ,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Forward,0,5,51,Gokul Hariharan
