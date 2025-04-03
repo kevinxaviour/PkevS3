@@ -1,0 +1,32 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Podium FC,18,POR2025209,guna,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,GK,0,8,53,Guna sekar
+Podium FC,18,POR2025210,Armaan,17,0,0,0,0,0,0,0,0,0,2,1,3,0,0,4,0,0,0,0,2,0,0,0,0,Forward,0,8,53,Armaan aslam pathan
+Podium FC,18,POR2025214,monish,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,8,53,Monish raj
+Podium FC,18,POR2025215,jaison,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,3,0,0,Defense,0,8,53,jaison joshwa
+Podium FC,18,POR2025217,hamosh,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,8,53,Hamosh
+Podium FC,18,POR2025219,rajesh,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,8,53,rajesh
+Podium FC,18,POR2025221,david,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,3,0,0,0,Midfield,0,8,53,david samuel
+Podium FC,18,POR2025222,joshua,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,Forward,0,8,53,joshua
+Podium FC,18,POR2025223,surya,18,0,0,0,0,0,0,3,3,0,0,1,1,0,0,1,0,0,0,0,0,1,1,0,0,Midfield,0,8,53,surya
+Podium FC,18,POR2025224,moris,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Forward,0,8,53,moris dinakaran
+Podium FC,18,POR2025225,bala,24,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,6,2,0,0,0,Defense,0,8,53,bala
+Podium FC,18,POR2025227,dhanush,21,0,0,0,0,0,0,0,0,0,1,1,2,0,0,1,0,0,0,0,4,2,0,0,0,Forward,0,8,53,dhanush
+Podium FC,18,POR2025228,Vasanth,25,0,0,0,0,0,0,1,1,0,0,1,1,0,0,3,0,0,0,1,0,1,0,0,0,Forward,0,8,53,Vasanth 
+Podium FC,18,POR2025480,Ruban,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,8,53,Ruban
+Podium FC,18,POR2025481,PRAVEEN ,12,1,0,1,0,1,0,0,0,1,1,1,2,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,0,8,53,PRAVEEN RAJ
+Sethu FC,7,POR2025152,siva,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,4,53,sivabalan
+Sethu FC,7,POR2025153,VIJI.N,10,1,0,1,0,0,0,2,2,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,53,vijay
+Sethu FC,7,POR2025154,SOLAI,3,1,0,1,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,2,3,0,0,0,Defense,0,4,53,SOLAI RAJ
+Sethu FC,7,POR2025157,BEBITTO JR,11,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0,Forward,0,4,53,BEBITO GODWIN
+Sethu FC,7,POR2025159,MADDY,18,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Midfield,0,4,53,madhavan
+Sethu FC,7,POR2025160,GUHAN,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,2,4,0,0,0,Midfield,0,4,53,GUHAN RAJ
+Sethu FC,7,POR2025164,SANDY,22,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,3,1,1,0,0,Midfield,0,4,53,SANTHOSH KUMAR SELVAM
+Sethu FC,7,POR2025165,PADAYAN,17,0,0,0,0,0,1,0,1,0,0,0,1,0,1,2,0,0,0,1,0,0,0,0,0,Forward,0,4,53,RAJASEKHAR
+Sethu FC,7,POR2025167,YUVA,15,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,4,53,YUVARAJ
+Sethu FC,7,POR2025168,SEKAR,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,53,SEKAR
+Sethu FC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,4,53,NITHEESH MAHARAJA
+Sethu FC,7,POR2025174,NANDHA,9,2,0,1,1,0,1,0,1,1,2,0,2,0,0,3,0,0,0,0,0,0,0,0,0,Forward,0,4,53,NANDHAKUMAR
+Sethu FC,7,POR2025175,VASANTH JR,14,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Forward,0,4,53,VASANTH
+Sethu FC,7,POR2025176,SUMAN,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,4,53,SUMAN
+Sethu FC,7,POR2025475,MARUTHU,101,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,53,MARUTHU
+Sethu FC,7,POR2025476,adithya,102,0,0,0,0,0,0,0,0,0,1,0,1,0,0,3,0,0,0,2,0,0,0,0,0,Midfield,0,4,53,adithya
