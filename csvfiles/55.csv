@@ -1,0 +1,28 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Apollo Tyres FC,5,POR2025277,Siva,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,8,55,J SIVAMARAN 
+Apollo Tyres FC,5,POR2025479,Naresh kumar S,1000,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,8,55,Naresh kumar S
+Apollo Tyres FC,5,POR2025278,JACOB  ,12,0,0,0,0,0,0,0,0,0,0,1,2,0,1,1,0,0,0,0,1,0,0,0,0,Midfield,0,8,55,Jacob Ruban
+Apollo Tyres FC,5,POR2025282,Clinton ,23,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,1,0,0,0,Defense,0,8,55,Clinton 
+Apollo Tyres FC,5,POR2025283,Vasarth,57,0,0,0,0,0,0,2,2,0,1,0,3,0,2,1,0,0,0,0,2,0,0,0,0,Forward,0,8,55,Vasanth 
+Apollo Tyres FC,5,POR2025285,Marshal,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,1,0,0,0,2,1,0,0,0,Defense,0,8,55,Jerome Marshal
+Apollo Tyres FC,5,POR2025286,Jeffy ,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,2,1,0,0,0,Defense,0,8,55,Jeffy J
+Apollo Tyres FC,5,POR2025287,MAHES,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,GK,0,8,55,MAHESWARAN M 
+Apollo Tyres FC,5,POR2025288,DEEPAK,7,0,0,0,0,0,0,0,0,0,1,2,3,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,8,55,DEEPAK C
+Apollo Tyres FC,5,POR2025289,SANJAY ,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,Defense,0,8,55,M.SANJAY KUMAR
+Apollo Tyres FC,5,POR2025290,Nishan,13,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,Midfield,0,8,55,N.shagul nishan
+Apollo Tyres FC,5,POR2025478,Ajith ,100,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,8,55,Ajith 
+Apollo Tyres FC,5,POR2025293,Tamil,5,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,1,1,3,0,0,0,Midfield,0,8,55,Tamilarasu.p
+Noble FC,17,POR2025424,Stephin,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,55,Stephin balan.y
+Noble FC,17,POR2025425,Rahul ,15,0,0,0,0,0,0,0,0,0,1,0,1,0,0,3,0,0,0,1,0,0,0,0,0,Midfield,0,4,55,Rahul.g
+Noble FC,17,POR2025427,Karthikeyan,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,Defense,0,4,55,Karthikeyan. M
+Noble FC,17,POR2025429,Karthi,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,1,0,0,0,2,0,0,0,0,Defense,0,4,55,Karthikeyan. R
+Noble FC,17,POR2025430,Shijo Mathew,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,4,55,Shijo Mathew
+Noble FC,17,POR2025431,Achu,4,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,Defense,0,4,55,Adharsh Mathew
+Noble FC,17,POR2025432,Jobin,90,0,0,0,0,0,0,0,0,0,0,1,1,0,0,4,0,0,0,0,2,1,0,0,0,Midfield,0,4,55,Jobin Jose
+Noble FC,17,POR2025435,Adam,10,1,0,1,0,0,1,0,1,1,2,5,7,0,0,1,0,0,0,0,0,3,0,0,0,Forward,0,4,55,Adam jl david
+Noble FC,17,POR2025439,Sridev,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,55,Sridev
+Noble FC,17,POR2025442,Kaviyarasan,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Defense,0,4,55,Kaviyarasan
+Noble FC,17,POR2025443,Razul,17,0,0,0,0,0,1,1,2,0,1,2,4,0,1,3,0,0,0,0,1,0,0,0,0,Midfield,0,4,55,Mohammed Razul
+Noble FC,17,POR2025458,Manu ,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,1,0,0,Defense,0,4,55,Manu janes
+Noble FC,17,POR2025459,Avinash,19,2,0,2,0,0,0,0,0,0,3,3,6,0,0,0,0,0,0,1,0,0,0,0,0,Forward,0,4,55,Avinash
+Noble FC,17,POR2025460,Dhaliston ,8,1,0,0,1,0,0,3,3,0,1,0,1,0,0,1,0,0,0,0,2,0,0,0,0,Midfield,0,4,55,Dhaliston D Marian
