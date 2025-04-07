@@ -1,0 +1,30 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FC Marina,14,POR2025127,PAUL,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,1,1,57, PAUL ABRAHAM.A
+FC Marina,14,POR2025128,Suriya,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,3,0,0,0,0,Defense,1,1,57,JAISURIYA.S
+FC Marina,14,POR2025130,DHILIP,12,0,0,0,0,0,0,2,2,0,1,0,1,0,0,2,0,0,0,0,2,3,0,0,0,Defense,1,1,57,DHILIP KUMAR.E
+FC Marina,14,POR2025131,KARTHIK JR,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Midfield,1,1,57,KARTHICK MANIKANDAN.A
+FC Marina,14,POR2025132,THEMSO,23,0,0,0,0,0,1,1,2,0,1,0,2,0,1,0,0,0,0,0,5,1,0,0,0,Midfield,1,1,57,THEMSO JAJO
+FC Marina,14,POR2025133,RAVI,8,2,1,1,0,1,0,0,0,1,4,1,5,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,1,1,57,RAVI TEJA Y.R
+FC Marina,14,POR2025134,R10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,1,57,REGAN ALBERNAS
+FC Marina,14,POR2025135,SOSO LAYAM,27,0,0,0,0,0,0,2,2,0,2,2,4,0,0,3,0,0,0,3,0,1,0,0,0,Forward,1,1,57,SHANGAM LAYAM
+FC Marina,14,POR2025145,PRAMODH,17,0,0,0,0,0,0,1,1,0,0,2,2,0,0,3,1,0,0,0,4,0,0,0,0,Midfield,1,1,57,PRAMODH AK
+FC Marina,14,POR2025146,chawang jr,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,1,57,Stephen Chawang
+FC Marina,14,POR2025147,TAMIL,9,1,0,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,1,57,TAMIL SELVAN.D
+FC Marina,14,POR2025148,Kali,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,Defense,1,1,57,KALI ALAUDEEN
+FC Marina,14,POR2025149,BRIJITH,3,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Defense,1,1,57,BRIJITH VARGEES
+FC Marina,14,POR2025150,AK,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,1,1,57,Aditya Kalyananthy 
+FC Marina,14,POR2025454,DHIYASH,24,0,0,0,0,0,0,1,1,0,1,1,2,0,0,2,0,0,0,2,1,0,0,0,0,Forward,1,1,57,DHIYASH
+FC Marina,14,POR2025455,NAREN,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Midfield,1,1,57,Henry Stallin S
+Guns N Goals,10,POR2025295,JOSH,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,Defense,0,10,57,J.Joshua 
+Guns N Goals,10,POR2025297,Rehan ,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,10,57,Abdul Rehan 
+Guns N Goals,10,POR2025298,Jai,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,0,0,0,0,Defense,0,10,57,S. Jayaganesh
+Guns N Goals,10,POR2025299,Sanjay,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,10,57,SANJAY S
+Guns N Goals,10,POR2025301,Jos�,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,10,57,Jose 
+Guns N Goals,10,POR2025304,Vishnu ,27,0,0,0,0,0,0,0,0,0,0,1,1,0,0,3,0,0,0,0,0,0,0,0,0,Midfield,0,10,57,Mahavishnu 
+Guns N Goals,10,POR2025306,Raghul,19,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,0,10,57,Raghul R
+Guns N Goals,10,POR2025307,Ajith,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,1,0,0,Defense,0,10,57,Ajith
+Guns N Goals,10,POR2025308,Priyo,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,1,0,0,Defense,0,10,57,Yugapriyan sanjay srinivasan
+Guns N Goals,10,POR2025311,Siddique ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,10,57,Siddique 
+Guns N Goals,10,POR2025314,Gokul,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,Midfield,0,10,57,Gokul
+Guns N Goals,10,POR2025316,AK,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,GK,0,10,57,R Ajaykumar 
+Guns N Goals,10,POR2025444,Manoj,14,0,0,0,0,0,0,1,1,0,1,1,2,0,0,2,0,0,0,0,2,0,0,0,0,Midfield,0,10,57,MANOJ
