@@ -1,0 +1,31 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+AMRFA,6,POR2025102,Aftaab ,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GK,0,2,58,S K AFTAAB 
+AMRFA,6,POR2025103,Deva,22,0,0,0,0,0,0,1,1,0,1,0,1,0,0,2,0,0,0,0,1,1,0,0,0,Defense,0,5,58,Deva R
+AMRFA,6,POR2025104,AJITH KUMAR R,6,0,0,0,0,0,0,2,2,0,0,1,1,1,0,3,1,0,0,0,1,1,0,0,0,Midfield,0,5,58,AJITH KUMAR R
+AMRFA,6,POR2025105,Logesh,9,0,0,0,0,0,0,1,1,0,1,3,4,0,0,1,0,0,0,0,0,2,0,0,0,Forward,0,5,58,Logesh R
+AMRFA,6,POR2025106,VJ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,5,58,Vijay Amarnath A K 
+AMRFA,6,POR2025107,Dhanush,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,6,2,0,0,0,Defense,0,5,58,Dhanush
+AMRFA,6,POR2025108,Karnesh M,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,5,58,Karnesh M
+AMRFA,6,POR2025112,Dinesh,10,0,0,0,0,0,0,0,0,0,2,1,5,0,2,3,0,0,0,0,1,2,0,0,0,Midfield,0,5,58,Dinesh
+AMRFA,6,POR2025114,Pranith,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,2,0,0,Defense,0,5,58,M. Pranith
+AMRFA,6,POR2025116,Aji,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,3,58,Ajithkumar
+AMRFA,6,POR2025118,Raji.R.S,18,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,5,58,Raji.R
+AMRFA,6,POR2025120,Gautam N,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,5,58,Gautam N
+AMRFA,6,POR2025122,VASANTH,29,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,5,58,R.Vasanth babu
+AMRFA,6,POR2025123,Ashu,45,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,3,0,2,0,0,Defense,0,5,58,Jaya Ashwath GP 
+AMRFA,6,POR2025124,Guru,30,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,Forward,0,5,58,A.S GURU PRAKASH
+AMRFA,6,POR2025469,Anand Kumar,62,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,Midfield,0,5,58,Anand Kumar
+Falcons FA,12,POR2025026,Vicky,21,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,GK,1,5,58,Venkatesh
+Falcons FA,12,POR2025027,Deepak,8,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,Midfield,1,5,58,Deepak M
+Falcons FA,12,POR2025028,Harish,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,5,58,Harish R
+Falcons FA,12,POR2025031,S Srinivasan,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,5,58,Santhosh
+Falcons FA,12,POR2025033,Parvez,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,Defense,1,5,58,Mohammed Parvez
+Falcons FA,12,POR2025034,Naresh,5,1,0,0,1,0,1,0,1,0,1,1,2,0,0,2,0,0,0,0,4,2,0,0,0,Defense,1,5,58,Naresh E
+Falcons FA,12,POR2025035,Lal,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,2,1,0,0,Defense,1,5,58,Mothilal N
+Falcons FA,12,POR2025036,Yuvaraj,18,2,1,1,0,0,0,2,2,0,2,0,4,0,2,1,0,0,0,1,1,0,0,0,0,Midfield,1,5,58,Yuvaraj Kumar. R
+Falcons FA,12,POR2025039,Tunga,22,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,2,1,0,0,0,0,Forward,1,5,58,Vijay Tunga
+Falcons FA,12,POR2025040,Rass,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Defense,1,5,58,Shanmugaraj
+Falcons FA,12,POR2025041,Sam,9,0,0,0,0,0,1,1,2,1,2,2,5,0,1,1,0,0,0,1,0,0,0,0,0,Forward,1,5,58,Sam T
+Falcons FA,12,POR2025042,Jaga,27,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,2,1,0,0,Defense,1,5,58,Jagadeesh A
+Falcons FA,12,POR2025488,Gobinath G,77,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,Forward,1,5,58,Gobinath G
+Falcons FA,12,POR2025489,Alister Noah. E,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,1,5,58,Alister Noah. E

@@ -1,0 +1,27 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Apollo Tyres FC,5,POR2025277,Siva,6,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Midfield,0,4,59,J SIVAMARAN 
+Apollo Tyres FC,5,POR2025282,Clinton ,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,4,59,Clinton 
+Apollo Tyres FC,5,POR2025283,Vasarth,57,0,0,0,0,0,0,0,0,0,0,1,2,0,1,0,1,0,0,0,1,0,0,0,0,Forward,0,4,59,Vasanth 
+Apollo Tyres FC,5,POR2025286,Jeffy ,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,3,1,0,0,0,Defense,0,4,59,Jeffy J
+Apollo Tyres FC,5,POR2025288,DEEPAK,7,0,0,0,0,0,0,0,0,0,1,1,2,0,0,2,0,0,0,0,0,0,0,0,0,Forward,0,4,59,DEEPAK C
+Apollo Tyres FC,5,POR2025290,Nishan,13,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,1,0,0,0,Midfield,0,4,59,N.shagul nishan
+Apollo Tyres FC,5,POR2025292,Shailesh ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,Defense,0,4,59,SHAILESH H.R.
+Apollo Tyres FC,5,POR2025293,Tamil,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Midfield,0,4,59,Tamilarasu.p
+Apollo Tyres FC,5,POR2025477,Kasthuri Reegan,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,0,GK,0,4,59,Kasthuri Reegan
+Apollo Tyres FC,5,POR2025478,Ajith,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,3,1,1,0,0,2,0,0,0,0,Midfield,0,4,59,Ajith
+Apollo Tyres FC,5,POR2025479,Naresh kumar S,16,0,0,0,0,0,0,2,2,0,1,0,1,0,0,0,0,0,0,0,3,2,0,0,0,Defense,0,4,59,Naresh kumar S
+FIFA,11,POR2025180,Jagadeesh,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,2,59,Jagadeesh G
+FIFA,11,POR2025181,Sathish ,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,0,Midfield,1,2,59,R. Sathish Kumar 
+FIFA,11,POR2025182,Kannan,5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,5,2,1,0,0,Defense,1,2,59,Kannan.M
+FIFA,11,POR2025185,Paarvin,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,1,0,0,Defense,1,2,59,Paarvin raj
+FIFA,11,POR2025187,Vishnu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,GK,1,2,59,vishnu prasath E
+FIFA,11,POR2025188,Vineeth,16,0,0,0,0,0,0,1,1,0,0,1,1,0,0,2,0,0,0,0,0,1,0,0,0,Forward,1,2,59,Vineethkumar. V
+FIFA,11,POR2025189,Vijay R,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,Midfield,1,2,59,Vijay R
+FIFA,11,POR2025190,Sanjay ,25,1,0,1,0,0,1,0,1,0,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,Forward,1,2,59,Sanjay Prasad 
+FIFA,11,POR2025191,Deepak thapa ,20,0,0,0,0,0,0,1,1,0,0,3,3,0,0,1,0,0,0,0,6,1,0,0,0,Midfield,1,2,59,Deepak thapa magar 
+FIFA,11,POR2025194,Akshay,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,2,59,K.L.Akshay Bala Kumaran 
+FIFA,11,POR2025195,Sanjay,19,0,0,0,0,0,0,1,1,0,1,1,2,0,0,0,0,0,0,1,1,0,0,0,0,Forward,1,2,59,N sanjay
+FIFA,11,POR2025197,Rooney Paul,15,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,Midfield,1,2,59,B.Rooney Paul
+FIFA,11,POR2025198,Kirtheesh,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,2,59,Kirtheesh.S
+FIFA,11,POR2025199,Arvind,10,1,1,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,Midfield,1,2,59,Aravindhan.R
+FIFA,11,POR2025205,NAVIN,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,Midfield,1,2,59,Navin.P
