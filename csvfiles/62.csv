@@ -1,0 +1,30 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FC Revelation,2,POR2025075,Pandi,8,0,0,0,0,0,0,1,1,0,2,1,3,0,0,1,1,0,0,0,3,0,1,0,0,Midfield,0,6,62,S Pandian
+FC Revelation,2,POR2025076,Tamil,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,6,62,Tamilkumaran P
+FC Revelation,2,POR2025078,Kishore,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GK,0,0,62,Kishore K
+FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,2,0,0,Defense,0,6,62,Jana Karthikeyan S
+FC Revelation,2,POR2025080,Praba,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,6,62,Prabakaran J
+FC Revelation,2,POR2025082,Ahmed,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,6,3,1,0,0,Midfield,0,6,62,H A C Ahmed Sahib
+FC Revelation,2,POR2025084,Sourav,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,6,62,Sourav Dasharath Pandere
+FC Revelation,2,POR2025086,Akhilesh,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,6,62,Akhilesh S
+FC Revelation,2,POR2025088,Dinesh,22,0,0,0,0,0,0,1,1,0,0,2,2,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,6,62,Dinesh G
+FC Revelation,2,POR2025089,Ahino,17,0,0,0,0,0,0,2,2,0,0,0,0,0,0,4,0,0,0,0,1,1,2,0,0,Defense,0,6,62,Ahino Jahine J
+FC Revelation,2,POR2025091,Surya JS,15,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,6,62,Surya
+FC Revelation,2,POR2025095,Nixan,18,0,0,0,0,0,0,1,1,0,0,1,1,0,0,2,0,0,0,1,1,0,0,0,0,Forward,0,6,62,Nixan samuvel
+FC Revelation,2,POR2025098,Alex,13,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,6,62,John Alex V
+FC Revelation,2,POR2025099,Dory,9,0,0,0,0,0,0,0,0,0,1,0,2,0,1,2,0,0,0,0,0,1,0,0,0,Midfield,0,6,62,Sriram B
+FC Revelation,2,POR2025450,Dhanasekar,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,2,1,0,0,Defense,0,6,62,Dhanasekar R
+Noble FC,17,POR2025425,Rahul ,15,2,1,1,0,0,0,0,0,0,2,1,3,0,0,2,0,0,0,3,2,0,0,0,0,Midfield,1,4,62,Rahul.g
+Noble FC,17,POR2025427,Karthikeyan,5,1,0,1,0,0,0,0,0,0,1,0,1,0,0,1,1,0,1,0,2,1,1,0,0,Defense,1,4,62,Karthikeyan. M
+Noble FC,17,POR2025430,Shijo Mathew,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,1,4,62,Shijo Mathew
+Noble FC,17,POR2025431,Achu,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,6,1,0,0,0,Defense,1,4,62,Adharsh Mathew
+Noble FC,17,POR2025432,Jobin,90,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,1,0,0,0,4,0,0,0,0,Midfield,1,4,62,Jobin Jose
+Noble FC,17,POR2025435,Adam,10,0,0,0,0,0,0,3,3,0,0,1,2,0,1,4,0,0,0,0,1,1,0,0,0,Forward,1,4,62,Adam jl david
+Noble FC,17,POR2025436,Vedanth,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,4,62,Vedanth Ragupati
+Noble FC,17,POR2025438,Sidharth,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,4,62,Sidharth
+Noble FC,17,POR2025439,Sridev,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,1,4,62,Sridev
+Noble FC,17,POR2025442,Kaviyarasan,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,2,0,0,0,Defense,1,4,62,Kaviyarasan
+Noble FC,17,POR2025443,Razul,17,1,0,1,0,0,1,0,1,0,2,1,7,0,4,2,0,0,0,0,1,1,0,0,0,Midfield,1,4,62,Mohammed Razul
+Noble FC,17,POR2025458,Manu ,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Defense,1,4,62,Manu janes
+Noble FC,17,POR2025459,Avinash,19,0,0,0,0,0,2,1,3,0,1,0,1,0,0,1,0,0,0,0,3,1,0,0,0,Forward,1,4,62,Avinash
+Noble FC,17,POR2025460,Dhaliston ,8,0,0,0,0,0,0,0,0,0,0,2,3,0,1,2,0,0,0,0,2,2,0,0,0,Midfield,1,4,62,Dhaliston D Marian

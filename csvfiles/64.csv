@@ -1,0 +1,29 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Guns N Goals,10,POR2025295,JOSH,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Defense,0,7,64,J.Joshua 
+Guns N Goals,10,POR2025297,Rehan ,32,1,0,1,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,2,0,1,0,0,Defense,0,7,64,Abdul Rehan 
+Guns N Goals,10,POR2025299,Sanjay,23,0,0,0,0,0,0,1,1,0,1,1,2,0,0,0,0,0,0,1,1,0,0,0,0,Midfield,0,7,64,SANJAY S
+Guns N Goals,10,POR2025301,Jos�,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Midfield,0,7,64,Jose 
+Guns N Goals,10,POR2025304,Vishnu ,27,0,0,0,0,0,0,0,0,0,0,1,1,0,0,3,1,0,0,1,3,0,0,0,0,Midfield,0,7,64,Mahavishnu 
+Guns N Goals,10,POR2025306,Raghul,19,0,0,0,0,0,0,2,2,0,1,1,2,0,0,0,0,0,0,1,1,1,0,0,0,Midfield,0,7,64,Raghul R
+Guns N Goals,10,POR2025307,Ajith,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,3,1,2,0,0,Defense,0,7,64,Ajith
+Guns N Goals,10,POR2025308,Priyo,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,1,0,0,0,Defense,0,7,64,Yugapriyan sanjay srinivasan
+Guns N Goals,10,POR2025311,Siddique ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Defense,0,7,64,Siddique 
+Guns N Goals,10,POR2025312,Balaji,12,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,1,0,0,0,Midfield,0,7,64,Balaji Elangovan 
+Guns N Goals,10,POR2025314,Gokul,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Midfield,0,7,64,Gokul
+Guns N Goals,10,POR2025316,AK,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,GK,0,7,64,R Ajaykumar 
+Puzhal FCA,4,POR2025395,Eswar ,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,Defense,0,3,64,R.Eswar 
+Puzhal FCA,4,POR2025396,Vinoba,26,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,Defense,0,3,64,S.vinoba gandhi
+Puzhal FCA,4,POR2025397,Alex inbaraj ,22,1,0,1,0,0,1,0,1,0,1,2,4,0,1,1,1,0,0,1,4,0,0,0,0,Midfield,0,3,64,Inbaraj 
+Puzhal FCA,4,POR2025399,Rajkumar,10,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,Forward,0,3,64,A. Rajkumar 
+Puzhal FCA,4,POR2025401,Kamesh ,11,0,0,0,0,0,0,0,0,0,1,2,4,0,1,0,0,0,0,0,0,0,0,0,0,Forward,0,3,64,Kameshwaran M 
+Puzhal FCA,4,POR2025405,Naishan ,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,3,64,Naishan Varghese 
+Puzhal FCA,4,POR2025407,Ravindar,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,64,Ravindar.s
+Puzhal FCA,4,POR2025409,Mani,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,3,64,MANIKANDAN 
+Puzhal FCA,4,POR2025411,Asif AK,6,0,0,0,0,0,0,1,1,1,3,2,5,0,0,1,0,0,0,1,4,0,0,0,0,Midfield,0,3,64,Asif khan
+Puzhal FCA,4,POR2025412,MADHAVAN ,8,0,0,0,0,0,1,1,2,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,3,64,MADHAVAN 
+Puzhal FCA,4,POR2025413,Sri,9,0,0,0,0,0,0,2,2,0,0,1,1,0,0,2,0,0,0,0,1,0,0,0,0,Midfield,0,3,64,Sri arabindh 
+Puzhal FCA,4,POR2025417,JAI ,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,3,64,JAI GANESH E
+Puzhal FCA,4,POR2025418,PRAVEEN,20,1,0,1,0,0,0,4,4,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0,Midfield,0,3,64,G.Praveendran 
+Puzhal FCA,4,POR2025420,Vishwa ,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,64,Vishwa kl
+Puzhal FCA,4,POR2025482,Franklin Tarun Amalraj,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,Defense,0,3,64,Franklin Tarun Amalraj
+Puzhal FCA,4,POR2025483,Allen.R,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,3,64,Allen.R

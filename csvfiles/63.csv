@@ -1,0 +1,29 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Podium FC,18,POR2025209,guna,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,GK,1,6,63,Guna sekar
+Podium FC,18,POR2025210,Armaan,17,1,0,1,0,0,1,0,1,1,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,Forward,1,6,63,Armaan aslam pathan
+Podium FC,18,POR2025211,prasanth,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,6,63,prasanth
+Podium FC,18,POR2025212,Ajith,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,5,1,0,0,0,Defense,1,6,63,Ajithn kumar
+Podium FC,18,POR2025215,jaison,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,1,0,0,0,Defense,1,6,63,jaison joshwa
+Podium FC,18,POR2025216,naveen,16,0,0,0,0,0,0,1,1,0,0,0,0,0,0,3,0,0,0,1,0,0,0,0,0,Forward,1,6,63,naveen
+Podium FC,18,POR2025217,hamosh,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,Midfield,1,6,63,Hamosh
+Podium FC,18,POR2025220,manimaran,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,Forward,1,6,63,manimaran
+Podium FC,18,POR2025222,joshua,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,0,0,0,0,Forward,1,6,63,joshua
+Podium FC,18,POR2025223,surya,18,1,0,1,0,0,0,0,0,0,2,1,3,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,1,6,63,surya
+Podium FC,18,POR2025225,bala,24,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,1,1,0,0,0,Defense,1,6,63,bala
+Podium FC,18,POR2025227,dhanush,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,Forward,1,6,63,dhanush
+Podium FC,18,POR2025228,Vasanth,25,1,1,0,0,0,0,1,1,0,1,1,2,1,0,0,0,0,0,0,1,0,0,0,0,Forward,1,6,63,Vasanth 
+Podium FC,18,POR2025481,PRAVEEN ,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,3,1,0,0,0,Midfield,1,6,63,PRAVEEN RAJ
+Poovai United,3,POR2025231,HARISH ,7,0,0,0,0,0,0,0,0,1,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,Forward,0,4,63,HARISH KUMAR.S
+Poovai United,3,POR2025232,GERALD,8,0,0,0,0,0,0,3,3,0,2,0,2,0,0,4,0,0,0,0,0,2,0,0,0,Midfield,0,4,63,GERALD MATTHEW A
+Poovai United,3,POR2025234,JOSHUA,10,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,1,0,0,0,0,0,Midfield,0,4,63,LOGESH KUMAR S
+Poovai United,3,POR2025235,YUVARAJ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,Defense,0,4,63,YUVARAJ J
+Poovai United,3,POR2025236,NIJI,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,63,NIJANTHAN R
+Poovai United,3,POR2025237,ANTO ,3,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,Defense,0,4,63,ANTO JEROME G
+Poovai United,3,POR2025240,SETHU,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,4,63,SETHURAMAN M
+Poovai United,3,POR2025244,AKASH,6,0,0,0,0,0,0,2,2,0,0,0,0,0,0,3,1,0,0,0,1,0,0,0,0,Midfield,0,4,63,AKASH A
+Poovai United,3,POR2025246,DEEPAK ,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,4,63,DEEPAK ANAND 
+Poovai United,3,POR2025247,MANI,11,0,0,0,0,0,0,2,2,0,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,Forward,0,4,63,MANI S 
+Poovai United,3,POR2025248,IRFAN,15,0,0,0,0,0,0,1,1,0,2,3,5,0,0,1,0,0,0,0,2,0,0,0,0,Midfield,0,4,63,MOHAMED IRFAN SK
+Poovai United,3,POR2025249,TAMIL,22,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,0,0,0,1,2,0,0,0,0,Forward,0,4,63,TAMIZARSAN R
+Poovai United,3,POR2025254,DINESH JR,40,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,63,D DINESH 
+Poovai United,3,POR2025255,SANJAY,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,GK,0,4,63,SANJAY N 
