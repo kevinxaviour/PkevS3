@@ -1,0 +1,29 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+First Goal FC,8,POR2025373,DHANUSH,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,2,0,0,Defense,0,6,60,DHANUSH WARAN
+First Goal FC,8,POR2025375,Murali,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,Defense,0,6,60,Murali
+First Goal FC,8,POR2025376,Sanjeev ,30,0,0,0,0,0,0,0,0,0,3,1,4,0,0,5,0,0,0,1,3,0,0,0,0,Forward,0,6,60,SANJEEV KUMAR E
+First Goal FC,8,POR2025377,NITHIN,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,0,GK,0,6,60,Nithin varshan.s
+First Goal FC,8,POR2025382,Eashwar,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,6,60,Eashwar Arun Iyer
+First Goal FC,8,POR2025384,VARUN,11,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,6,60,B.M.VARUN
+First Goal FC,8,POR2025385,Arun,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Defense,0,6,60,Arun
+First Goal FC,8,POR2025386,AKASH ,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,0,0,0,Defense,0,6,60,R.AKASH
+First Goal FC,8,POR2025387,Anand,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Midfield,0,6,60,Anand 
+First Goal FC,8,POR2025388,Deepak ,22,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,Defense,0,6,60,Deepak Kumar 
+First Goal FC,8,POR2025389,Deepak,16,0,0,0,0,0,0,2,2,0,0,0,0,0,0,1,0,0,0,0,4,1,0,0,0,Midfield,0,6,60,Deepak Kumar .S
+First Goal FC,8,POR2025391,Ramesh,14,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,6,60,Ramesh N
+First Goal FC,8,POR2025392,MEGA,9,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0,Forward,0,6,60,Meganathan k
+First Goal FC,8,POR2025471,Gokul ,22,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,3,3,0,0,0,Forward,0,6,60,Gokul Hariharan
+Sethu FC,7,POR2025152,siva,2,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,1,0,0,0,Defense,0,4,60,sivabalan
+Sethu FC,7,POR2025154,SOLAI,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,4,60,SOLAI RAJ
+Sethu FC,7,POR2025157,BEBITTO JR,11,0,0,0,0,0,0,0,0,0,1,2,3,2,0,1,0,0,0,0,2,0,0,0,0,Forward,0,4,60,BEBITO GODWIN
+Sethu FC,7,POR2025159,MADDY,18,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,3,0,0,0,Midfield,0,4,60,madhavan
+Sethu FC,7,POR2025160,GUHAN,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,3,0,0,0,0,Midfield,0,4,60,GUHAN RAJ
+Sethu FC,7,POR2025164,SANDY,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,Midfield,0,4,60,SANTHOSH KUMAR SELVAM
+Sethu FC,7,POR2025167,YUVA,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,Midfield,0,4,60,YUVARAJ
+Sethu FC,7,POR2025168,SEKAR,19,0,0,0,0,0,0,3,3,0,0,1,1,0,0,0,0,0,0,1,2,2,0,0,0,Midfield,0,4,60,SEKAR
+Sethu FC,7,POR2025169,ELAVARASAN,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,60,ELAVARASAN DEVA
+Sethu FC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,4,60,NITHEESH MAHARAJA
+Sethu FC,7,POR2025173,NAREN,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,60,NARENDRAN
+Sethu FC,7,POR2025174,NANDHA,9,2,0,1,1,0,0,0,0,1,5,3,9,0,1,2,1,0,0,0,1,0,0,0,0,Forward,0,4,60,NANDHAKUMAR
+Sethu FC,7,POR2025175,VASANTH JR,14,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,1,0,0,0,Forward,0,4,60,VASANTH
+Sethu FC,7,POR2025474,SARAVANAKUMAR,100,0,0,0,0,0,0,1,1,0,0,1,2,0,1,1,1,0,0,0,1,2,0,0,0,Defense,0,4,60,SARAVANAKUMAR
