@@ -370,7 +370,7 @@ def savesp(df: pd.DataFrame) -> pd.DataFrame:
 
 def totalgoals(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df['Goals'].sum()
-    df_summary=(int(df_summary))+1
+    df_summary=(int(df_summary))+2
     return df_summary
 
 def tpp(df: pd.DataFrame) -> pd.DataFrame:
