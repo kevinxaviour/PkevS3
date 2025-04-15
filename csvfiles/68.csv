@@ -1,0 +1,28 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Guns N Goals,10,POR2025297,Rehan ,32,1,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,Defense,0,9,68,Abdul Rehan 
+Guns N Goals,10,POR2025299,Sanjay,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,Midfield,0,9,68,SANJAY S
+Guns N Goals,10,POR2025300,KRISHNA,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,GK,0,9,68,HARI KRISHNAN
+Guns N Goals,10,POR2025301,Jos�,16,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0,Midfield,0,9,68,Jose 
+Guns N Goals,10,POR2025304,Vishnu ,27,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,5,0,0,0,Midfield,0,9,68,Mahavishnu 
+Guns N Goals,10,POR2025309,Vicky,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,Forward,0,9,68,VIGNESH S
+Guns N Goals,10,POR2025306,Raghul,19,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,0,9,68,Raghul R
+Guns N Goals,10,POR2025307,Ajith,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,3,0,0,Defense,0,9,68,Ajith
+Guns N Goals,10,POR2025308,Priyo,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,Defense,0,9,68,Yugapriyan sanjay srinivasan
+Guns N Goals,10,POR2025311,Siddique ,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,1,0,0,0,Defense,0,9,68,Siddique 
+Guns N Goals,10,POR2025314,Gokul,17,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,Midfield,0,9,68,Gokul
+Sethu FC,7,POR2025152,siva,2,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,1,0,0,0,0,Defense,0,2,68,sivabalan
+Sethu FC,7,POR2025153,VIJI.N,10,4,2,2,0,0,1,2,3,2,4,2,7,0,1,0,0,0,0,1,0,0,0,0,0,Midfield,0,2,68,vijay
+Sethu FC,7,POR2025154,SOLAI,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,0,Defense,0,2,68,SOLAI RAJ
+Sethu FC,7,POR2025157,BEBITTO JR,11,0,0,0,0,0,0,0,0,0,0,1,2,1,1,1,0,0,0,0,0,1,0,0,0,Forward,0,2,68,BEBITO GODWIN
+Sethu FC,7,POR2025159,MADDY,18,0,0,0,0,0,1,0,1,0,0,0,0,0,0,2,0,0,0,0,1,1,0,0,0,Midfield,0,2,68,madhavan
+Sethu FC,7,POR2025164,SANDY,22,0,0,0,0,0,1,2,3,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,Midfield,0,2,68,SANTHOSH KUMAR SELVAM
+Sethu FC,7,POR2025168,SEKAR,19,0,0,0,0,0,1,1,2,0,1,1,2,0,0,1,0,0,0,0,1,1,0,0,0,Midfield,0,2,68,SEKAR
+Sethu FC,7,POR2025169,ELAVARASAN,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Midfield,0,2,68,ELAVARASAN DEVA
+Sethu FC,7,POR2025171,NITHEESH,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,0,2,68,NITHEESH MAHARAJA
+Sethu FC,7,POR2025172,NIRMAL ,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,2,68,NIRMAL RAJ
+Sethu FC,7,POR2025173,NAREN,6,0,0,0,0,0,0,1,1,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,2,68,NARENDRAN
+Sethu FC,7,POR2025175,VASANTH JR,14,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,Forward,0,2,68,VASANTH
+Sethu FC,7,POR2025176,SUMAN,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,Defense,0,2,68,SUMAN
+Sethu FC,7,POR2025474,SARAVANAKUMAR,100,0,0,0,0,0,1,0,1,0,0,1,2,0,1,0,0,0,0,0,2,0,0,0,0,Defense,0,2,68,SARAVANAKUMAR
+Sethu FC,7,POR2025475,MARUTHU,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,2,68,MARUTHU
+Sethu FC,7,POR2025476,adithya,102,2,2,0,0,0,0,1,1,1,2,1,3,0,0,0,0,0,0,0,2,0,0,0,0,Midfield,0,2,68,adithya

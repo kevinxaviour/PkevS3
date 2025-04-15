@@ -1,0 +1,31 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+First Goal FC,8,POR2025368,Monish ,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,3,66,Manoranjan 
+First Goal FC,8,POR2025373,DHANUSH,8,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,1,2,0,0,Defense,0,3,66,DHANUSH WARAN
+First Goal FC,8,POR2025375,Murali,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,2,0,0,0,Defense,0,3,66,Murali
+First Goal FC,8,POR2025376,Sanjeev ,30,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,2,1,0,0,Forward,0,3,66,SANJEEV KUMAR E
+First Goal FC,8,POR2025378,ROHITH JR,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,3,66,Rohith Christopher 
+First Goal FC,8,POR2025382,Eashwar,99,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,3,66,Eashwar Arun Iyer
+First Goal FC,8,POR2025383,VISHAL,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,Defense,0,3,66,Vishal Gurumoorthi PG
+First Goal FC,8,POR2025384,VARUN,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,1,2,0,0,0,Midfield,0,3,66,B.M.VARUN
+First Goal FC,8,POR2025385,Arun,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,3,66,Arun
+First Goal FC,8,POR2025388,Deepak ,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,5,3,1,0,0,Defense,0,3,66,Deepak Kumar 
+First Goal FC,8,POR2025389,Deepak,16,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0,0,0,0,Midfield,0,3,66,Deepak Kumar .S
+First Goal FC,8,POR2025390,Pradeep ,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,3,66,J Pradeep Raj 
+First Goal FC,8,POR2025392,MEGA,9,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,2,0,0,0,0,Forward,0,3,66,Meganathan k
+First Goal FC,8,POR2025393,Krishna,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Forward,0,3,66,A.R.MOHANA KRISHNAN
+First Goal FC,8,POR2025471,Gokul ,22,1,0,1,0,1,0,1,1,0,1,1,2,0,0,2,0,0,0,0,3,2,0,0,0,Forward,0,3,66,Gokul Hariharan
+Puzhal FCA,4,POR2025395,Eswar ,13,0,0,0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,0,0,1,0,0,0,0,Defense,0,2,66,R.Eswar 
+Puzhal FCA,4,POR2025396,Vinoba,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,2,66,S.vinoba gandhi
+Puzhal FCA,4,POR2025397,Alex inbaraj ,22,0,0,0,0,0,1,0,1,0,0,0,1,0,1,3,0,0,0,0,1,0,0,0,0,Midfield,0,2,66,Inbaraj 
+Puzhal FCA,4,POR2025399,Rajkumar,10,1,1,0,0,0,0,2,2,0,1,1,2,0,0,0,0,0,0,0,1,1,0,0,0,Forward,0,2,66,A. Rajkumar 
+Puzhal FCA,4,POR2025404,NIRMAL,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,2,66,S NIRMAL
+Puzhal FCA,4,POR2025407,Ravindar,18,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,Midfield,0,2,66,Ravindar.s
+Puzhal FCA,4,POR2025409,Mani,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,0,2,66,MANIKANDAN 
+Puzhal FCA,4,POR2025411,Asif AK,6,0,0,0,0,0,0,0,0,0,0,2,3,0,1,1,0,0,0,0,3,1,0,0,0,Midfield,0,2,66,Asif khan
+Puzhal FCA,4,POR2025412,MADHAVAN ,8,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,Defense,0,2,66,MADHAVAN 
+Puzhal FCA,4,POR2025413,Sri,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,2,3,0,0,0,Midfield,0,2,66,Sri arabindh 
+Puzhal FCA,4,POR2025417,JAI ,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Midfield,0,2,66,JAI GANESH E
+Puzhal FCA,4,POR2025418,PRAVEEN,20,0,0,0,0,0,0,2,2,0,0,0,0,0,0,3,0,0,0,1,1,1,0,0,0,Midfield,0,2,66,G.Praveendran 
+Puzhal FCA,4,POR2025420,Vishwa ,23,0,0,0,0,0,0,2,2,0,1,0,1,0,0,0,0,0,0,0,3,1,0,0,0,Midfield,0,2,66,Vishwa kl
+Puzhal FCA,4,POR2025482,Franklin Tarun Amalraj,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,2,66,Franklin Tarun Amalraj
+Puzhal FCA,4,POR2025484,Abinash,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,2,66,Abinash

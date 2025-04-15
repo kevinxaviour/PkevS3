@@ -1,0 +1,30 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Falcons FA,12,POR2025024,Kamalesh,19,0,0,0,0,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,65,Kamaleshwaran S
+Falcons FA,12,POR2025026,Vicky,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,GK,0,4,65,Venkatesh
+Falcons FA,12,POR2025027,Deepak,8,0,0,0,0,0,0,2,2,0,0,2,3,0,1,0,0,0,0,0,3,1,0,0,0,Midfield,0,4,65,Deepak M
+Falcons FA,12,POR2025028,Harish,12,0,0,0,0,0,0,1,1,0,1,0,1,0,0,2,0,0,0,0,4,1,0,0,0,Defense,0,4,65,Harish R
+Falcons FA,12,POR2025031,S Srinivasan,30,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,4,65,Santhosh
+Falcons FA,12,POR2025033,Parvez,4,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,4,2,0,0,Defense,0,4,65,Mohammed Parvez
+Falcons FA,12,POR2025034,Naresh,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,0,0,1,0,0,0,0,Defense,0,4,65,Naresh E
+Falcons FA,12,POR2025035,Lal,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,Defense,0,4,65,Mothilal N
+Falcons FA,12,POR2025036,Yuvaraj,18,0,0,0,0,0,0,2,2,0,0,3,3,0,0,1,0,0,0,1,0,0,0,0,0,Midfield,0,4,65,Yuvaraj Kumar. R
+Falcons FA,12,POR2025038,Kabilan,11,0,0,0,0,0,0,2,2,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,4,65,Kabilan J
+Falcons FA,12,POR2025039,Tunga,22,1,0,1,0,0,0,2,2,0,1,2,4,0,1,1,0,0,0,1,0,1,0,0,0,Forward,0,4,65,Vijay Tunga
+Falcons FA,12,POR2025040,Rass,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,Defense,0,4,65,Shanmugaraj
+Falcons FA,12,POR2025041,Sam,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,65,Sam T
+Falcons FA,12,POR2025488,Gobinath G,77,1,0,1,0,0,0,0,0,0,1,1,2,0,0,2,0,0,0,0,3,1,0,0,0,Forward,0,4,65,Gobinath G
+Santhome SAI,9,POR2025045,THARUN ,43,2,0,2,0,1,0,0,0,0,2,0,2,0,0,1,0,0,0,1,0,0,0,0,0,Forward,0,4,65,THARUN M
+Santhome SAI,9,POR2025046,Bharath,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,4,65,P. Bharath kumar
+Santhome SAI,9,POR2025049,HARISH,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,Forward,0,4,65,HARISH.S
+Santhome SAI,9,POR2025050,WALSH,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,65,V.S.VISHNU WALSH
+Santhome SAI,9,POR2025051,SHAHID,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,3,0,0,0,0,Midfield,0,4,65,MOHAMED SHAHID . N
+Santhome SAI,9,POR2025052,Peter,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,1,0,0,0,Defense,0,4,65,Samuel peter
+Santhome SAI,9,POR2025054,MOHAN,11,0,0,0,0,0,2,1,3,0,0,0,1,0,1,0,0,0,0,1,1,1,0,0,0,Midfield,0,4,65,MOHAN RAJA.P
+Santhome SAI,9,POR2025056,Prasana,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,65,Prasana
+Santhome SAI,9,POR2025060,LEO THOMAS,7,1,1,0,0,0,0,1,1,0,2,0,2,0,0,0,0,0,0,0,2,0,0,0,0,Midfield,0,4,65,LEO THOMAS
+Santhome SAI,9,POR2025062,ABI ,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,4,65,ABISHEK A
+Santhome SAI,9,POR2025064,HEMA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Defense,0,4,65,Hemachandran
+Santhome SAI,9,POR2025068,Usman,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,3,0,0,0,0,0,Midfield,0,4,65,Afnas usman
+Santhome SAI,9,POR2025069,George ,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,65,Nungchim George moyon 
+Santhome SAI,9,POR202540000,Mukil,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,1,0,0,Forward,0,4,65,Mukil
+Santhome SAI,9,POR2025461,Abivarman ,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,4,0,0,0,0,Midfield,0,4,65,Abivarman .R
