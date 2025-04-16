@@ -292,7 +292,7 @@ def inter_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary.sort_values(by='Tackles_per90', ascending=False)
     df_summary = df_summary[(df_summary['Tackles_per90'] != 0) & (df_summary['Matches']>=3)]#&(df_summary['Matches'] > df_summary['Matches'].median())
     df_summary = df_summary[['Player_FN','team','Tackles','Tackles_per90']].rename(
-        columns={'Player_FN': 'Name', 'Tackles_per90': 'Interceptions Per Match','team':'Team'})
+        columns={'Player_FN': 'Name', 'Tackles_per90': 'Interceptions Per Match','team':'Team','Tackles':'Interceptions'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
@@ -307,7 +307,7 @@ def blocks_90(df: pd.DataFrame) -> pd.DataFrame:
     df_summary = df_summary.sort_values(by='Tackles_per90', ascending=False)
     df_summary = df_summary[(df_summary['Tackles_per90'] != 0) & (df_summary['Matches']>=3)]#&(df_summary['Matches'] > df_summary['Matches'].median())
     df_summary = df_summary[['Player_FN','team','Tackles', 'Tackles_per90']].rename(
-        columns={'Player_FN': 'Name', 'Tackles_per90': 'Blocks Per Match','team':'Team'})
+        columns={'Player_FN': 'Name', 'Tackles_per90': 'Blocks Per Match','team':'Team','Tackles':'Blocks'})
     df_summary['Name'] = df_summary['Name'].str.title()
     df_summary = df_summary.reset_index(drop=True)
     return df_summary
