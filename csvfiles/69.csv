@@ -1,0 +1,27 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Poovai United,3,POR2025230,SAKTHI,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,Defense,0,8,69,SAKTHIVEL J
+Poovai United,3,POR2025231,HARISH ,7,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,Forward,0,8,69,HARISH KUMAR.S
+Poovai United,3,POR2025232,GERALD,8,0,0,0,0,0,0,0,0,0,1,0,2,0,1,3,0,0,0,0,4,0,0,0,0,Midfield,0,8,69,GERALD MATTHEW A
+Poovai United,3,POR2025233,RAGU,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,6,0,0,Defense,0,8,69,RAGU R
+Poovai United,3,POR2025234,JOSHUA,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,2,4,1,0,0,Midfield,0,8,69,LOGESH KUMAR S
+Poovai United,3,POR2025236,NIJI,9,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,8,69,NIJANTHAN R
+Poovai United,3,POR2025244,AKASH,6,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,0,8,69,AKASH A
+Poovai United,3,POR2025246,DEEPAK ,2,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,0,0,1,0,3,1,0,0,0,Defense,0,8,69,DEEPAK ANAND 
+Poovai United,3,POR2025248,IRFAN,15,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,5,1,0,0,0,Midfield,0,8,69,MOHAMED IRFAN SK
+Poovai United,3,POR2025249,TAMIL,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,8,69,TAMIZARSAN R
+Poovai United,3,POR2025250,NILA,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Midfield,0,8,69,NILAVAZHAGAN R
+Poovai United,3,POR2025251,KUMANAN,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,0,8,69,KUMANAN R
+Poovai United,3,POR2025254,DINESH JR,40,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,0,0,0,0,2,2,0,0,0,Forward,0,8,69,D DINESH 
+Wolfpack FC,16,POR2025344,Ruban ,17,0,0,0,0,0,1,2,3,0,1,0,2,0,1,1,0,0,0,0,4,0,0,0,0,Defense,0,4,69,Ruban.A
+Wolfpack FC,16,POR2025345,Thooyavan,12,0,0,0,0,0,0,1,1,0,0,2,2,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,4,69,S.Thooyavan
+Wolfpack FC,16,POR2025346,Raul,13,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,3,0,0,0,0,Midfield,0,4,69,G.M Raul Palin
+Wolfpack FC,16,POR2025347,Keerthi Mohan,10,0,0,0,0,0,1,1,2,0,0,2,3,0,1,0,0,0,0,0,1,0,0,0,0,Forward,0,4,69,D.Keerthi Mohan
+Wolfpack FC,16,POR2025348,Yuvaraj,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,Defense,0,4,69,L.Yuvaraj 
+Wolfpack FC,16,POR2025349,Lokesh,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,69,Lokesh.K
+Wolfpack FC,16,POR2025350,Aadil,11,3,3,0,0,0,1,3,4,0,4,2,6,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,4,69,Aadil Sinju Abdul Kharim 
+Wolfpack FC,16,POR2025352,Sourav,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,0,0,Defense,0,4,69,Sourav Sharma
+Wolfpack FC,16,POR2025357,Sri,18,1,1,0,0,0,1,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,Midfield,0,4,69,Sri Saran
+Wolfpack FC,16,POR2025358,Stephen,19,0,0,0,0,0,0,1,1,0,1,1,4,1,2,1,0,0,0,0,0,1,0,0,0,Midfield,0,4,69,Stephen Chelliah
+Wolfpack FC,16,POR2025360,Bharath,4,1,0,0,1,0,0,0,0,0,1,0,1,0,0,2,0,0,0,0,1,2,0,0,0,Defense,0,4,69,M.Bharath
+Wolfpack FC,16,POR2025361,Pandi,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,1,0,1,0,0,Defense,0,4,69,Pandia Rajan
+Wolfpack FC,16,POR2025365,Mani,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,4,69,Mani.P
