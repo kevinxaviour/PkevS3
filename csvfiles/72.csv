@@ -1,0 +1,28 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+FC Revelation,2,POR2025075,Pandi,8,0,0,0,0,0,0,0,0,0,2,0,2,0,0,1,0,0,0,0,4,0,0,0,0,Midfield,0,6,72,S Pandian
+FC Revelation,2,POR2025078,Kishore,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,GK,0,6,72,Kishore K
+FC Revelation,2,POR2025079,Jana,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,1,0,0,Defense,0,6,72,Jana Karthikeyan S
+FC Revelation,2,POR2025082,Ahmed,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,1,0,0,Midfield,0,6,72,H A C Ahmed Sahib
+FC Revelation,2,POR2025084,Sourav,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,1,0,0,0,Midfield,0,6,72,Sourav Dasharath Pandere
+FC Revelation,2,POR2025089,Ahino,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,2,0,0,0,0,Defense,0,6,72,Ahino Jahine J
+FC Revelation,2,POR2025090,Shek,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,Defense,0,6,72,S Shek Shamshir
+FC Revelation,2,POR2025091,Surya JS,15,0,0,0,0,0,0,1,1,0,2,1,3,0,0,1,0,0,0,0,0,0,0,0,0,Forward,0,6,72,Surya
+FC Revelation,2,POR2025092,Surya Jr,14,0,0,0,0,0,0,2,2,0,0,0,0,0,0,1,0,0,0,1,2,2,0,0,0,Forward,0,6,72,Jayasurya J
+FC Revelation,2,POR2025094,Harish Jr,39,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,2,1,0,0,0,0,Forward,0,6,72,Harish R
+FC Revelation,2,POR2025450,Dhanasekar,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Defense,0,6,72,Dhanasekar R
+FIFA,11,POR2025180,Jagadeesh,4,0,0,0,0,0,0,2,2,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0,Midfield,1,5,72,Jagadeesh G
+FIFA,11,POR2025181,Sathish ,8,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,2,0,0,0,0,Midfield,1,5,72,R. Sathish Kumar 
+FIFA,11,POR2025182,Kannan,5,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,3,3,0,0,0,Defense,1,5,72,Kannan.M
+FIFA,11,POR2025185,Paarvin,2,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,3,0,0,0,Defense,1,5,72,Paarvin raj
+FIFA,11,POR2025186,Micheal,18,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,3,1,0,0,Forward,1,5,72,Micheal Cornaleu. A
+FIFA,11,POR2025187,Vishnu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,1,GK,1,5,72,vishnu prasath E
+FIFA,11,POR2025188,Vineeth,16,0,0,0,0,0,0,3,3,0,0,1,1,0,0,1,0,0,0,0,1,2,0,0,0,Forward,1,5,72,Vineethkumar. V
+FIFA,11,POR2025189,Vijay R,17,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,Midfield,1,5,72,Vijay R
+FIFA,11,POR2025190,Sanjay ,25,0,0,0,0,0,0,0,0,0,1,1,2,0,0,1,0,0,0,0,0,2,0,0,0,Forward,1,5,72,Sanjay Prasad 
+FIFA,11,POR2025191,Deepak thapa ,20,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,5,2,0,0,0,Midfield,1,5,72,Deepak thapa magar 
+FIFA,11,POR2025195,Sanjay,19,0,0,0,0,0,0,0,0,0,1,2,4,0,1,1,0,0,0,0,3,0,0,0,0,Forward,1,5,72,N sanjay
+FIFA,11,POR2025196,DENIS,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,2,0,0,0,Defense,1,5,72,Denis vimal raj
+FIFA,11,POR2025197,Rooney Paul,15,0,0,0,0,0,1,1,2,0,0,3,3,0,0,0,0,0,0,0,1,1,0,0,0,Midfield,1,5,72,B.Rooney Paul
+FIFA,11,POR2025200,Rahul ,16,0,0,0,0,0,0,1,1,0,0,1,1,0,0,2,0,0,0,1,1,0,0,0,0,Midfield,1,5,72,Rahul
+FIFA,11,POR2025203,SAKTHIYAN,30,1,0,1,0,0,0,2,2,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Forward,1,5,72,Sakthiyan. R
+FIFA,11,POR2025462,Lokesh,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Defense,1,5,72,Lokesh Bharani Kumar
