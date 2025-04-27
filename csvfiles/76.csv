@@ -1,0 +1,29 @@
+team,teamid,playerid,player,jersey_no,Goals,left_goals,right_goals,head_goals,penalty_goals,Assists,KeyPasses,chances_created,big_chances,shots_on_target,shots_off_target,shots,post,blocked_shots,fouls,yellow_cards,red_cards,defender_saves,offsides,tackles,interceptions,blocks,saves,penalty_saves,position,clean_sheets,shots_faced,matchid,Player_FN
+Noble FC,17,POR2025423,Sarves,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Forward,0,7,76,Sarveswaran m
+Noble FC,17,POR2025425,Rahul ,15,1,0,0,1,0,0,0,0,0,3,3,8,0,2,2,0,0,0,0,3,2,0,0,0,Midfield,0,7,76,Rahul.g
+Noble FC,17,POR2025426,Ok,7,0,0,0,0,0,0,0,0,0,0,1,2,1,1,0,0,0,0,0,0,0,0,0,0,Forward,0,7,76,Ashwin.S
+Noble FC,17,POR2025427,Karthikeyan,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,Defense,0,7,76,Karthikeyan. M
+Noble FC,17,POR2025429,Karthi,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,3,1,0,0,Defense,0,7,76,Karthikeyan. R
+Noble FC,17,POR2025430,Shijo Mathew,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,0,GK,0,7,76,Shijo Mathew
+Noble FC,17,POR2025431,Achu,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,4,1,0,0,0,Defense,0,7,76,Adharsh Mathew
+Noble FC,17,POR2025432,Jobin,90,0,0,0,0,0,0,3,3,0,0,2,2,0,0,3,0,0,0,0,3,1,0,0,0,Midfield,0,7,76,Jobin Jose
+Noble FC,17,POR2025442,Kaviyarasan,24,0,0,0,0,0,0,1,1,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,Defense,0,7,76,Kaviyarasan
+Noble FC,17,POR2025443,Razul,17,1,1,0,0,0,0,1,1,0,1,1,5,0,3,1,0,0,0,0,0,1,0,0,0,Midfield,0,7,76,Mohammed Razul
+Noble FC,17,POR2025458,Manu ,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,2,0,0,Defense,0,7,76,Manu janes
+Noble FC,17,POR2025459,Avinash,19,0,0,0,0,0,0,0,0,0,0,0,1,0,1,4,0,0,0,0,1,0,0,0,0,Forward,0,7,76,Avinash
+Noble FC,17,POR2025460,Dhaliston ,8,0,0,0,0,0,1,1,2,0,0,1,2,0,1,1,0,0,0,1,2,2,0,0,0,Midfield,0,7,76,Dhaliston D Marian
+Steds HCL FC,15,POR2025318,Shankar,20,1,0,1,0,1,0,1,1,0,2,1,5,0,2,4,0,0,0,0,4,1,0,0,0,Midfield,0,4,76,Umashankar M
+Steds HCL FC,15,POR2025322,Prasanth,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,4,76,Prasanth
+Steds HCL FC,15,POR2025324,Akash,10,0,0,0,0,0,0,2,2,0,0,0,0,0,0,1,0,0,0,2,1,1,0,0,0,Forward,0,4,76,Akash
+Steds HCL FC,15,POR2025327,Mithran,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,GK,0,4,76,Mithran
+Steds HCL FC,15,POR2025328,Selva,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,3,0,0,0,0,Midfield,0,4,76,Selvaganapathy G 
+Steds HCL FC,15,POR2025330,Surya,8,0,0,0,0,0,0,1,1,0,0,0,0,0,0,4,0,0,0,1,0,1,0,0,0,Defense,0,4,76,Surya
+Steds HCL FC,15,POR2025333,Deepak,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,4,76,Deepak
+Steds HCL FC,15,POR2025334,Jeeva,22,0,0,0,0,0,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,1,0,0,0,Midfield,0,4,76,Jeevanandham
+Steds HCL FC,15,POR2025335,Magesh,7,0,0,0,0,0,0,2,2,0,0,0,2,0,2,2,0,0,0,1,2,0,2,0,0,Midfield,0,4,76,Magesh
+Steds HCL FC,15,POR2025336,Suriya,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Midfield,0,4,76,Suriya
+Steds HCL FC,15,POR2025337,Noel,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Defense,0,4,76,Noel S
+Steds HCL FC,15,POR2025338,Kathick,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Forward,0,4,76,Karthik.k
+Steds HCL FC,15,POR2025343,Siva,18,0,0,0,0,0,0,0,0,0,1,1,3,0,1,10,0,0,0,0,0,0,1,0,0,Forward,0,4,76,Sivakumar
+Steds HCL FC,15,POR2025464,DHANUSH,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,6,0,0,Defense,0,4,76,DHANUSH
+Steds HCL FC,15,POR2025465,Ajay.A,14,3,3,0,0,0,0,2,2,0,4,0,4,0,0,2,1,0,0,1,2,1,0,0,0,Midfield,0,4,76,Ajay.A
